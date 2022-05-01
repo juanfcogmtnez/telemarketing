@@ -1,0 +1,8 @@
+flask
+pymongo
+bcrypt
+jsonify
+HTMLParser
+pandas
+docxtpl
+xlsxwriter
