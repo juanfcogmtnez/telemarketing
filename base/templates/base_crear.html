@@ -1,0 +1,154 @@
+
+{% extends "base_cru.html" %}
+{% block title %}Crea {{crear}}{% endblock %}
+{% block h1 %}Crear {{crear}} {{proj}}{%endblock%}
+{% block script %}
+<script>
+$(document).ready(function(){
+  if ('{{crear}}' == 'proyecto'){
+    url =  "../getcol";
+  }
+  $.ajax({url: url, success: function(result){
+  data = JSON.parse(result);
+  console.log(data);
+  item = '{{crear}}'
+  longo = Object.keys(data).length;
+  console.log(item);
+  if (item == 'proyecto'){
+      for (let i = 0; i < longo; i++){
+        if (data[i]['nombre'] == 'base'){
+          data = data[i]['basicos'];
+          console.log(data);
+          longo = Object.keys(data).length;
+          console.log('longo:',longo);
+          tabs = 12 / longo;
+          console.log(tabs);
+          tabs = parseInt(tabs)
+          tabs = 'col-sm-'+tabs;
+          keys = Object.keys(data);
+          console.log(keys);
+          for (let i=0;i < longo; i++){
+            if (keys[i].includes('fecha')){
+              tipo = 'date';
+            }
+            else if (keys[i].includes('description')){
+              tipo = 'textarea';
+            }
+            else if (keys[i].includes('remarks')){
+              tipo = 'textarea';
+            }
+            else{
+              tipo='text';
+            }
+            $('#basicos').append('<div id="basicos_'+i+'" class='+tabs+'><div class="form-group"><label id="basico_campo_'+i+'" for="basicos_'+i+'">'+keys[i]+'</label><input id="basico_valor_'+i+'" type="'+tipo+'" class="form-control" required></div></div>')
+          }
+          data = JSON.parse(result);
+          data = data[i]['adicionales'];
+          console.log('adicionales:',data);
+          longo = Object.keys(data).length;
+          console.log('longo:',longo);
+          tabs = 12 / longo;
+          console.log(tabs);
+          tabs = parseInt(tabs)
+          tabs = 'col-sm-'+tabs;
+          keys = Object.keys(data);
+          console.log(keys);
+          for (let i=0;i < longo; i++){
+            if (keys[i].includes('fecha')){
+              tipo = 'date';
+            }
+            else if (keys[i].includes('description')){
+              tipo = 'textarea';
+            }
+            else if (keys[i].includes('remarks')){
+              tipo = 'textarea';
+            }
+            else{
+              tipo='text';
+            }
+            $('#adicionales').append('<div id="adicionales_'+i+'" class='+tabs+'><div class="form-group"><label for="adicionales_'+i+'">'+keys[i]+'</label><input type="'+tipo+'" class="form-control"></div></div>')
+          }
+          $('#adicionales').append('<div class="row"><button type="button" class="btn btn-info" style="margin-left:20px" onclick="add_adicionales()"> <i class="fa-solid fa-plus"> </i> Pulsa para añadir campos</button></div></div><hr>')
+        }
+      }
+
+
+  }
+          $('#base').append('<button type="button" class="btn btn-success" style="margin-left:20px" onclick="graba()"> <i class="fa-solid fa-database"> </i> Pulsa para guardar</button>')
+}});
+  });
+</script>
+<script>
+  function get_basicos(){
+  basicos = $.map($('#basicos > div'), div => div.id);
+  dictbasicos = [];
+  longo = basicos.length;
+  console.log('longo:',longo);
+  tipo = '{{crear}}'
+  dictbasicos.push({tipo:tipo})
+  for (let i=0;i < longo; i++){
+    campoid = '#basico_campo_'+i;
+    valorid = '#basico_valor_'+i
+    campo = $(campoid).text();
+    valor = $(valorid).val();
+    if (campo == "" || valor==""){
+      alert('Por favor rellena todos los campos');
+      return;
+    }
+    dictbasicos.push({basicos:{[campo]:valor}});
+}
+console.log('dictbasicosorig:',dictbasicos);
+return dictbasicos;
+}
+function add_adicionales(){
+adicionales = $.map($('#adicionales > div'), div => div.id);
+longo = adicionales.length;
+console.log('adicionales_length:',longo);
+i = longo -1;
+$('#adicionales').append('<div id="adicionales_'+i+'" class="row"><div id="sm" class="col-sm-4"><div id="group" class="form-group"><label for="campo">Campo:</label><input id="campo_'+i+'"" type="text" class="form-control" required></div></div><div class="col-sm-4"><div class="form-group"><label for="tipo">Tipo:</label><select class="form-control" id="tipo_'+i+'"><option value="text">Texto corto</option><option value="fecha">Fecha</option><option value="textarea">Texto largo</option></select></div></div><div class="col-sm-4"><div class="form-group"><label for="valor">Valor:</label><input id="valor_'+i+'" type="text" class="form-control" required></div></div></div>')
+}
+function graba(){
+dictbasicos = get_basicos();
+adicionales = [];
+console.log('getbasicos:',dictbasicos);
+extensiones = $.map($('#adicionales > div'), div => div.id);
+longo = extensiones.length;
+console.log('longo:',longo);
+for (let i=0;i < longo; i++){
+  tipoid = '#tipo_'+i;
+tipo = $(tipoid).val();
+if (tipo == 'textarea'){
+  add = 'description_';
+}
+else if (tipo == 'fecha'){
+add = 'fecha_';
+}
+else {
+  add = ''
+}
+campoid = '#campo_'+i;
+campo = $(campoid).val();
+campo = add+campo;
+//Mañana recuerda que debes capturar uno a uno todas las labels y valores de básicos y todas las labels y valores de adicionales
+valorid = '#valor_'+i;
+valor = $(valorid).val();
+if (campo == "" || valor==""){
+  alert('Por favor rellena todos los campos');
+  return;
+}
+dictbasicos.push({adicionales:{[campo]:valor}});
+}
+console.log('finalbasicos:',dictbasicos);
+dictfinal = JSON.stringify(dictbasicos);
+$.post("../insert", dictfinal, function(result){
+  console.log(result);
+  if (result == 'OK'){
+    location.href = "../";
+  }
+  else{
+    alert(result);
+  }
+});
+}
+  </script>
+{% endblock %}

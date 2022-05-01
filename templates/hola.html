@@ -1,0 +1,37 @@
+{% extends "basedash.html" %}
+{% block title %}Register System{% endblock %}
+{% block menu %}
+{% if role == 'Admin' %}
+<li>hola</li>
+{% endif %}
+{% endblock %}
+{% block content %}
+<br>
+<center><h1>Lista de contactos ordenados por interes en emails</h1><h5>Los contactos en rojo ya han sido llamados</h5></center>
+<br>
+<div class="container">
+  </div>
+<script>
+    lista = '{{lista}}';
+     $.ajax({url: "/contacts/"+lista, success: function(result){
+data = JSON.parse(result);
+  console.log(data);
+  longo = Object.keys(data).length;
+  console.log('longo:',longo);
+  for (let i = 0; i < longo; i++){
+      if (data[i]['llamado'] == "si"){
+          color = "danger"
+      }
+      else{
+          color = "primary"
+      }
+    $(".container").append('<button id="'+data[i]['Email_ID']+'" type="button" class="btn btn-outline-'+color+' btn-block" onclick="abrir(this.id)">'+data[i]['Email_ID']+'</button>');
+  }
+     }});
+</script>
+<script>
+    function abrir(e){
+        window.location.assign("/abreficha/{{lista}}/"+e);
+    }
+</script>
+{% endblock %}

@@ -1,0 +1,10 @@
+asc_unit,unit_code,unit_en,unit_es,unit_fr,doc_en,doc_es,doc_fr,estado
+AGP,PEM,Child menthal unit,Psiquiatria pediatrica,Psychiatrie pédiatrique,,,,disp
+AGP,PSI,Menthal health intensive,Psiquiatría Intensiva,Menthal santé intensive,,,,disp
+AGP,PSNA,Menthal no-acute,Psiquiatría no agudos,Psiquiatrie,,,,def
+AGP,APSI,Older people menthal health,Psiquiatría 3 Edad,Santé mentale des personnes âgées,,,,disp
+AGP,PSIURG,Psiquiatric emergencie,Urgencias psiquiatricas,Urgences psychiatriques,,,,disp
+AMB,CMA,Day surgery,Cirugía menor,Chirurgie de jour,,,,def
+AMB,ODONT,Oral health,Odontología,Santé bucco-dentaire,,,,def
+ADM,INF,Health Information,Documentación médica,Documentation médicale,,,,def
+UCI,UCC,Cardiac Care unit,Unidad de cuidados cardíacos,Unité de soins cardiaques,,,,def

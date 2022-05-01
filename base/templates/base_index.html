@@ -1,0 +1,94 @@
+
+{% extends "base_base.html" %}
+{% block title %}Planificador de proyectos{% endblock %}
+{% block menu %}<li onclick="location.reload()">Proyectos</li>{% endblock %}
+{%block instrucciones %}<p style="color:Darkblue">Se entiende por proyecto el trabajo de planificación de un centro sanitario, si su proyecto incluye más de uno, cree un proyecto por cada centro.<br> Seleccione uno de los proyectos para consultarlo o editarlo, también puede  uno nuevo. <a href='crear/proyecto'>+ Crear proyecto</a></p>{%endblock%}
+{% block script %}
+<script>
+$(document).ready(function(){
+  $('#navegation').html('<hr><h4><center>Previstos<center></h4><hr>')
+    $('#principal').html('<hr><h4><center>En curso<center></h4><hr>')
+      $('#consolidado').html('<hr><h4><center>Cerrados<center></h4><hr>')
+  $.ajax({url: "getcol", success: function(result){
+  data = JSON.parse(result);
+  console.log(data);
+  longo = Object.keys(data).length;
+  console.log('longo:',longo);
+  for (let i = 0; i < longo; i++){
+    span = '<div class="btn-group-vertical"><button id="'+i+'" type="button" class="btn btn-outline-primary"><small><i class="fas fa-tasks"> </i> Proyecto</small></button><button id="'+data[i]["nombre"]+'" type="button" class="btn btn-outline-warning" onclick="edit(this.id)"><small><i class="fa-solid fa-pen-to-square"></i> Edita</small></button>';
+    if (data[i]['auto']['estado'] == "previsto"){
+      $('#navegation').append('<div id="'+data[i]['nombre']+'"  class="card" draggable="true" ondragstart="drag(event)" onmouseover="infoinst(this.id)" data-toggle="tooltip" title=""><table><tr><td class="tdleft">'+span+'</td><td colspan=5 class="text-left" id="'+data[i]['nombre']+'" onclick="seleccion(this.id)"><h3 class="card-text">'+data[i]['nombre']+'</h3></td></tr></table></div>');
+    }
+    if (data[i]['auto']['estado'] == "en_curso"){
+      $('#principal').append('<div id="'+data[i]['nombre']+'"  class="card" draggable="true" ondragstart="drag(event)" onmouseover="infoinst(this.id)" data-toggle="tooltip" title=""><table><tr><td class="tdleft">'+span+'</td><td colspan=5 class="text-left" id="'+data[i]['nombre']+'" onclick="seleccion(this.id)"><h3 class="card-text">'+data[i]['nombre']+'</h3></td></tr></table></div>');
+    }
+    if (data[i]['auto']['estado'] == "finalizado"){
+      $('#consolidado').append('<div id="'+data[i]['nombre']+'"  class="card" draggable="true" ondragstart="drag(event)" onmouseover="infoinst(this.id)" data-toggle="tooltip" title=""><table><tr><td class="tdleft">'+span+'</td><td colspan=5 class="text-left" id="'+data[i]['nombre']+'" onclick="seleccion(this.id)"><h3 class="card-text">'+data[i]['nombre']+'</h3></td></tr></table></div>');
+}
+}
+}});
+  });
+</script>
+<script>
+  function allowDrop_def(ev) {
+    ev.preventDefault();
+  }
+  function allowDrop_disp(ev) {
+    ev.preventDefault();
+  }
+  function allowDrop_cons(ev) {
+    ev.preventDefault();
+  }
+
+  function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+  function drop_def(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+    $.post("upestado", {id:data,estado:'en_curso'}, function(result){
+      console.log(result);
+    });
+  }
+  function drop_disp(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+    $.post("upestado", {id:data,estado:'previsto'}, function(result){
+      console.log(result);
+    });
+}
+  function drop_cons(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+    $.post("upestado", {id:data,estado:'finalizado'}, function(result){
+      console.log(result);
+    });
+}
+function get_path(){
+  ruta = '';
+  var pathname = window.location.pathname;
+  pathname = pathname.split('/');
+  console.log(pathname);
+  pathname.shift(); // removes first element
+  pathname.pop(); // removes last element
+  pathname = pathname.toString();
+  console.log(pathname)
+  if (pathname == 'base'){
+    ruta = 'update/proyecto';
+  }
+  return ruta;
+
+}
+function seleccion(id){
+location.href = "proj/"+id;
+}
+function edit(id){
+  ruta = get_path();
+  location.href = "edit/proyecto/"+id;
+}
+  </script>
+{% endblock %}

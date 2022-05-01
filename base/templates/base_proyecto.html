@@ -1,0 +1,98 @@
+
+{% extends "base_base.html" %}
+{% block title %}Planificador de proyectos{% endblock %}
+{% block menu %}<li><a href="../">Proyectos</a></li><li><a onclick="location.reload()">{{proj}}</a></li>{% endblock %}
+{%block instrucciones %}<p style="color:Darkblue">Seleccione una unidad para consultarla o editarla, también puede crear una nueva. <a href='../crear/{{proj}}/unidad'>+ Crear unidad</a></p>{%endblock%}
+{% block script %}
+<script>
+$(document).ready(function(){
+  proj = '{{proj}}';
+  $.ajax({url: "../getpro/"+proj, success: function(result){
+    data = JSON.parse(result);
+  console.log(data);
+  data = data['unidades'];
+  console.log(data);
+  longo = Object.keys(data).length;
+  console.log('longo:',longo);
+  keys = Object.keys(data);
+  for (let i = 0; i < longo; i++){
+    span = '<div class="btn-group-vertical"><button id="'+i+'" type="button" class="btn btn-outline-primary"><small> <i class="fa-solid fa-diagram-project"></i> Unidad</small></button><button id="'+keys[i]+'" type="button" class="btn btn-outline-warning" onclick="edit(this.id)"><small><i class="fa-solid fa-pen-to-square"></i> Edita</small></button>';
+    if (data[keys[i]]['auto']['estado'] == "disp"){
+      $('#navegation').append('<div class="card"  draggable="true" ondragstart="drag(event)" onmouseover="infoinst(this.id)" data-toggle="tooltip" title=""><table><tr><td>'+span+'</td><td><h3 id="'+keys[i]+'" onclick="seleccion(this.id)" class="card-text">'+data[keys[i]]['basicos']['unit_es']+'</h3></td><td></td></tr></table></div>')
+    }
+    if (data[keys[i]]['auto']['estado'] == "def"){
+      $('#principal').append('<div class="card" draggable="true" ondragstart="drag(event)" onmouseover="infoinst(this.id)" data-toggle="tooltip" title=""><table><tr><td>'+span+'</td><td><h3 id="'+keys[i]+'" onclick="seleccion(this.id)" class="card-text">'+data[keys[i]]['basicos']['unit_es']+'</h3></td><td></td></tr></table></div>')
+    }
+    if (data[keys[i]]['auto']['estado'] == "cons"){
+      $('#consolidado').append('<div class="card" draggable="true" ondragstart="drag(event)" onmouseover="infoinst(this.id)" data-toggle="tooltip" title=""><table><tr><td>'+span+'</td><td><h3 id="'+keys[i]+'" onclick="seleccion(this.id)" class="card-text">'+data[keys[i]]['basicos']['unit_es']+'</h3></td><td></td></tr></table></div>')
+    }
+}
+}});
+  });
+</script>
+<script>
+  function allowDrop_def(ev) {
+    ev.preventDefault();
+  }
+  function allowDrop_disp(ev) {
+    ev.preventDefault();
+  }
+  function allowDrop_cons(ev) {
+    ev.preventDefault();
+  }
+
+  function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+  function drop_def(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+    ruta = get_path();
+    console.log(ruta);
+    $.post("../upunit", {proj:ruta[0],unit:data,estado:'def'}, function(result){
+      console.log(result);
+    });
+  }
+  function drop_disp(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+    ruta = get_path();
+    console.log(ruta);
+    $.post("../upunit", {proj:ruta[0],unit:data,estado:'disp'}, function(result){
+      console.log(result);
+    });
+}
+  function drop_cons(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+    ruta = get_path();
+    console.log(ruta);
+    $.post("../upunit", {proj:ruta[0],unit:data,estado:'cons'}, function(result){
+      console.log(result);
+    });}
+function get_path(){
+  ruta = '';
+  var pathname = window.location.pathname;
+  pathname = pathname.split('/');
+  console.log(pathname);
+  pathname.shift(); // removes first element
+  console.log('lenpath:',pathname.length)
+  if (pathname.length == 3){
+    ruta = []
+    ruta.push(pathname[2])
+  }
+  return ruta;
+
+}
+function seleccion(id){
+location.href = "../nav/{{proj}}/"+id;
+}
+function edit(id){
+  location.href = "../edit/unidad/{{proj}}/"+id;
+}
+  </script>
+{% endblock %}

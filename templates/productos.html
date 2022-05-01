@@ -1,0 +1,349 @@
+{% extends "basedash.html" %}
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<p id="demo"></p>
+<div>
+	<br><br>
+<div class="container" style="text-align:right">
+  <button id="anade" type="button" class="btn btn-info" onclick="openmodal(this.id)"> <i class="fas fa-plus-square"> </i> Añadir artículo</button> 
+  <button id="excel" type="button" class="btn btn-success"> <i class="fas fa-file-excel"> </i> Descargar xlsx</button>
+  <button id="reset" type="button" class="btn btn-secondary"> <i class="fas fa-filter"> </i> <i class="fas fa-times"></i> Elimina filtros</button> 
+</div>
+<br>
+  <table class="table table-responsive table-hover">
+    <thead class="thead-light">
+      <tr>
+        <th>id</th>
+        <th>es_Equipo</th>
+        <th>en_Equipo</th>
+        <th>fr_Equipo</th>
+        <th>Tipo</th>
+        <th>Sub-tipo</th>
+        <th>Tipo-arq</th>
+      </tr>
+      <tr>
+      <th><input id="bid" type="text" class="form-control" placeholder="busca"></th>
+      <th><input id="bes" type="text" class="form-control" placeholder="busca"></th>
+      <th><input id="ben" type="text" class="form-control" placeholder="busca"></th>
+      <th><input id="bfr" type="text" class="form-control" placeholder="busca"></th>
+      <th><input id="bTipo" type="text" class="form-control" placeholder="busca"></th>
+      <th><input id="bSub-tipo" type="text" class="form-control" placeholder="busca"></th>
+      <th><input id="bTipo-arq" type="text" class="form-control" placeholder="busca"></th>
+      </tr>
+    </thead>
+    <tbody id="resultado">
+    </tbody>
+  </table>
+</div>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+   <div class="modal-dialog modal-xl">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+			    <img class="img-fluid" src="../static/img/simalga.png" alt="Simalga" width="100px">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+ <h2 class="modal-title" style="text-align:center"></h2>        
+  <table class="table">
+    <tbody>
+      <tr>
+        <td>id</td>
+        <td colspan=5 id="m_id_equipo"></td>
+      </tr>
+      <tr>
+        <td>es Equipo</td>
+        <td colspan=5 id="m_es_Equipo"></td>
+      </tr>
+      <tr>
+        <td>en Equipo</td>
+        <td colspan=5 id="m_en_Equipo"></td>
+      </tr>
+      <tr>
+        <td>fr Equipo</td>
+        <td colspan=5 id="m_fr_Equipo"></td>
+      </tr>
+      <tr>
+        <td>Tipo</td>
+        <td id="m_Tipo"></td>
+        <td>Sub-tipo</td>
+        <td id="m_Sub-tipo"></td>
+        <td>Tipo-arq</td>
+        <td id="m_Tipo-arq"></td>
+      </tr>
+      <tr>
+      <td> ULL <i class="fas fa-key"> </i> </td>
+      <td colspan=5 id="m_ull"></td>
+      </tr>
+      <tr>
+      <td> SUB-ULL <i class="fas fa-key"> </i> </td>
+      <td colspan=5 id="m_sub_ull"></td>
+      </tr>
+      <tr>
+      <td> SUB-ULL-2 <i class="fas fa-key"> </i> </td>
+      <td colspan=5 id="m_sub_ull_2"></td>
+      </tr>
+    </tbody>
+  </table>
+        </div>
+        <div class="modal-footer">
+			<button id="Editar" type="button" class="btn btn-warning"> <i class="fas fa-pencil-alt"> </i> Editar</button>
+			<button id="Grabar" type="button" class="btn btn-success" onclick="grabar()"> <i class="far fa-save"> </i> Grabar</button>
+			<button id="borrar" type="button" class="btn btn-danger"> <i class="fas fa-trash-alt"> </i> Eliminar</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+<script>
+$(document).ready(function(){
+const removeAccents = (str) => {
+  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+} 
+function inputblanco(){
+	$("#bid").val('');
+	$("#bes").val('');
+	$("#ben").val('');
+	$("#bfr").val('');
+	$("#bTipo").val('');
+	$("#bSub-tipo").val('');
+	$("#bTipo-arq").val('');
+}
+	filtro = "";
+	texto= "";
+	resultados(filtro,texto);
+	$("#bid").change(function(){
+	filtro = "id";
+	texto = $("#bid").val();
+	inputblanco()
+	resultados(filtro,texto)
+});
+	$("#bes").change(function(){
+	filtro = "es_Equipo";
+	texto = $("#bes").val();
+	inputblanco()
+	resultados(filtro,texto)
+});
+	$("#ben").change(function(){
+	filtro = "en_Equipo";
+	texto = $("#ben").val();
+	inputblanco()
+	resultados(filtro,texto)
+});
+	$("#bfr").change(function(){
+	filtro = "fr_Equipo";
+	texto = $("#bfr").val();
+	inputblanco()
+	resultados(filtro,texto)
+});
+	$("#bTipo").change(function(){
+	filtro = "Tipo";
+	texto = $("#bTipo").val();
+	inputblanco()
+	resultados(filtro,texto)
+});
+	$("#bSub-tipo").change(function(){
+	filtro = "Sub-Tipo";
+	texto = $("#bSub-tipo").val();
+	inputblanco();
+	resultados(filtro,texto)
+});
+	$("#bTipo-arq").change(function(){
+	filtro = "Tipo-arq";
+	texto = $("#bTipo-arq").val();
+	inputblanco()
+	resultados(filtro,texto)
+});
+	function resultados(filtro,texto){
+		  $.ajaxSetup({ cache: false });
+    $.getJSON("static/json/prod.json", function(result){
+		console.log(result);
+		console.log(result.length);
+		console.log(result[0])
+		if (!filtro || !texto){
+		 for (i = 0; i < result.length; i++){
+		 $("#resultado").append('<tr id="'+i+'" onclick="openmodal(this.id)"><td>'+i+'</td><td>'+result[i]['es_Equipo']+'</td><td>'+result[i]['en_Equipo']+'</td><td>'+result[i]['fr_Equipo']+'</td><td>'+result[i]['Tipo']+'</td><td>'+result[i]['Sub-Tipo']+'</td><td>'+result[i]['Tipo-arq']+'</td></tr>');
+    }
+     }
+     else{
+		 $("#resultado").html('');
+		 for (i = 0; i < result.length; i++){
+			 if (filtro != null && texto != null){
+			 str = result[i][filtro]
+			 if (str != null){
+			 str = str.toString();
+			 str = str.toLowerCase();
+			 str = removeAccents(str);
+			 }
+			 else {
+				 str = "";
+			 }
+			 console.log("str :"+str)
+			 texto = texto.toString();
+			 texto = texto.toLowerCase();
+			 texto = removeAccents(texto)
+			 console.log("texto :"+texto)
+		 }
+		 else{str= "";
+			 texto = "";
+		 }
+			var comparacion = str.search(texto);
+			if (comparacion != -1){
+				 $("#resultado").append('<tr id="'+result[i]['id']+'" onclick="openmodal(this.id)"><td>'+result[i]['id']+'</td><td>'+result[i]['es_Equipo']+'</td><td>'+result[i]['en_Equipo']+'</td><td>'+result[i]['fr_Equipo']+'</td><td>'+result[i]['Tipo']+'</td><td>'+result[i]['Sub-Tipo']+'</td><td>'+result[i]['Tipo-arq']+'</td></tr>'); 
+			 }
+
+		 }
+		 
+}
+});
+	 }
+      });
+</script>
+<script>
+function openmodal(id){
+	if (id == "anade"){
+	$("#myModal").modal("show");
+	$('#Editar').click();
+
+	}
+	else{
+	$("#Grabar").hide();
+	$("#Editar").show();
+	  $.ajaxSetup({ cache: false });
+$.getJSON("static/json/prod.json", function(result){
+    
+	titulo = result[id]['es_Equipo'];
+	titulo_en = result[id]['en_Equipo'];
+	titulo_fr = result[id]['fr_Equipo'];
+	tipo = result[id]['Tipo'];
+	sub_tipo = result[id]['Sub-Tipo'];
+	tipo_arq = result[id]['Tipo-arq'];
+	bruto_ull = result[id]['ULL'];
+	n_ull = bruto_ull.length;
+	console.log(n_ull);
+	ull = "";
+	$("#m_ull").html('');
+	for (i = 0; i < n_ull; i++){
+		if (bruto_ull[i] != null){
+		$("#m_ull").append('<button type="button" class="btn btn-primary" style="margin-top:2px"> <i class="fas fa-key"> </i> '+bruto_ull[i]+' </button>&nbsp;');
+	}
+	}
+	bruto_sub_ull = result[id]['SUB-ULL'];
+	n_sub_ull = bruto_sub_ull.length;
+	console.log(n_sub_ull);
+	sub_ull = "";
+	$("#m_sub_ull").html('');
+	for (i = 0; i < n_sub_ull; i++){
+		if (bruto_sub_ull[i] != null){
+		$("#m_sub_ull").append('<button type="button" class="btn btn-dark" style="margin-top:2px"> <i class="fas fa-key"> </i> '+bruto_sub_ull[i]+' </button>&nbsp;');
+	}
+}
+	bruto_sub_ull_2 = result[id]['SUB-ULL-2'];
+	n_sub_ull_2 = bruto_sub_ull_2.length;
+	console.log(n_sub_ull_2);
+	sub_ull_2 = "";
+	$("#m_sub_ull_2").html('');
+	for (i = 0; i < n_sub_ull_2; i++){
+		if (bruto_sub_ull_2[i] != null){
+		$("#m_sub_ull_2").append('<button type="button" class="btn btn-secondary" style="margin-top:2px"> <i class="fas fa-key"> </i> '+bruto_sub_ull_2[i]+' </button>&nbsp;');
+	}
+	}
+	console.log(titulo);
+	$("#myModal").modal("show");
+	$(".modal-title").text(titulo);
+	$("#m_id_equipo").html(id);
+	$("#m_es_Equipo").html(titulo);
+	$("#m_en_Equipo").html(titulo_en);
+	$("#m_fr_Equipo").html(titulo_fr);
+	if (tipo != null){
+	$("#m_Tipo").html('<button type="button" class="btn btn-info">'+tipo+'</button>');
+}
+if (sub_tipo != null){
+	$("#m_Sub-tipo").html('<button type="button" class="btn btn-info">'+sub_tipo+'</button>');
+}
+if (tipo_arq != null){
+	$("#m_Tipo-arq").html('<button type="button" class="btn btn-info">'+tipo_arq+'</button>');
+}
+});
+}
+}
+</script>
+<script>
+$(document).ready(function(){
+  $("#Editar").click(function(){
+	 id = $("#m_id_equipo").html();
+	titulo = $("#m_es_Equipo").html();
+	titulo_en = $("#m_en_Equipo").html();
+	titulo_fr = $("#m_fr_Equipo").html();
+	tipo = $("#m_Tipo").text();
+	sub_tipo = $("#m_Sub-tipo").text();
+	tipo_arq = $("#m_Tipo-arq").text();
+	$("#m_es_Equipo").html('<input type="text" class="form-control" id="up_es_Equipo" value="'+titulo+'">');
+	$("#m_en_Equipo").html('<input type="text" class="form-control" id="up_en_Equipo" value="'+titulo_en+'">');
+	$("#m_fr_Equipo").html('<input type="text" class="form-control" id="up_fr_Equipo" value="'+titulo_fr+'">');
+	$("#m_Tipo").html('<input type="text" class="form-control" id="up_Tipo" value="'+tipo+'">');
+	$("#m_Sub-tipo").html('<input type="text" class="form-control" id="up_Sub-tipo" value="'+sub_tipo+'">');
+	$("#m_Tipo-arq").html('<input type="text" class="form-control" id="up_Tipo-arq" value="'+tipo_arq+'">');
+	$("#Editar").hide();
+	$("#Grabar").show();
+  }); 
+});
+</script>
+<script>
+	function grabar(){
+	id = $("#m_id_equipo").html();
+	if (!id){
+		id = "x";
+	}
+	titulo = $("#up_es_Equipo").val();
+	titulo_en = $("#up_en_Equipo").val();
+	titulo_fr = $("#up_fr_Equipo").val();
+	tipo = $("#up_Tipo").val();
+	sub_tipo = $("#up_Sub-tipo").val();
+	tipo_arq = $("#up_Tipo-arq").val();
+	array = {"id":id,"es_Equipo":titulo,"en_Equipo":titulo_en,"fr_Equipo":titulo_fr,"Tipo":tipo,"Sub-tipo":sub_tipo,"Tipo-arq":tipo_arq,"operacion":"actualiza"};
+	actualiza(array);
+}
+function actualiza(array){
+	$.ajax({
+  type: "POST",
+  contentType: "application/json; charset=utf-8",
+  url: "/update/producto/",
+    data: JSON.stringify(array),
+  success: function (data) {
+    console.log(data);
+  },
+  dataType: "json"
+});
+$("#myModal").modal("hide");
+location.reload();
+}
+</script>
+<script>
+  $("#excel").click(function(){
+location.href='excelproductos';
+  });
+</script>
+<script>
+  $("#reset").click(function(){
+location.reload();
+  });
+</script>
+<script>
+  $("#borrar").click(function(){
+  var r = confirm("¿Estas segur@ de querer borrar este artículo?");
+    if (r == true) {
+	id = $("#m_id_equipo").html();
+	array = {"id":id,"operacion":"borrar"};
+	actualiza(array);
+  } else {
+$("#myModal").modal("hide");	
+  }
+
+  });
+</script>
+{% endblock %}

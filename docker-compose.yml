@@ -1,0 +1,20 @@
+app:
+  build: .
+  command: python -u app.py
+  ports:
+    - "80:5000"
+  volumes:
+    - .:/app
+  links:
+    - db
+db:
+  image: mongo:latest
+  hostname: mongo_visioncrm
+  environment:
+    - MONGO_INITDB_DATABASE=vision_db
+    - MONGO_INITDB_ROOT_USERNAME=root
+    - MONGO_INITDB_ROOT_PASSWORD=pass
+  volumes:
+    - .:/docker-entrypoint-initdb.d/vision-db.js:ro
+  ports:
+    - 27017:27017

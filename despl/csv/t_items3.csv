@@ -1,0 +1,1119 @@
+item_type,item_code,item_name_en,item_name_es,item_name_fr
+FA,CLCN-002,"CORNICE: aluminium, 24mm shadow angle, powdercoat","CORNICE: aluminio, ángulo de sombra de 24 mm, pintura en polvo","CORNICHE : aluminium, angle d'ombre de 24 mm, revêtement poudré"
+FA,CLCN-008,"CORNICE: square set flush between wall and ceiling, paint","CORNISA: encastre cuadrado a ras entre pared y techo, pintar","CORNICHE : équerre encastrée entre mur et plafond, peinture"
+FA,CLCN-009,CORNICE: wall trim fixing,CORNICE: fijación de molduras de pared,CORNICHE : fixation de garniture murale
+FA,CLFS-002,"CEILING: fibre cement, flush set, suspended, paint, washable","TECHO: fibrocemento, enrasado, suspendido, pintado, lavable","PLAFOND : fibrociment, encastré, suspendu, peinture, lavable"
+FA,CLFS-005,"CEILING: plasterboard, flush set, suspended, paint, scrub resistant","TECHO: cartón yeso, enrasado, suspendido, pintado, resistente al frote","PLAFOND : plaques de plâtre, encastré, suspendu, peinture, résistant au gommage"
+FA,CLFS-006,"CEILING: plasterboard, flush set, suspended, paint, washable","TECHO: cartón-yeso, empotrado, suspendido, pintado, lavable","PLAFOND : plaques de plâtre, encastré, suspendu, peinture, lavable"
+FA,CLFS-009,"CEILING: plasterboard, water resistant, flush set, suspended, paint, washable","TECHO: cartón yeso, resistente al agua, empotrado, suspendido, pintado, lavable","PLAFOND : plaques de plâtre, résistant à l'eau, encastré, suspendu, peinture, lavable"
+FA,CLGE-001,"CEILING: plasterboard, bulkhead, paint","TECHO: placas de yeso, mamparo, pintura","PLAFOND : plaques de plâtre, cloison, peinture"
+FA,CLTI-001,"CEILING: acoustic, drop-in tiles",TECHO: Azulejos empotrables acústicos,"PLAFOND : acoustique, tuiles encastrables"
+FA,CLTI-002,"CEILING: acoustic, drop-in tiles, 600 x 1200","TECHO: acústico, losetas empotradas, 600 x 1200","PLAFOND : acoustique, tuiles encastrées, 600 x 1200"
+FA,CLTI-008,"CEILING: plasterboard, drop-in tiles, prefinished, 600 x 1200","TECHO: cartón yeso, baldosas de encastre, preacabado, 600 x 1200","PLAFOND : plaques de plâtre, tuiles à encastrer, préfini, 600 x 1200"
+FA,CLTI-014,"CEILING: plasterboard, water resistant, drop-in tiles, prefinished, 600 x 1200","TECHO: placa de yeso, resistente al agua, baldosas empotradas, preacabado, 600 x 1200","PLAFOND : plaques de plâtre, résistantes à l'eau, tuiles à encastrer, préfinies, 600 x 1200"
+FA,DWGE-001,"DOOR: 910mm c/o, single leaf, laminated, counter height","PUERTA: 910mm c / o, hoja simple, laminada, altura mostrador","PORTE : 910 mm c/o, un vantail, stratifié, hauteur de comptoir"
+FA,DWGE-002,"DOOR: 910mm c/o, steel, strongroom, grille gate door, paint","PUERTA: 910 mm c / o, acero, cámara acorazada, puerta de rejilla, pintura","PORTE : 910 mm c/o, acier, chambre forte, porte de grille, peinture"
+FA,DWGE-003,"DOOR: 910mm c/o, steel, strongroom, security door, paint","PUERTA: 910mm c / o, acero, cámara acorazada, puerta blindada, pintura","PORTE : 910 mm c/o, acier, chambre forte, porte blindée, peinture"
+FFE,DWGE-012,GATE & SCREEN: child proof,PUERTA Y PANTALLA: a prueba de niños,GATE & SCREEN : sécurité enfant
+FFE,DWGE-013,"GATE: single leaf, steel, prefinished","PUERTA: hoja simple, acero, preacabada","PORTAIL : un vantail, en acier, préfini"
+FA,DWGE-016,DOOR: frame only,PUERTA: solo marco,PORTE : cadre seul
+FA,DWGL-002,"DOOR: 910mm c/o, single leaf, half glazed, solid core/glass, paint","PUERTA: 910 mm c / o, una hoja, medio vidriado, núcleo sólido / vidrio, pintura","PORTE : 910 mm c/o, un vantail, semi-vitrée, âme pleine/verre, peinture"
+FA,DWGL-003,"DOOR: 910mm c/o, single leaf, half glazed, solid core/safety glass, paint","PUERTA: 910 mm c/a, hoja simple, semividriada, núcleo macizo/vidrio de seguridad, pintura","PORTE : 910 mm c/o, simple vantail, semi-vitrée, âme pleine/verre de sécurité, peinture"
+FA,DWGL-005,"DOOR: 910mm c/o, single leaf, observation panel, solid core/glass, paint","PUERTA: 910 mm c/o, hoja simple, panel de observación, núcleo sólido/vidrio, pintura","PORTE : 910 mm c/o, un vantail, panneau d'observation, âme pleine/verre, peinture"
+FA,DWGL-006,"DOOR: 910mm c/o, single leaf, observation panel, solid core/lead glass, lead shielding, paint","PUERTA: 910 mm c / o, hoja única, panel de observación, núcleo sólido / vidrio de plomo, blindaje de plomo, pintura","PORTE : 910 mm c/o, un vantail, panneau d'observation, âme pleine/verre au plomb, blindage au plomb, peinture"
+FA,DWGL-007,"DOOR: 910mm c/o, single leaf, observation panel, solid core/safety glass, paint","PUERTA: 910 mm c / o, hoja simple, panel de observación, núcleo sólido / vidrio de seguridad, pintura","PORTE : 910 mm c/o, un vantail, panneau d'observation, âme pleine/verre de sécurité, peinture"
+FA,DWGL-011,"DOOR: 950mm c/o, single leaf, observation panel, solid core/glass, paint","PUERTA: 950 mm c/o, hoja simple, panel de observación, núcleo macizo/vidrio, pintura","PORTE : 950 mm c/o, un vantail, panneau d'observation, âme pleine/verre, peinture"
+FA,DWGL-020,"DOOR: 1100mm c/o, single leaf, observation panel, solid core/glass, paint","PUERTA: 1100 mm c/o, hoja simple, panel de observación, núcleo sólido/vidrio, pintura","PORTE : 1100 mm c/o, un vantail, panneau d'observation, âme pleine/verre, peinture"
+FA,DWGL-030,"DOOR: 1400mm c/o, 1 1/2 leaf, fully glazed, alum/safety glass, powdercoat/paint","PUERTA: 1400 mm c / o, 1 1/2 hoja, totalmente acristalado, alumbre / vidrio de seguridad, pintura en polvo / pintura","PORTE : 1400 mm c/o, 1 1/2 vantail, entièrement vitrée, alun/verre de sécurité, revêtement en poudre/peinture"
+FA,DWGL-031,"DOOR: 1400mm c/o, 1 1/2 leaf, half glazed, solid core/glass, paint","PUERTA: 1400 mm c / o, 1 1/2 hoja, medio vidriado, núcleo sólido / vidrio, pintura","PORTE : 1400 mm c/o, 1 1/2 vantail, semi-vitrée, âme pleine/verre, peinture"
+FA,DWGL-032,"DOOR: 1400mm c/o, 1 1/2 leaf, half glazed, solid core/safety glass, paint","PUERTA: 1400mm c/a, 1 1/2 hoja, semividriada, alma maciza/vidrio de seguridad, pintura","PORTE : 1400 mm c/o, 1 1/2 vantail, semi-vitrée, âme pleine/verre de sécurité, peinture"
+FA,DWGL-033,"DOOR: 1400mm c/o, 1 1/2 leaf, observation panel, solid core/glass, paint","PUERTA: 1400 mm c / o, 1 1/2 hoja, panel de observación, núcleo sólido / vidrio, pintura","PORTE : 1400 mm c/o, 1 1/2 vantail, panneau d'observation, âme pleine/verre, peinture"
+FA,DWGL-040,"DOOR: 1500mm c/o ,1 1/2 leaf, fully glazed, alum/safety glass, powdercoat/paint","PUERTA: 1500 mm c/o, 1 1/2 hoja, completamente vidriada, alumbre/vidrio de seguridad, pintura en polvo/pintura","PORTE : 1500 mm c/o, 1 1/2 feuille, entièrement vitrée, alun/verre de sécurité, revêtement en poudre/peinture"
+FA,DWGL-041,"DOOR: 1500mm c/o, 1 1/2 leaf, half glazed, solid core/glass, paint","PUERTA: 1500mm c/o, 1 1/2 hoja, semividriada, macizo/vidrio, pintura","PORTE : 1500 mm c/o, 1 1/2 vantail, semi-vitrée, âme pleine/verre, peinture"
+FA,DWGL-050,"DOOR: 1600mm c/o, double leaf, fully glazed, alum/safety glass, powdercoat/paint","PUERTA: 1600 mm c/o, doble hoja, totalmente vidriada, alumbre/vidrio de seguridad, pintura en polvo/pintura","PORTE : 1600 mm c/o, double vantail, entièrement vitrée, alun/verre de sécurité, revêtement en poudre/peinture"
+FA,DWGL-051,"DOOR: 1600mm c/o, double leaf, observation panel, solid core/glass, paint","PUERTA: 1600 mm c/o, doble hoja, panel de observación, núcleo macizo/vidrio, pintura","PORTE : 1600 mm c/o, double vantail, panneau d'observation, âme pleine/verre, peinture"
+FA,DWGL-052,"DOOR: 1600mm c/o, double leaf, observation panel, solid core/glass, paint","PUERTA: 1600 mm c/o, doble hoja, panel de observación, núcleo macizo/vidrio, pintura","PORTE : 1600 mm c/o, double vantail, panneau d'observation, âme pleine/verre, peinture"
+FA,DWGL-053,"DOOR: 1600mm c/o, double leaf, sliding, observation panel, solid core/glass, paint","PUERTA: 1600 mm c / o, doble hoja, corredera, panel de observación, núcleo sólido / vidrio, pintura","PORTE : 1600 mm c/o, double vantail, coulissante, panneau d'observation, âme pleine/verre, peinture"
+FA,DWGL-071,"DOOR: triple leaf, sliding, fully glazed, alum/safety glass, powdercoat/paint","PUERTA: triple hoja, corredera, totalmente acristalada, alumbre / vidrio de seguridad, pintura en polvo / pintura","PORTE : triple vantail, coulissante, entièrement vitrée, alun/verre de sécurité, revêtement en poudre/peinture"
+FA,DWGL-074,"DOOR: 1120mm c/o, 1 1/2 leaf in/out opening, observation panel, solid core/safety glass, paint","PUERTA: 1120 mm c / o, apertura de entrada / salida de 1 1/2 hoja, panel de observación, núcleo sólido / vidrio de seguridad, pintura","PORTE : 1120 mm c/o, ouverture 1 1/2 vantail in/out, panneau d'observation, âme pleine/verre de sécurité, peinture"
+FA,DWGL-075,"DOOR: 1270mm c/o, single leaf, observation panel, solid core/safety glass, paint","PUERTA: 1270 mm c / o, hoja simple, panel de observación, núcleo sólido / vidrio de seguridad, pintura","PORTE : 1270 mm c/o, un vantail, panneau d'observation, âme pleine/verre de sécurité, peinture"
+FA,DWGL-076,"DOOR: 1600mm c/o, 1 1/2 leaf, observation panel, solid core/glass, paint","PUERTA: 1600 mm c / o, 1 1/2 hoja, panel de observación, núcleo sólido / vidrio, pintura","PORTE : 1600 mm c/o, 1 1/2 vantail, panneau d'observation, âme pleine/verre, peinture"
+FA,DWGL-077,"DOOR: 850mm c/o, single leaf, observation panel, solid core/glass, paint","PUERTA: 850 mm c / o, hoja única, panel de observación, núcleo sólido / vidrio, pintura","PORTE : 850 mm c/o, un vantail, panneau d'observation, âme pleine/verre, peinture"
+FA,DWOB-001,OBSERVATION: internal window,OBSERVACIÓN: ventana interna,OBSERVATION : fenêtre interne
+FA,DWOB-002,"OBSERVATION: internal window, alum/glass, door height, powdercoat","OBSERVACIÓN: ventana interna, alumbre/vidrio, altura de la puerta, pintura en polvo","OBSERVATION : fenêtre intérieure, alun/verre, hauteur de porte, revêtement poudré"
+FA,DWOB-003,"OBSERVATION: internal window, alum/glass, double glazed, integral venetian blind, powdercoat","OBSERVACIÓN: ventana interior, alumbre / vidrio, doble acristalamiento, persiana veneciana integral, pintura en polvo","OBSERVATION : fenêtre intérieure, alun/verre, double vitrage, store vénitien intégral, revêtement poudré"
+FA,DWOB-004,"OBSERVATION: internal window, alum/glass, internal blinds, powdercoat","OBSERVACIÓN: ventana interna, alumbre/vidrio, persianas internas, pintura en polvo","OBSERVATION : fenêtre intérieure, alun/verre, stores intérieurs, revêtement poudré"
+FA,DWOB-005,"OBSERVATION: internal window, alum/glass, powdercoat","OBSERVACIÓN: ventana interna, alumbre / vidrio, pintura en polvo","OBSERVATION : fenêtre intérieure, alun/verre, revêtement poudré"
+FA,DWOB-006,"OBSERVATION: internal window, alum/safety glass, double glazed, integral venetian blind, powdercoat","OBSERVACIÓN: ventana interior, alumbre / vidrio de seguridad, doble acristalamiento, persiana veneciana integral, pintura en polvo","OBSERVATION : fenêtre intérieure, alun/verre de sécurité, double vitrage, store vénitien intégré, revêtement poudré"
+FA,DWOB-007,"OBSERVATION: internal window, alum/safety glass, powdercoat/paint","OBSERVACIÓN: ventana interior, alumbre / vidrio de seguridad, pintura en polvo / pintura","OBSERVATION : fenêtre intérieure, alun/verre de sécurité, revêtement en poudre/peinture"
+FA,DWOB-009,"OBSERVATION: internal window, lead glass, clear","OBSERVACIÓN: ventana interna, vidrio plomado, transparente","OBSERVATION : fenêtre intérieure, verre au plomb, clair"
+FA,DWOB-010,"OBSERVATION: through door/s, glass, clear","OBSERVACIÓN: a través de puerta (s), vidrio, transparente","OBSERVATION : traversant(s) porte(s), verre, clair"
+FA,DWOB-015,"OBSERVATION: internal window, alum/safety glass, c/w document and speaking slots","OBSERVACIÓN: ventana interna, alumbre / vidrio de seguridad, c / w espacio para documentos y para hablar","OBSERVATION : fenêtre interne, alun/verre de sécurité, c/w document et fentes de parole"
+FA,DWOB-016,"OBSERVATION: internal window, alum/safety glass, one way, powdercoat","OBSERVACIÓN: ventana interna, alumbre/vidrio de seguridad, unidireccional, pintura en polvo","OBSERVATION : fenêtre intérieure, alun/verre de sécurité, unidirectionnel, revêtement poudré"
+FA,DWPR-001,"DOOR PROTECTION: kickplate, to 300 AFFL","PROTECCIÓN DE LA PUERTA: rodapié, hasta 300 AFFL","PROTECTION DE PORTE : coup de pied, jusqu'à 300 AFFL"
+FA,DWPR-003,"DOOR PROTECTION: kickplate, to 300 AFFL, vinyl, prefinished","PROTECCIÓN DE PUERTAS: rodapié, hasta 300 AFFL, vinilo, preacabado","PROTECTION DE PORTE : coup-de-pied, jusqu'à 300 AFFL, vinyle, préfini"
+FA,DWPR-004,"DOOR PROTECTION: protection plate, to 1200 AFFL, PVC, prefinished","PROTECCIÓN DE LA PUERTA: placa de protección, hasta 1200 AFFL, PVC, preacabada","PROTECTION DE PORTE : plaque de protection, jusqu'à 1200 AFFL, PVC, préfini"
+FA,DWPR-005,DOOR PROTECTION: protection plate to 900 AFFL,PROTECCIÓN DE LA PUERTA: placa de protección hasta 900 AFFL,PROTECTION DE PORTE : plaque de protection à 900 AFFL
+FA,DWPR-006,"DOOR PROTECTION: protection plate, to 900 AFFL, PVC, prefinished","PROTECCIÓN DE LA PUERTA: placa de protección, hasta 900 AFFL, PVC, preacabado","PROTECTION DE PORTE : plaque de protection, à 900 AFFL, PVC, préfini"
+FA,DWPR-010,"DOOR PROTECTION: to door frame, PVC, prefinished","PROTECCIÓN DE LA PUERTA: al marco de la puerta, PVC, preacabado","PROTECTION DE LA PORTE : jusqu'au cadre de la porte, PVC, préfini"
+FA,DWPR-011,"DOOR PROTECTION: protection plate, to full height","PROTECCIÓN DE LA PUERTA: placa de protección, a altura máxima","PROTECTION DE PORTE : plaque de protection, sur toute la hauteur"
+FA,DWSC-001,"DOOR: 850mm c/o, single leaf, solid core, paint","PUERTA: 850 mm c / o, hoja simple, núcleo macizo, pintura","PORTE : 850 mm c/o, un vantail, âme pleine, peinture"
+FA,DWSC-003,"DOOR: 910mm c/o, single leaf, solid core, paint","PUERTA: 910 mm c / o, hoja simple, núcleo macizo, pintura","PORTE : 910 mm c/o, un vantail, âme pleine, peinture"
+FA,DWSC-004,"DOOR: 850mm c/o, 180 deg swing, single leaf, solid core, paint","PUERTA: 850 mm c/o, giro de 180 grados, hoja simple, núcleo sólido, pintura","PORTE : 850 mm c/o, pivotement à 180 degrés, un vantail, âme pleine, peinture"
+FA,DWSC-005,"DOOR: 910mm c/o, single leaf, solid core, lead shielding, paint","PUERTA: 910 mm c/o, hoja simple, núcleo sólido, blindaje de plomo, pintura","PORTE : 910 mm c/o, un vantail, âme pleine, blindage plomb, peinture"
+FA,DWSC-011,"DOOR: 1100mm c/o, single leaf, solid core, paint","PUERTA: 1100mm c/o, hoja simple, alma maciza, pintura","PORTE : 1100 mm c/o, un vantail, âme pleine, peinture"
+FA,DWSC-012,"DOOR: 1200mm c/o, 1 1/2 leaf, solid core, paint","PUERTA: 1200 mm c / o, 1 1/2 hoja, núcleo macizo, pintura","PORTE : 1200mm c/o, 1 1/2 vantail, âme pleine, peinture"
+FA,DWSC-013,"DOOR: 1200mm c/o, single leaf, solid core, paint","PUERTA: 1200mm c/o, hoja simple, alma maciza, pintura","PORTE : 1200 mm c/o, un vantail, âme pleine, peinture"
+FA,DWSC-021,"DOOR: 1400mm c/o, 1 1/2 leaf, solid core, paint","PUERTA: 1400mm c / o, 1 1/2 hoja, núcleo macizo, pintura","PORTE : 1400mm c/o, 1 1/2 vantail, âme pleine, peinture"
+FA,DWSC-027,"DOOR: 1600mm c/o, 1 1/2 leaf, solid core, paint","PUERTA: 1600mm c/a, 1 1/2 hoja, alma maciza, pintura","PORTE : 1600mm c/o, 1 1/2 vantail, âme pleine, peinture"
+FA,DWSC-033,"DOOR: 1800mm c/o, double leaf, solid core, paint","PUERTA: 1800mm c/a, doble hoja, macizo, pintura","PORTE : 1800mm c/o, double vantail, âme pleine, peinture"
+FA,DWSC-034,"DOOR: 1800mm c/o, double leaf, solid core, lead shielding, paint","PUERTA: 1800 mm c / o, doble hoja, núcleo sólido, blindaje de plomo, pintura","PORTE : 1800 mm c/o, double vantail, âme pleine, blindage plomb, peinture"
+FA,DWSC-050,"DOOR: double leaf, solid core, paint, 180 deg","PUERTA: doble hoja, núcleo sólido, pintura, 180 grados","PORTE : double vantail, âme pleine, peinture, 180 degrés"
+FFE,DWWD-001,BLIND: blackout,CIEGO: apagón,AVEUGLE : panne d'électricité
+FFE,DWWD-002,BLIND: holland,CIEGO: Holanda,AVEUGLE : hollande
+FFE,DWWD-003,BLIND: integral,CIEGO: integral,AVEUGLE : intégral
+FFE,DWWD-004,BLIND: roller,CIEGO: rodillo,AVEUGLE : rouleau
+FFE,DWWD-006,BLIND: venetian,CIEGO: veneciano,AVEUGLE : vénitien
+FFE,DWWD-007,"BLIND: venetian, integral","CIEGO: veneciano, integral","AVEUGLE : vénitien, intégral"
+SE,DWWD-010,"CONTROL: venetian blind, remote","CONTROL: persiana veneciana, remoto","COMMANDE : store vénitien, télécommande"
+FFE,DWWD-011,"CURTAIN: window, drapes","CORTINA: ventana, cortinas","RIDEAU : fenêtre, rideaux"
+FFE,DWWD-013,WINDOW DRESSING: external window,REVESTIMIENTO DE VENTANAS: ventana exterior,HABILLAGE DE FENÊTRE : fenêtre extérieure
+FFE,DWWD-014,"WINDOW DRESSING: external window, blackout","REVESTIMIENTO DE VENTANAS: ventana exterior, oscurecimiento","HABILLAGE DE FENÊTRE : fenêtre extérieure, occultant"
+FFE,DWWH-004,"SHUTTER: roller, manual","OBTURADOR: rodillo, manual","OBTURATEUR: rouleau, manuel"
+FA,DWWH-005,WINDOW,VENTANA,LA FENÊTRE
+FFE,DWWH-007,"SHUTTER: for observation panel, magnetic flap for laser protection","OBTURADOR: para panel de observación, aleta magnética para protección láser","OBTURATEUR : pour panneau d'observation, volet magnétique pour protection laser"
+SE,ELBO-001,BUTTON: emergency stop,BOTÓN: parada de emergencia,BOUTON : arrêt d'urgence
+SE,ELBO-003,CONTROL PANEL: lighting,PANEL DE CONTROL: iluminación,PANNEAU DE COMMANDE : éclairage
+FFE,ELBO-004,DISTRIBUTION BOARD,CUADRO DE DISTRIBUCIÓN,TABLEAU DE DISTRIBUTION
+SE,ELBO-005,EQUIPOTENTIAL JUNCTION BOX,CAJA DE CONEXIONES EQUIPOTENCIALES,BOÎTE DE JONCTION ÉQUIPOTENTIELLE
+SE,ELBO-007,SWITCH: emergency isolation,INTERRUPTOR: aislamiento de emergencia,INTERRUPTEUR : isolation d'urgence
+SE,ELBO-009,SWITCH: Laser in use,INTERRUPTOR: láser en uso,COMMUTATEUR : laser en cours d'utilisation
+SE,ELBO-010,"SWITCH: light, 2-way","INTERRUPTOR: luz, 2 vías","COMMUTATEUR : léger, 2 voies"
+SE,ELBO-012,"SWITCH: light, dimmer","INTERRUPTOR: luz, atenuador","COMMUTATEUR : lumière, gradateur"
+SE,ELBO-015,"SWITCH: light, single","INTERRUPTOR: ligero, sencillo","COMMUTATEUR : léger, simple"
+SE,ELBO-016,SWITCH: X-Ray in use,INTERRUPTOR: Rayos X en uso,COMMUTATEUR : rayons X en cours d'utilisation
+SE,ELBO-018,"BUTTON: security, perimeter lockdown","BOTÓN: seguridad, cierre perimetral","BOUTON : sécurité, verrouillage du périmètre"
+SE,ELBO-019,BUTTON: last person out,BOTÓN: última persona en salir,BOUTON : dernière personne sortie
+SE,ELGE-001,DIRECT CONNECTION: power,CONEXIÓN DIRECTA: potencia,CONNEXION DIRECTE : alimentation
+SE,ELGE-004,"DIRECT CONNECTION: power, emergency","CONEXIÓN DIRECTA: energía, emergencia","CONNEXION DIRECTE : alimentation, secours"
+SE,ELGP-101,"GPO: single, ceiling mounted","GPO: simple, montado en el techo","GPO : simple, monté au plafond"
+SE,ELGP-105,"GPO: single, on services panel","GPO: único, en el panel de servicios","GPO : unique, sur le panneau des services"
+SE,ELGP-106,"GPO: single, special, for equipment","GPO: individual, especial, para equipamiento","GPO : unique, spécial, pour équipement"
+SE,ELGP-109,"GPO: single, wall mounted","GPO: individual, montado en la pared","GPO : simple, fixé au mur"
+SE,ELGP-109.1,"GPO: single, wall mounted (V)","GPO: simple, montado en la pared (V)","GPO : simple, mural (V)"
+SE,ELGP-110,"GPO: single, wall mounted, cleaner","GPO: simple, montado en la pared, limpiador","GPO : simple, mural, nettoyeur"
+SE,ELGP-111,"GPO: single, wall mounted, RCD protected","GPO: simple, montado en la pared, protegido por RCD","GPO : simple, fixé au mur, protégé par RCD"
+SE,ELGP-113,"GPO: single, wall mounted, waterproof, RCD protected","GPO: simple, montado en la pared, impermeable, protegido por RCD","GPO : simple, mural, étanche, protégé par RCD"
+SE,ELGP-121,"GPO: emergency power, single, on pendant","GPO: energía de emergencia, simple, en colgante","GPO : alimentation de secours, simple, sur pendentif"
+SE,ELGP-122,"GPO: emergency power, single, on services panel","GPO: energía de emergencia, única, en el panel de servicios","GPO : alimentation de secours, simple, sur panneau de services"
+SE,ELGP-123,"GPO: emergency power, single, wall mounted","GPO: energía de emergencia, simple, montado en la pared","GPO : alimentation de secours, simple, murale"
+SE,ELGP-123.1,"GPO: emergency power, single, wall mounted (V)","GPO: energía de emergencia, simple, montado en la pared (V)","GPO : alimentation de secours, simple, murale (V)"
+SE,ELGP-125,"GPO: emergency power, single, ceiling mounted","GPO: energía de emergencia, simple, montado en el techo","GPO : alimentation de secours, simple, montée au plafond"
+SE,ELGP-130,"GPO: UPS, single","GPO: UPS, individual","Objet de stratégie de groupe : UPS, simple"
+SE,ELGP-132,"GPO: UPS, single, on pendant","GPO: UPS, individual, colgante","GPO : UPS, simple, sur pendentif"
+SE,ELGP-133,"GPO: UPS, single, on services panel","GPO: UPS, individual, en el panel de servicios","GPO : UPS, simple, sur le panneau de services"
+SE,ELGP-135,"GPO: UPS, single, wall mounted","GPO: UPS, simple, montado en la pared","GPO : UPS, simple, fixé au mur"
+SE,ELGP-140,"GPO: three phase, single","GPO: trifásico, único","GPO : triphasé, simple"
+SE,ELGP-203,"GPO: double, in floorbox","GPO: doble, en caja de piso","GPO : double, dans le boîtier de sol"
+SE,ELGP-205,"GPO: double, on services panel","GPO: doble, en el panel de servicios","GPO : double, sur le panneau des services"
+SE,ELGP-206,"GPO: double, on services panel, RCD protected","GPO: doble, en panel de servicios, protegido por RCD","GPO : double, sur panneau de services, RCD protégé"
+SE,ELGP-208,"GPO: double, wall mounted","GPO: doble, montado en la pared","GPO : double, fixé au mur"
+SE,ELGP-208.1,"GPO: double, wall mounted (V)","GPO: doble, montado en la pared (V)","GPO : double, mural (V)"
+SE,ELGP-209,"GPO: double, wall mounted, RCD protected","GPO: doble, montado en la pared, protegido por RCD","GPO : double, fixé au mur, protégé par RCD"
+SE,ELGP-212,"GPO: double, desk box","GPO: doble, caja de escritorio","GPO : double, boîte de bureau"
+SE,ELGP-220.1,"GPO: emergency power, double (V)","GPO: energía de emergencia, doble (V)","GPO : alimentation de secours, double (V)"
+SE,ELGP-222,"GPO: emergency power, double, on services panel","GPO: energía de emergencia, doble, en el panel de servicios","GPO : alimentation de secours, double, sur panneau de services"
+SE,ELGP-223,"GPO: emergency power, double, wall mounted","GPO: energía de emergencia, doble, montaje en pared","GPO : alimentation de secours, double, murale"
+SE,ELGP-223.1,"GPO: emergency power, double, wall mounted (V)","GPO: energía de emergencia, doble, montado en la pared (V)","GPO : alimentation de secours, double, murale (V)"
+SE,ELGP-224,"GPO: emergency power, double, desk box","GPO: energía de emergencia, doble, caja de escritorio","GPO : alimentation de secours, double, boîtier de bureau"
+SE,ELGP-225,"GPO: emergency power, double, in floorbox","GPO: alimentación de emergencia, doble, en caja de suelo","GPO : alimentation de secours, double, dans le boîtier de sol"
+SE,ELGP-235,"GPO: UPS, double, wall mounted","GPO: UPS, doble, montado en la pared","GPO : UPS, double, fixé au mur"
+SE,ELGP-240,"GPO: three phase, double","GPO: trifásico, doble","GPO : triphasé, double"
+SE,ELGT-007,UPS: uninterruptable power supply unit,UPS: fuente de alimentación ininterrumpida,UPS : bloc d'alimentation sans coupure
+SE,ELPR-001,BODY PROTECTED ELECTRICAL AREA,ZONA ELÉCTRICA PROTEGIDA POR EL CUERPO,ZONE ÉLECTRIQUE PROTÉGÉE DU CORPS
+SE,ELPR-003,"ISOLATOR: electrical, 1ph+n","AISLADOR: eléctrico, 1ph+n","ISOLATEUR : électrique, 1ph+n"
+SE,ELPR-004,MONITOR: line isolation,MONITOR: aislamiento de línea,MONITEUR : isolation de ligne
+SE,ELPR-006,RCD: residual current device,RCD: dispositivo de corriente residual,RCD : dispositif de courant résiduel
+SE,ELPR-007,UPS: status indicator,UPS: indicador de estado,UPS : indicateur d'état
+FFE,FIBM-001,BLACKBOARD: fixed,PIZARRA: fija,TABLEAU NOIR : fixe
+FFE,FIBM-004,"MIRROR: fixed, convex, tamper proof, anti ligature","ESPEJO: fijo, convexo, a prueba de manipulaciones, antiligadura","MIROIR : fixe, convexe, inviolable, anti-ligature"
+FFE,FIBM-005,"MIRROR: fixed, glass, 1200H nom.","ESPEJO: fijo, vidrio, 1200H nom.","MIROIR : fixe, verre, 1200H nom."
+FFE,FIBM-006,"MIRROR: fixed, glass","ESPEJO: fijo, vidrio","MIROIR : fixe, en verre"
+FFE,FIBM-007,"MIRROR: fixed, glass, full length","ESPEJO: fijo, de vidrio, de cuerpo entero","MIROIR : fixe, en verre, sur toute la longueur"
+FFE,FIBM-010,"MIRROR: fixed, safety glass, full length","ESPEJO: fijo, vidrio de seguridad, largo completo","MIROIR : fixe, verre de sécurité, pleine longueur"
+FFE,FIBM-013,"NOTICEBOARD: fixed, fabric covered","TABLERO DE ANUNCIOS: fijo, cubierto de tela","TABLEAU D'AFFICHAGE : fixe, recouvert de tissu"
+FFE,FIBM-015,"NOTICEBOARD: fixed, velcro","TABLERO DE AVISOS: fijo, velcro","TABLEAU D'AFFICHAGE : fixe, velcro"
+FFE,FIBM-016,"NOTICEBOARD/WHITEBOARD: fixed, combined unit",PIZARRA / PIZARRA BLANCA: unidad combinada fija,TABLEAU D'AFFICHAGE/TABLEAU BLANC : unité combinée fixe
+FFE,FIBM-018,WHITEBOARD: fixed,PIZARRA BLANCA: fija,TABLEAU BLANC : fixe
+FFE,FIBM-019,"WHITEBOARD: fixed, magnetic","PIZARRA: fija, magnética","TABLEAU BLANC : fixe, magnétique"
+FFE,FIBM-022,"MIRROR: fixed, safety glass, toughened and laminated, anti ligature","ESPEJO: fijo, vidrio de seguridad, templado y laminado, anti ligadura","MIROIR : fixe, verre de sécurité, trempé et feuilleté, anti ligature"
+FFE,FIDI-001,DISPENSER: alcohol based hand rub,DISPENSADOR: desinfectante de manos a base de alcohol,DISTRIBUTEUR : désinfectant pour les mains à base d'alcool
+FFE,FIDI-003,DISPENSER: bedroll,DISPENSADOR: saco de dormir,DISTRIBUTEUR : alèse
+FFE,FIDI-006,DISPENSER: cleaning wipes,DISPENSADOR: toallitas limpiadoras,DISTRIBUTEUR : lingettes nettoyantes
+FFE,FIDI-008,DISPENSER: detergent,DISPENSADOR: detergente,DISTRIBUTEUR : détergent
+FFE,FIDI-010,DISPENSER: detergent/chemical mixer,DISPENSADOR: detergente / mezclador químico,DISTRIBUTEUR : mélangeur détergent/chimique
+FFE,FIDI-014,DISPENSER: disposable glove,DISPENSADOR: guante desechable,DISTRIBUTEUR : gant jetable
+FFE,FIDI-017,DISPENSER: goggles,DISPENSADOR: gafas,DISTRIBUTEUR : lunettes
+FFE,FIDI-018,DISPENSER: gown,DISPENSADOR: bata,DISTRIBUTEUR : blouse
+FFE,FIDI-019,DISPENSER: gown/apron,DISPENSADOR: bata/delantal,DISTRIBUTEUR : blouse/tablier
+FFE,FIDI-021,DISPENSER: mask,DISPENSADOR: mascarilla,DISTRIBUTEUR : masque
+FFE,FIDI-022,DISPENSER: moisturiser,DISPENSADOR: crema hidratante,DISTRIBUTEUR : hydratant
+FFE,FIDI-025,DISPENSER: paper/hand towel,DISPENSADOR: papel / toalla de mano,DISTRIBUTEUR : papier/essuie-mains
+FFE,FIDI-028,DISPENSER: scrub brush,DISPENSADOR: cepillo para fregar,DISTRIBUTEUR : brosse à récurer
+FFE,FIDI-030,DISPENSER: soap,DISPENSADOR: jabón,DISTRIBUTEUR : savon
+FFE,FIDI-031,DISPENSER: soap antiseptic,DISPENSADOR: jabón antiséptico,DISTRIBUTEUR : savon antiseptique
+FFE,FIDI-036,DISPENSER: toilet paper,DISPENSADOR: papel higiénico,DISTRIBUTEUR : papier toilette
+FFE,FIDI-038,"DISPENSER: toilet paper, recessed","DISPENSADOR: papel higiénico, empotrado","DISTRIBUTEUR : papier toilette, encastré"
+FFE,FIDI-049,"HOLDER: soap/shampoo, non-recessed","TITULAR: jabón / champú, no empotrable","SUPPORT : savon/shampoing, non encastré"
+FFE,FIDI-051,"HOLDER: soap/shampoo, recessed, vertical format","SOPORTE: jabón/champú, empotrado, formato vertical","SUPPORT : savon/shampoing, encastré, format vertical"
+FFE,FIDI-052,DISPENSER: sticker roll,DISPENSADOR: rollo de pegatinas,DISTRIBUTEUR : rouleau d'autocollants
+FFE,FIDI-053,DISPENSER: velcro,DISPENSADOR: velcro,DISTRIBUTEUR: velcro
+FFE,FIDI-054,DISPENSER: ppe combination,DISPENSADOR: combinación ppe,DISTRIBUTEUR : combinaison ppe
+FFE,FIGE-001,"BENCH SEAT: fixed, fold up/down, wet area, wall mounted","ASIENTO DE BANCO: fijo, abatible hacia arriba/abajo, área húmeda, montado en la pared","BANQUETTE : fixe, rabattable, zone humide, fixée au mur"
+FFE,FIGE-003,"BENCH SEAT: fixed, indoor","ASIENTO DE BANCO: fijo, interior","BANQUETTE : fixe, d'intérieur"
+FFE,FIGE-009,"PLATFORM: equipment washing, wall mounted","PLATAFORMA: equipo de lavado, montado en la pared","PLATEFORME : lavage de matériel, murale"
+FFE,FIGE-010,PASSTHROUGH: to bench,PASSTHROUGH: al banco,PASSTHROUGH : au banc
+FFE,FIGE-011,BACKREST: accessible toilet,RESPALDO: WC accesible,DOSSIER : toilettes accessibles
+FFE,FIHR-002,"BRACKET: for CCTV camera, ceiling mounted","SOPORTE: para cámara CCTV, montaje en techo","SUPPORT : pour caméra de vidéosurveillance, montage au plafond"
+FFE,FIHR-004,"BRACKET: for display screen, ceiling mounted","SOPORTE: para pantalla, montaje en techo","SUPPORT : pour écran d'affichage, montage au plafond"
+FFE,FIHR-005,"BRACKET: for display screen, PACS, wall mounted","SOPORTE: para pantalla de visualización, PACS, montado en la pared","SUPPORT : pour écran d'affichage, PACS, mural"
+FFE,FIHR-006,"BRACKET: for display screen, wall mounted","SOPORTE: para pantalla de visualización, montado en la pared","SUPPORT : pour écran d'affichage, fixé au mur"
+FFE,FIHR-007,BRACKET: for dryer,SOPORTE: para secadora,SUPPORT : pour sèche-linge
+FFE,FIHR-011,"BRACKET: for monitor, wall mounted","SOPORTE: para monitor, montaje en pared","SUPPORT : pour moniteur, montage mural"
+FFE,FIHR-013,"BRACKET: for monitor, ECG","SOPORTE: para monitor, ECG","SUPPORT : pour moniteur, ECG"
+FFE,FIHR-016,BRACKET: for sharps bin,SOPORTE: para contenedor de objetos punzantes,SUPPORT : pour bac à objets tranchants
+FFE,FIHR-019,BRACKET: for suction bottle,SOPORTE: para botella de succión,SUPPORT : pour bouteille d'aspiration
+FFE,FIHR-025,HOOK: catheter bag,GANCHO: bolsa de catéter,CROCHET : sac de cathéter
+FFE,FIHR-026,HOOK: coat,GANCHO: abrigo,CROCHET : manteau
+FFE,FIHR-027,"HOOK: coat, collapsible, anti ligature","GANCHO: abrigo, plegable, anti ligadura","CROCHET : manteau, pliable, anti ligature"
+FFE,FIHR-029,HOOK: equipment,GANCHO: equipo,CROCHET : équipement
+FFE,FIHR-030,"HOOK: equipment, on mounting plate","GANCHO: equipo, en placa de montaje","CROCHET : équipement, sur plaque de montage"
+FFE,FIHR-033,"PANEL: for storage bins, wall mount","PANEL: para contenedores de almacenamiento, montaje en pared","PANNEAU : pour bacs de rangement, fixation murale"
+FFE,FIHR-038,RACK: bowl/basin,REJILLA: cubeta/lavabo,RACK : bol/bassin
+FFE,FIHR-040,RACK: broom/mop,RACK: escoba / fregona,RACK : balai/serpillière
+FFE,FIHR-044,RACK: lead apron,RACK: delantal de plomo,RACK : tablier en plomb
+FFE,FIHR-045,RACK: magazine/pamphlet,RACK: revista/folleto,RACK : magazine/brochure
+FFE,FIHR-053,RACK: pan & urinal,RACK: pan y urinario,RACK : casserole et urinoir
+FFE,FIHR-055,RACK: scanhead,RACK: cabeza de exploración,RACK : tête de lecture
+FFE,FIHR-061,RACK: weights,RACK: pesas,RACK : poids
+FFE,FIHR-062,RACK: wire basket,RACK: canasta de alambre,RACK : panier en fil
+FFE,FIHR-063,"BRACKET: for all-in-one computer, with keyboard shelf, wall mounted","SOPORTE: para computadora todo en uno, con estante para teclado, montado en la pared","SUPPORT : pour ordinateur tout-en-un, avec tablette pour clavier, fixation murale"
+FFE,FIHR-064,"BRACKET: for display screen, arm mounted, rotating","SOPORTE: para pantalla, montado en brazo, giratorio","SUPPORT : pour écran d'affichage, monté sur bras, rotatif"
+FFE,FIHR-065,"BRACKET: for bench, 450D, wall mounted","SOPORTE: para banco, 450D, montado en la pared","SUPPORT : pour banc, 450D, mural"
+FFE,FIHR-066,"BRACKET: for display screen, wall mounted, articulated, adj height","SOPORTE: para pantalla, de pared, articulado, regulable en altura","SUPPORT : pour écran d'affichage, mural, articulé, réglable en hauteur"
+FFE,FIHR-067,"BRACKET: for monitor, wall mounted, articulated, adj height","SOPORTE: para monitor, montado en la pared, articulado, altura ajustable","SUPPORT : pour moniteur, mural, articulé, réglable en hauteur"
+FFE,FIHR-068,"BRACKET: for alcohol based hand rub, attached to bed","SOPORTE: para desinfectante de manos a base de alcohol, fijado a la cama","SUPPORT : pour désinfectant pour les mains à base d'alcool, fixé au lit"
+FFE,FIHR-069,RACK: bottle,SOPORTE: botella,RACK : bouteille
+FFE,FIHR-070,"BRACKET: for display screen, dual, desk mounted","SOPORTE: para pantalla de visualización, doble, de sobremesa","SUPPORT : pour écran d'affichage, double, monté sur un bureau"
+FFE,FIHR-071,"BRACKET: for E2/G2 cylinder, 1 cylinder","SOPORTE: para cilindro E2 / G2, 1 cilindro","SUPPORT : pour cylindre E2/G2, 1 cylindre"
+FFE,FIHR-075,"BRACKET: for computer CPU, underdesk mounted","SOPORTE: para CPU de computadora, montaje debajo del escritorio","SUPPORT : pour le processeur de l'ordinateur, monté sous le bureau"
+FFE,FIHR-076,"BRACKET: for display screen, triple, desk mounted","SOPORTE: para pantalla de visualización, triple, montado en escritorio","SUPPORT : pour écran d'affichage, triple, monté sur bureau"
+FFE,FIHR-077,"BRACKET: for observation camera, ceiling mounted","SOPORTE: para cámara de observación, montaje en techo","SUPPORT : pour caméra d'observation, montage au plafond"
+FFE,FIHR-078,"BRACKET: for observation camera, wall mounted","SOPORTE: para cámara de observación, montado en la pared","SUPPORT : pour caméra d'observation, fixation murale"
+FFE,FIHR-080,"BRACKET: for bench, 750D, wall mounted","SOPORTE: para banco, 750D, montado en la pared","SUPPORT : pour banc, 750D, mural"
+FFE,FIHR-081,"BRACKET: for all-in-one computer, with keyboard shelf, wall mounted, articulated","SOPORTE: para ordenador todo en uno, con estante para teclado, de pared, articulado","SUPPORT : pour ordinateur tout-en-un, avec tablette clavier, mural, articulé"
+FFE,FIHR-082,"BRACKET: for observation camera, MRI compatible, wall mounted","SOPORTE: para cámara de observación, compatible con MRI, montado en la pared","SUPPORT : pour caméra d'observation, compatible IRM, fixation murale"
+FFE,FIHR-083,"BRACKET: for neonatal camera, crib mounted","SOPORTE: para cámara neonatal, montada en cuna","SUPPORT : pour caméra néonatale, monté sur berceau"
+FFE,FIHR-084,BRACKET: for oxygen and air mixer,SOPORTE: para mezclador de oxígeno y aire,SUPPORT : pour mélangeur d'oxygène et d'air
+FFE,FIHR-085,"BRACKET: for neonatal monitor, crib mounted","SOPORTE: para monitor neonatal, montado en cuna","SUPPORT : pour moniteur néonatal, monté sur berceau"
+FFE,FIHR-086,"BRACKET: for CPAP ventilator, wall mounted","SOPORTE: para ventilador CPAP, montado en la pared","SUPPORT : pour ventilateur CPAP, fixé au mur"
+FFE,FIHR-088,"BRACKET: for monitor, desk mounted, articulated, adj height","SOPORTE: para monitor, montado en escritorio, articulado, altura ajustable","SUPPORT : pour moniteur, monté sur bureau, articulé, réglable en hauteur"
+FFE,FIHR-089,"BRACKET: surface guided radiation therapy system, ceiling mounted","SOPORTE: sistema de radioterapia guiada por superficie, montado en el techo","SUPPORT : système de radiothérapie à guidage de surface, monté au plafond"
+FFE,FIHR-090,"BRACKET: for oxygen cylinder, trolley mounted","SOPORTE: para cilindro de oxígeno, montado en carro","SUPPORT : pour bouteille d'oxygène, monté sur chariot"
+FFE,FIHR-091,"RACK: lead apron, single","RACK: delantal de plomo, sencillo","RACK : tablier en plomb, simple"
+FFE,FIHR-092,"HOOK: anchor, patient ladder","GANCHO: ancla, escalera del paciente","CROCHET : ancre, échelle patient"
+FFE,FIHR-093,"BRACKET: keyboard shelf, wall mounted","SOPORTE: estante para teclado, montado en la pared","SUPPORT : étagère pour clavier, fixée au mur"
+FFE,FIJO-010,"BENCH: 450D, open under","BANCO: 450D, abierto debajo","BANC : 450D, ouvert sous"
+FFE,FIJO-011,"BENCH: 450D, open under, laminate finish","BANCO: 450D, abierto debajo, acabado laminado","BANC : 450D, ouvert en dessous, finition stratifié"
+FFE,FIJO-013,"BENCH: 450D, open under, stainless steel","BANCO: 450D, abierto bajo, acero inoxidable","BANC : 450D, ouvert en dessous, acier inoxydable"
+FFE,FIJO-017,"BENCH: 600D, open under","BANCO: 600D, abierto debajo","BANC : 600D, ouvert sous"
+FFE,FIJO-020,"BENCH: 600D, open under, laminate finish","BANCO: 600D, abierto por debajo, acabado laminado","BANC : 600D, ouvert en dessous, finition stratifié"
+FFE,FIJO-021,"BENCH: 600D, open under, stainless steel lipped","BANCO: 600D, abierto por debajo, con reborde de acero inoxidable","BANC : 600D, ouvert en dessous, rebord en acier inoxydable"
+FFE,FIJO-029,"BENCH: 750D, open under, X-ray","BANCO: 750D, abierto por debajo, rayos X","BANC : 750D, ouvert sous, radiographie"
+FFE,FIJO-031,"BENCH: 750D, open under, laminate finish","BANCO: 750D, abierto debajo, acabado laminado","BANC : 750D, ouvert en dessous, finition stratifié"
+FFE,FIJO-033,"BENCH: 600D, open under, laminate finish, corner unit","BANCO: 600D, abierto debajo, acabado laminado, unidad de esquina","BANC: 600D, ouvert dessous, fini stratifié, unité de coin"
+FFE,FIJO-044,"BENCH: special depth, open under","BANCO: profundidad especial, abierto bajo","BANC : profondeur spéciale, ouvert sous"
+FFE,FIJO-051,"BENCH TOP: 450D, joinery under","BANCO SUPERIOR: 450D, carpintería debajo","BANC TOP : 450D, menuiserie sous"
+FFE,FIJO-052,"BENCH TOP: 450D, joinery under, laminate finish","BANCO SUPERIOR: 450D, carpintería debajo, acabado laminado","BANC TOP : 450D, sous menuiserie, finition stratifié"
+FFE,FIJO-058,"BENCH TOP: 600D, joinery under","BANCO SUPERIOR: 600D, carpintería bajo","BANC TOP : 600D, menuiserie sous"
+FFE,FIJO-059,"BENCH TOP: 600D, joinery under, laminate finish","BANCO SUPERIOR: 600D, carpintería debajo, acabado laminado","BANC TOP : 600D, sous menuiserie, finition stratifié"
+FFE,FIJO-060,"BENCH TOP: 600D, joinery under, stainless steel lipped","BANCO SUPERIOR: 600D, carpintería debajo, labio de acero inoxidable","BANC TOP : 600D, menuiserie dessous, rebord inox"
+FFE,FIJO-069,"BENCH TOP: 750D, joinery under, laminate finish","BANCO SUPERIOR: 750D, carpintería debajo, acabado laminado","BANC TOP : 750D, sous menuiserie, finition stratifié"
+FFE,FIJO-099,CAC: cable access cap,CAC: tapa de acceso a cables,CAC : capuchon d'accès au câble
+FFE,FIJO-100,"BENCH LEGS: stainless steel, for bench top","PATAS DE BANCO: acero inoxidable, para encimera","PIEDS DE BANC : acier inoxydable, pour plan de travail"
+FFE,FIJO-102,CUPBOARD: drawer unit,ARMARIO: cajonera,ARMOIRE : caisson à tiroirs
+FFE,FIJO-104,"CUPBOARD: drawer unit, 3 equal","ARMARIO: cajonera, 3 iguales","ARMOIRE : bloc tiroirs, 3 égaux"
+FFE,FIJO-106,"CUPBOARD: drawer unit, 4 equal","ARMARIO: cajonera, 4 iguales","ARMOIRE : bloc tiroirs, 4 égaux"
+FFE,FIJO-108,"CUPBOARD: drawer unit, baskets, 3 x Wire (400mm wide)","ARMARIO: cajonera, cestas, 3 x Alambre (400 mm de ancho)","ARMOIRE : caisson à tiroirs, corbeilles, 3 x fil (largeur 400 mm)"
+FFE,FIJO-114,"CUPBOARD: drawer unit, lockable","ARMARIO: cajonera, con llave","ARMOIRE : bloc à tiroirs, verrouillable"
+FFE,FIJO-116,"CUPBOARD: tall, double door, adj shelves","ARMARIO: alto, puerta doble, estantes ajustables","ARMOIRE : haute, double porte, étagères adj"
+FFE,FIJO-117,"CUPBOARD: tall, double door, adj shelves, lockable","ARMARIO: alto, puerta doble, estantes ajustables, con cerradura","ARMOIRE : haute, double porte, étagères ajustables, verrouillable"
+FFE,FIJO-124,"CUPBOARD: tall, triple door, adj shelves, lockable","ARMARIO: alto, puerta triple, estantes adjuntos, con cerradura","ARMOIRE : haute, triple porte, étagères ajustables, verrouillable"
+FFE,FIJO-127,"CUPBOARD: tall, shelf unit, adj shelves, heavy duty","ARMARIO: alto, estantería, estantes adjuntos, resistente","ARMOIRE : haut, étagère, étagères adj, robuste"
+FFE,FIJO-130,"CUPBOARD: tall, single door, adj shelves and clothes rail","ARMARIO: alto, de una sola puerta, estantes adjuntos y barra para ropa","ARMOIRE : grande porte simple, étagères ajustables et tringle à vêtements"
+FFE,FIJO-131,"CUPBOARD: tall, single door, adj shelves, lockable","ARMARIO: alto, una puerta, estantes ajustables, con cerradura","ARMOIRE : haute, porte simple, étagères ajustables, verrouillable"
+FFE,FIJO-134,"CUPBOARD: tall, shelf unit, fixed shelves, anti-ligature, 600D","ARMARIO: alto, estantería, estantes fijos, anti-ligaduras, 600D","ARMOIRE : haute, étagère, étagères fixes, anti-ligature, 600D"
+FFE,FIJO-135,"CUPBOARD: underbench, double door, adj shelves","ARMARIO: bajo banco, puerta doble, estantes adj.","ARMOIRE : sous-banc, double porte, étagères adj"
+FFE,FIJO-136,"CUPBOARD: underbench, double door, adj shelves, lockable","ARMARIO: bajo banco, puerta doble, estantes ajustables, con cerradura","ARMOIRE : sous-banc, double porte, étagères adj, verrouillable"
+FFE,FIJO-140,"CUPBOARD: underbench, single door, adj shelves","ARMARIO: debajo del banco, una puerta, estantes ajustables","ARMOIRE : sous-banc, porte simple, étagères adj"
+FFE,FIJO-141,"CUPBOARD: underbench, single door, adj shelves, lockable","ARMARIO: debajo del banco, una puerta, estantes ajustables, con cerradura","ARMOIRE : sous-banc, porte simple, étagères adj, verrouillable"
+FFE,FIJO-142,"CUPBOARD: underbench, single, adj shelves, with single drawer","ARMARIO: debajo del banco, simple, estantes ajustables, con un cajón","ARMOIRE : sous-banc, simple, étagères adj, avec tiroir simple"
+FFE,FIJO-143,"CUPBOARD: wall mount, double door, adj shelves","ARMARIO: montaje en pared, puerta doble, estantes adj.","ARMOIRE : support mural, double porte, étagères adj"
+FFE,FIJO-144,"CUPBOARD: wall mount, double door, adj shelves, anti ligature","ARMARIO: montaje en pared, puerta doble, estantes adj, anti ligadura","ARMOIRE : support mural, double porte, étagères adj, anti ligature"
+FFE,FIJO-145,"CUPBOARD: wall mount, double door, adj shelves, lockable","ARMARIO: montaje en pared, puerta doble, estantes ajustables, con cerradura","ARMOIRE : support mural, double porte, étagères adj, verrouillable"
+FFE,FIJO-148,"CUPBOARD: wall mount, double door, glazed, adj shelves, lockable","ARMARIO: montaje en pared, puerta doble, vidriado, estantes adj, bloqueable","ARMOIRE : support mural, double porte, vitré, étagères adj, verrouillable"
+FFE,FIJO-152,"CUPBOARD: wall mount, shelf unit, adj shelves","ARMARIO: montaje en pared, estantería, estantes adj.","ARMOIRE : support mural, étagère, étagères adj"
+FFE,FIJO-153,"CUPBOARD: wall mount, shelf unit, adj shelves for microwave","ARMARIO: montaje en pared, estantería, estantes adjuntos para microondas","ARMOIRE : support mural, étagère, étagères adj pour micro-ondes"
+FFE,FIJO-154,"CUPBOARD: wall mount, shelf unit, fixed shelves","ARMARIO: de pared, estantería, estantes fijos","ARMOIRE : support mural, étagère, étagères fixes"
+FFE,FIJO-156,"CUPBOARD: wall mount, single door, adj shelves","ARMARIO: montaje en pared, puerta simple, estantes ajustables","ARMOIRE : support mural, porte simple, étagères adj"
+FFE,FIJO-157,"CUPBOARD: wall mount, single door, adj shelves, lockable","ARMARIO: montaje en pared, una puerta, estantes adjuntos, con cerradura","ARMOIRE : support mural, porte simple, étagères ajustables, verrouillable"
+FFE,FIJO-159,"CUPBOARD: wall mount, single door, glazed, adj shelves, lockable","ARMARIO: montaje en pared, puerta simple, vidriado, estantes adjuntos, con cerradura","ARMOIRE : fixation murale, porte simple, vitrée, étagères ajustables, verrouillable"
+FFE,FIJO-160,"CUPBOARD: wall mount, double door, fixed shelf over","ARMARIO: montaje en pared, puerta doble, estante fijo sobre","ARMOIRE : support mural, double porte, étagère fixe au-dessus"
+FFE,FIJO-162,"CUPBOARD: tall, single door, to conceal services","ARMARIO: alto, de una puerta, para ocultar servicios","ARMOIRE : haute, porte simple, pour dissimuler les services"
+FFE,FIJO-163,"CUPBOARD: tall, single microwave ","ARMARIO: alto, microondas individual","PLACARD : haut, micro-onde simple"
+FFE,FIJO-164,"CUPBOARD: tall, double microwave ","ARMARIO: alto, microondas doble","PLACARD : haut, double micro-ondes"
+FFE,FIJO-165,"CUPBOARD: tall, applicator storage, radiotherapy ","ARMARIO: alto, almacenamiento de aplicadores, radioterapia","ARMOIRE : haut, rangement applicateur, radiothérapie"
+FFE,FIJO-166,"CUPBOARD: tall, shelving, horizontal patient device storage, radiotherapy","ARMARIO: alto, estantería, almacenamiento horizontal de dispositivos para pacientes, radioterapia","ARMOIRE : grand, étagères, rangement horizontal des appareils du patient, radiothérapie"
+FFE,FIJO-167,"CUPBOARD: tall, shelving, vertical patient device storage, radiotherapy","ARMARIO: alto, estantería, almacenamiento vertical de dispositivos de pacientes, radioterapia","ARMOIRE : grand, étagères, rangement vertical des appareils pour le patient, radiothérapie"
+FFE,FIJO-170,JOINERY UNIT: counter top and screen under,UNIDAD DE CARPINTERÍA: encimera y pantalla debajo,UNITÉ DE MENUISERIE : plan de travail et écran sous
+FFE,FIJO-171,"JOINERY UNIT: counter top and screen under, accessible","UNIDAD DE CARPINTERÍA: encimera y mampara debajo, accesible","UNITÉ DE MENUISERIE : plan de travail et écran sous, accessible"
+FFE,FIJO-177,"JOINERY UNIT: reception desk, high performance surfaces","UNIDAD DE CARPINTERÍA: mostrador de recepción, superficies de alto rendimiento","UNITÉ MENUISERIE : banque d'accueil, surfaces performantes"
+FFE,FIJO-178,JOINERY UNIT: staff station,UNIDAD DE CARPINTERÍA: puesto de personal,UNITÉ DE MENUISERIE : poste du personnel
+FFE,FIJO-180,JOINERY UNIT: stationery slots,UNIDAD DE CARPINTERÍA: ranuras de papelería,UNITÉ DE MENUISERIE : emplacements de papeterie
+FFE,FIJO-181,"JOINERY UNIT: vanity, single basin","MUEBLE DE CARPINTERÍA: tocador, lavabo simple","UNITÉ DE MENUISERIE : vanité, vasque simple"
+FFE,FIJO-182,JOINERY UNIT: reception desk,UNIDAD DE CARPINTERÍA: mostrador de recepción,UNITÉ MENUISERIE : bureau d'accueil
+FFE,FIJO-184,"CUPBOARD: underbench, double door, no shelves, no toeplate, lockable","ARMARIO: debajo del banco, puerta doble, sin estantes, sin placa de pie, con cerradura","ARMOIRE : sous-banc, double porte, sans étagères, sans plinthe, verrouillable"
+FFE,FIJO-185,"JOINERY UNIT: counter top and screen under, emergency reception","CARPINTERÍA: encimera y mampara bajo, recepción de emergencia","UNITÉ DE MENUISERIE : plan de travail et écran dessous, accueil d'urgence"
+FFE,FIJO-186,"JOINERY UNIT: counter top and screen under, accessible, emergency reception","UNIDAD DE CARPINTERÍA: encimera y mampara debajo, accesible, recepción de emergencia","UNITÉ DE MENUISERIES : plan de travail et paravent en dessous, accessible, accueil d'urgence"
+FFE,FIJO-191,SHELF: above basin,REPISA: encima del lavabo,ÉTAGÈRE : au-dessus du bassin
+FFE,FIJO-193,SHELF: flowers,ESTANTE: flores,ÉTAGÈRE : fleurs
+FFE,FIJO-194,SHELF: laminate,ESTANTE: laminado,ÉTAGÈRE : stratifié
+FFE,FIJO-196,"SHELF: stainless steel, overbench, wall mount","ESTANTE: acero inoxidable, sobre mesa, montaje en pared","ÉTAGÈRE : acier inoxydable, overbench, support mural"
+FFE,FIJO-197,"SHELF: stainless steel, underbench","ESTANTE: acero inoxidable, debajo del banco","ÉTAGÈRE : acier inoxydable, sous-banc"
+FFE,FIJO-205,"CUPBOARD: drawer unit, single drawer, lockable","ARMARIO: cajonera, un cajón, con cerradura","ARMOIRE : bloc à tiroirs, tiroir simple, verrouillable"
+FFE,FIJO-207,"CUPBOARD: wall mount, shelf unit, adj shelves for microwave, short","ARMARIO: montaje en pared, estantería, estantes adjuntos para microondas, corto","ARMOIRE : support mural, étagère, étagères adj pour micro-ondes, court"
+FFE,FIJO-208,"CUPBOARD: wall mount, shelf unit, fixed shelves, for av equipment","ARMARIO: de pared, estantería, estantes fijos, para equipos de audio y video","ARMOIRE : support mural, étagère, étagères fixes, pour équipement audiovisuel"
+FFE,FIJO-209,"CUPBOARD: tall, single door, adj shelves and clothes rail, recessed ","ARMARIO: alto, puerta simple, estantes ajustables y barra para ropa, empotrado","ARMOIRE : haut, porte simple, étagères adj et tringle à vêtements, encastré"
+FFE,FIJO-210,BEDHEAD: mental health,BEDHEAD: salud mental,TÊTE DE LIT : santé mentale
+FFE,FIJO-212,BULKHEAD: joinery,MAMPARO: carpintería,CLOISON : menuiserie
+FFE,FIJO-213,PANEL: joinery carcass end,PANEL: extremo de la carcasa de carpintería,PANNEAU : menuiserie bout de corps
+FFE,FIJO-214,"CUPBOARD: tall, double door, glazed, adj shelves, lockable","ARMARIO: alto, puerta doble, vidriado, estantes ajustables, con cerradura","ARMOIRE : haute, double porte, vitrée, étagères ajustables, verrouillable"
+FFE,FIJO-215,"CUPBOARD: tall, shelf unit, fixed shelves, anti-ligature, 500D","ARMARIO: alto, estantería, estantes fijos, anti-ligaduras, 500D","ARMOIRE : haute, étagère, étagères fixes, anti-ligature, 500D"
+FFE,FIJO-216,"CUPBOARD: pigeon holes, under bench","ARMARIO: casilleros, bajo banco","ARMOIRE : pigeonniers, sous banc"
+FFE,FIJO-218,"CUPBOARD: tall, double door, adj shelves, lockable, heavy duty","ARMARIO: alto, puerta doble, estantes ajustables, con llave, resistente","ARMOIRE : haute, double porte, étagères réglables, verrouillable, robuste"
+FFE,FIJO-220,"CUPBOARD: tall, double door, glazed, catheter hanging","ARMARIO: alto, doble puerta, vidriado, catéter colgante","ARMOIRE : haute, double porte, vitrée, cathéter suspendu"
+FFE,FIJO-221,"CUPBOARD: tall, double door, glazed","ARMARIO: alto, doble puerta, acristalado","ARMOIRE : haute, double porte, vitrée"
+FFE,FIJO-222,"CUPBOARD: tall, single door, fixed shelf, ADL Laundry","ARMARIO: alto, de una puerta, estante fijo, ADL Laundry","ARMOIRE : haute, porte simple, étagère fixe, ADL Laundry"
+FFE,FIJO-223,"CUPBOARD: tall, oven cabinet",ARMARIO: mueble alto para horno,"PLACARD : haut, armoire four"
+FFE,FIJO-224,PANEL: joinery fixed panel,PANEL: panel fijo para carpintería,PANNEAU : menuiserie panneau fixe
+FFE,FIJO-225,"CUPBOARD: tall, pigeon hole shelf unit, gymnasium","ARMARIO: alto, casillero, estantería, gimnasio","ARMOIRE : haut, étagère pigeonnier, gymnase"
+FFE,FIJO-226,"CUPBOARD: drawer unit, bin enclosure","ARMARIO: cajonera, compartimento para papeleras","ARMOIRE : caisson à tiroirs, boîtier poubelle"
+FFE,FIJO-227,"CUPBOARD: tall, double door, gym equipment storage","ARMARIO: alto, de doble puerta, para guardar equipos de gimnasia","PLACARD : haut, double porte, rangement pour équipement de gym"
+FFE,FIJO-228,"JOINERY UNIT: sink shroud, accessible","UNIDAD DE CARPINTERÍA: cubierta de fregadero, accesible","UNITÉ DE MENUISERIES : carénage d'évier, accessible"
+FFE,FIJO-229,"JOINERY UNIT: reception counter, pharmacy","UNIDAD DE CARPINTERÍA: mostrador de recepción, farmacia","UNITÉ MENUISERIE : comptoir d'accueil, pharmacie"
+FFE,FIJO-230,"JOINERY UNIT: reception counter, pharmacy, accessible","CARPINTERÍA: mostrador de recepción, farmacia, accesible","UNITÉ DE MENUISERIE : comptoir d'accueil, pharmacie, accessible"
+FFE,FIJO-231,"CUPBOARD: radiotherapy, laser enclosure","ARMARIO: radioterapia, recinto láser","ARMOIRE : radiothérapie, enceinte laser"
+FFE,FIRT-003,"GRAB RAIL: shower, horizontal","BARANDILLA: ducha, horizontal","RAIL D'APPUI : douche, horizontale"
+FFE,FIRT-004,"GRAB RAIL: shower, anti ligature","BARANDILLA DE APOYO: ducha, anti ligadura","GRAB RAIL : douchette, anti ligature"
+FFE,FIRT-005,GRAB RAIL: stainless steel,BARANDILLA DE APOYO: acero inoxidable,RAIL D'APPUI : acier inoxydable
+FFE,FIRT-006,GRAB RAIL: WC,BARANDILLA DE ASA: WC,RAIL D'APPUI : WC
+FFE,FIRT-007,"GRAB RAIL: WC, accessible use","BARANDILLA: WC, uso accesible","RAIL D'APPUI : WC, usage accessible"
+FFE,FIRT-008,"GRAB RAIL: WC, hinged","BARANDILLA DE APOYO: WC, con bisagras","RAIL D'APPUI : WC, articulé"
+FFE,FIRT-009,"GRAB RAIL: WC, anti ligature","PASADOR: WC, anti ligadura","RAIL D'APPUI : WC, anti ligature"
+FA,FIRT-010,HANDRAIL,PRETIL,BALUSTRADE
+FFE,FIRT-012,RAIL: equipment,FERROCARRIL: equipamiento,FERROVIAIRE : équipement
+FFE,FIRT-016,RAIL: towel,RAIL: toalla,RAIL : serviette
+FFE,FIRT-017,"STEEL MESH: framed, ceiling mount","STEEL MESH: enmarcado, montaje en techo","MESH EN ACIER : encadré, montage au plafond"
+FFE,FIRT-020,"TRACK: ceiling mounted, IV","PISTA: de techo, IV","PISTE : montée au plafond, IV"
+FFE,FIRT-021,"TRACK: curtain, bedscreen","PISTA: cortina, mampara de cama","PISTE : rideau, paravent"
+FFE,FIRT-022,"TRACK: curtain, bedscreen, 2nd bed","PISTA: cortina, mampara de cama, segunda cama","PISTE : rideau, paravent, 2ème lit"
+FFE,FIRT-023,"TRACK: curtain, bedscreen, L shaped","PISTA: cortina, mampara de cama, en forma de L","PISTE : rideau, paravent, en forme de L"
+FFE,FIRT-025,"TRACK: curtain, bedscreen, U shaped","PISTA: cortina, mampara, en forma de U","PISTE : rideau, paravent, en U"
+FFE,FIRT-027,"TRACK: curtain, box pelmet","PISTA: cortina, cenefa de caja","PISTE : rideau, cantonnière"
+FFE,FIRT-029,"TRACK: curtain, plastic, recessed","PISTA: cortina, plástico, empotrada","PISTE : rideau, plastique, encastré"
+FFE,FIRT-030,"TRACK: curtain, flat pelmet","PISTA: cortina, cenefa plana","PISTE : rideau, bandeau plat"
+FFE,FIRT-031,"TRACK: curtain, privacy","PISTA: cortina, privacidad","PISTE : rideau, intimité"
+FFE,FIRT-032,"TRACK: curtain, privacy, L shaped","PISTA: cortina, privacidad, en forma de L","PISTE : rideau, intimité, en forme de L"
+FFE,FIRT-033,"TRACK: curtain, shower","PISTA: cortina, ducha","PISTE : rideau, douche"
+FFE,FIRT-034,"TRACK: curtain, shower, 90 deg","PISTA: cortina, ducha, 90 grados","PISTE : rideau, douche, 90 degrés"
+FFE,FIRT-038,"TRACK: ceiling mounted, IV, straight","CARRIL: montado en el techo, IV, recto","RAILS : montage au plafond, IV, droit"
+FFE,FIRT-039,"TRACK: curtain, privacy, Z shaped, angled","PISTA: cortina, privacidad, en forma de Z, en ángulo","PISTE : rideau, intimité, en forme de Z, en angle"
+FFE,FIRT-040,"TRACK: curtain, privacy, L shaped, angled","PISTA: cortina, privacidad, en forma de L, en ángulo","PISTE : rideau, intimité, en forme de L, en angle"
+FFE,FIRT-041,"TRACK: curtain, privacy, U shaped, angled","PISTA: cortina, privacidad, en forma de U, en ángulo","PISTE : rideau, intimité, en forme de U, en angle"
+FFE,FIRT-042,"TRACK: curtain, bedscreen, U shaped, angled","CARRIL: cortina, mampara, en forma de U, en ángulo","PISTE : rideau, paravent, en U, coudé"
+FFE,FIRT-043,RAIL: equipment - horizontal,CARRIL: equipamiento - horizontal,RAIL : équipement - horizontal
+FFE,FIRT-044,"GRAB RAIL: bath, vertical","PASACABLE: baño, vertical","RAIL D'APPUI : baignoire, vertical"
+FFE,FIRT-045,"GRAB RAIL: shower, horizontal and vertical","BARRA DE APOYO: ducha, horizontal y vertical","RAIL D'APPUI : douche, horizontale et verticale"
+FFE,FIRT-046,"GRAB RAIL: stainless steel, freestanding","BARANDILLA: acero inoxidable, independiente","RAIL D'APPUI : acier inoxydable, autoportant"
+FFE,FIRT-047,"TRACK: curtain, privacy, U shaped","PISTA: cortina, privacidad, en forma de U","PISTE : rideau, intimité, en forme de U"
+FFE,FIRT-048,GRAB RAIL: L-shaped,RIEL DE ASA: en forma de L,RAIL D'APPUI : en L
+FA,FLCP-003,"FLOOR FINISH: carpet, broadloom, 48 oz., 90/10 wool/nylon","ACABADO DEL PISO: alfombra, en rollo, 48 oz., 90/10 lana/nylon","FINITION À PLANCHER : tapis, lés, 48 ​​oz, 90/10 laine/nylon"
+FA,FLCP-006,"FLOOR FINISH: carpet, carpet tiles, 90/10 wool/nylon","ACABADO DEL PISO: moqueta, losetas de moqueta, lana / nailon 90/10","FINITION DU SOL : moquette, dalles de moquette, laine 90/10/nylon"
+FA,FLGE-003,"FLOOR FINISH: concrete, sealed, trowel","ACABADO DE PISO: hormigón, sellado, llana","FINITION DE SOL : béton, scellé, truelle"
+FA,FLGE-010,"FLOOR FINISH: tiles, ceramic, non-slip","ACABADO DE PISO: baldosas, cerámica, antideslizante","FINITION DE SOL : carrelage, céramique, antidérapant"
+FA,FLGE-016,"FLOOR MAT: recessed, composite slip resistant","ALFOMBRA DE PISO: empotrada, compuesta antideslizante","TAPIS DE SOL : encastré, composite antidérapant"
+FA,FLGE-019,FLOOR HOB: Shower,ENCIMERA DE PISO: Ducha,PLAQUE AU SOL : Douche
+FA,FLSK-002,"SKIRTING: concrete, coved to 150 AFFL, sealed","ZÓCALO: hormigón, cóncavo a 150 AFFL, sellado","PLINTHE : béton, plié à 150 AFFL, scellé"
+FA,FLSK-003,"SKIRTING: laminate, 150H, prefinished","RODAPIÉ: laminado, 150H, preacabado","PLINTHE : stratifié, 150H, préfini"
+FA,FLSK-004,"SKIRTING: tiles, coved, to match floor tiles","ZÓCALO: baldosas, cóncavas, a juego con baldosas","PLINTHE : carrelage, concave, assorti au carrelage du sol"
+FA,FLSK-008,SKIRTING: to suit glazing system over,ZÓCALO: para adaptarse al sistema de acristalamiento,PLINTHE : pour s'adapter au système de vitrage sur
+FA,FLSK-009,"SKIRTING: vinyl, feather edged, 150H, prefinished","ZÓCALO: vinilo, borde de pluma, 150H, preacabado","PLINTHE : vinyle, bord plume, 150H, préfini"
+FA,FLSK-010,"SKIRTING: vinyl, floor vinyl coved, 150H, prefinished","RODAPIÉS: vinilo, suelo vinílico cóncavo, 150H, preacabado","PLINTHE : vinyle, revêtement de sol en vinyle, 150H, préfini"
+FA,FLSK-011,"SKIRTING: vinyl, floor vinyl coved, 150H, prefinished, anti ligature","RODAPIÉS: vinilo, suelo vinilo cóncavo, 150H, preacabado, antiligadura","PLINTHE : vinyle, sol vinyle à gorge, 150H, préfini, anti ligature"
+FA,FLVY-001,"FLOOR FINISH: vinyl, seamless, coved, anti-static","ACABADO DEL PISO: vinilo, sin juntas, cóncavo, antiestático","FINITION DE SOL : vinyle, sans couture, à gorge, antistatique"
+FA,FLVY-002,"FLOOR FINISH: vinyl, seamless, coved, cushioned","ACABADO DEL PISO: vinilo, sin costuras, cóncavo, acolchado","FINITION DU SOL : vinyle, sans couture, à rainures, coussiné"
+FA,FLVY-003,"FLOOR FINISH: vinyl, seamless, coved, non slip","ACABADO DEL PISO: vinilo, sin costuras, cóncavo, antideslizante","FINITION DU SOL : vinyle, sans couture, à gorge, antidérapant"
+FA,FLVY-004,"FLOOR FINISH: vinyl, seamless, coved, non-slip, safety","ACABADO DEL PISO: vinilo, sin costuras, cóncavo, antideslizante, de seguridad","FINITION DE SOL : vinyle, sans couture, à gorge, antidérapant, de sécurité"
+FA,FLVY-005,"FLOOR FINISH: vinyl, seamless, coved, non slip, studded","ACABADO DEL PISO: vinilo, sin costuras, cóncavo, antideslizante, tachonado","FINITION DU SOL : vinyle, sans couture, à gorge, antidérapant, clouté"
+FA,FLVY-006,"FLOOR FINISH: vinyl, seamless, coved, non slip, textured","ACABADO DEL PISO: vinilo, sin costuras, cóncavo, antideslizante, texturizado","FINITION DE SOL : vinyle, sans couture, à gorge, antidérapante, texturée"
+FA,FLVY-007,"FLOOR FINISH: vinyl, seamless, coved, standard slip resistant","ACABADO DEL PISO: vinilo, sin costuras, cóncavo, estándar antideslizante","FINITION DU SOL : vinyle, sans couture, à gorge, antidérapant standard"
+FA,FLVY-009,"FLOOR FINISH: vinyl, seamless, coved, wet area, non-slip","ACABADO DEL PISO: vinilo, sin costuras, cóncavo, área húmeda, antideslizante","FINITION DU SOL : vinyle, sans couture, à gorge, zone humide, antidérapant"
+FA,FLVY-010,"FLOOR FINISH: vinyl, seamless, inset floor markings","ACABADO DEL PISO: vinilo, sin juntas, marcas de piso empotradas","FINITION AU SOL : vinyle, sans couture, marquages ​​au sol incrustés"
+FFE,FQBS-001,BASSINET,MOISÉS,BERCEAU
+FFE,FQBS-004,"BED: domestic, single with mattress","CAMA: doméstica, individual con colchón","LIT : domestique, simple avec matelas"
+FFE,FQBS-007,"BENCH SEAT: freestanding, indoor","ASIENTO DE BANCO: independiente, interior","BANQUETTE : autoportante, d'intérieur"
+FFE,FQBS-008,"BENCH SEAT: freestanding, patient transfer","ASIENTO DE BANCO: independiente, traslado de pacientes","BANQUETTE : autoportante, transfert du patient"
+FFE,FQBS-010,CHAIR: armchair,SILLA: sillón,CHAISE : fauteuil
+FFE,FQBS-012,CHAIR: child,SILLA: niño,CHAISE : enfant
+FFE,FQBS-014,CHAIR: client,PRESIDENTE: cliente,PRÉSIDENT : cliente
+FFE,FQBS-015,CHAIR: dining,SILLA: comedor,CHAISE : salle à manger
+FFE,FQBS-017,CHAIR: meeting room,SILLA: sala de reuniones,CHAISE : salle de réunion
+FFE,FQBS-018,"CHAIR: office, ergonomic","SILLA: oficina, ergonómica","CHAISE : bureau, ergonomique"
+FFE,FQBS-019,"CHAIR: office, ergonomic, high","SILLA: oficina, ergonómica, alta","CHAISE : bureau, ergonomique, haute"
+FFE,FQBS-022,"CHAIR: recliner, clinical","SILLA: reclinable, clínica","FAUTEUIL : inclinable, clinique"
+FFE,FQBS-028,"CHAIR: visitor, clinical areas","PRESIDENTE: visitante, áreas clínicas","CHAISE : visiteur, zones cliniques"
+FFE,FQBS-029,"CHAIR: visitor, office areas","SILLA: visitante, áreas de oficina","CHAISE : visiteur, espaces bureaux"
+FFE,FQBS-030,"CHAIR: visitor, patient","SILLA: visitante, paciente","CHAISE : visiteur, patient"
+FFE,FQBS-032,CHAIR: waiting,SILLA: esperando,CHAISE : en attente
+FFE,FQBS-035,CHANGE TABLE: baby,CAMBIO DE MESA: bebé,TABLE A CHANGE : bébé
+FFE,FQBS-037,FOOTSTOOL,ESCABEL,TABOURET
+FFE,FQBS-039,LOUNGE: 1 seat,SALÓN: 1 asiento,SALON : 1 place
+FFE,FQBS-041,LOUNGE: 2.5 seat,"SALÓN: 2,5 plazas","SALON : 2,5 places"
+FFE,FQBS-042,"LOUNGE: 2 seat, 1200 wide","SALÓN: 2 asientos, 1200 de ancho","SALON : 2 places, 1200 de large"
+FFE,FQBS-043,"LOUNGE: 2 seat, 1600 wide","SALÓN: 2 asientos, 1600 ancho","SALON: 2 places, 1600 de large"
+FFE,FQBS-047,MATTRESS: foam,COLCHÓN: espuma,MATELAS : mousse
+FFE,FQBS-051,"STOOL: mobile, adj height","TABURETE: móvil, altura ajustable","TABOURET : mobile, réglable en hauteur"
+FFE,FQBS-052,"STOOL: mobile, high, adj height","TABURETE: móvil, alto, altura ajustable","TABOURET : mobile, haut, réglable en hauteur"
+FFE,FQBS-054,STOOL: ottoman,TABURETE: otomana,TABOURET : pouf
+FFE,FQBS-055,CHAIR: overnight fold out,SILLA: plegable durante la noche,CHAISE : à déplier pour la nuit
+FFE,FQBS-056,"CHAIR: tub, mental health","SILLA: bañera, salud mental","CHAISE : baignoire, santé mentale"
+FFE,FQBS-058,"CHAIR: visitor, patient, with arms ","SILLA: visitante, paciente, con brazos","CHAISE : visiteur, patient, avec bras"
+FFE,FQCA-014,DISPENSER: cup,DISPENSADOR: taza,DISTRIBUTEUR : tasse
+FFE,FQCA-015,"DISPENSER: ice, potable","DISPENSADOR: hielo, potable","DISTRIBUTEUR : glace, potable"
+FFE,FQCA-019,DISPENSER: water,DISPENSADOR: agua,DISTRIBUTEUR : eau
+FFE,FQCA-026,"FRIDGE: commercial, floor standing, double door","FRIGORÍFICO: profesional, de pie, puerta doble","FRIGO : commercial, au sol, double porte"
+FFE,FQCA-030,"FRIDGE: domestic, 120L","FRIGORÍFICO: doméstico, 120L","FRIGO : domestique, 120L"
+FFE,FQCA-031,"FRIDGE: domestic, 250L","FRIGORÍFICO: doméstico, 250L","FRIGO : domestique, 250L"
+FFE,FQCA-032,"FRIDGE: domestic, 300L","FRIGORÍFICO: doméstico, 300L","FRIGO : domestique, 300L"
+FFE,FQCA-038,"FRIDGE: domestic, underbench, 80L","NEVERA: doméstica, bajo mesada, 80L","FRIGO : domestique, sous paillasse, 80L"
+FFE,FQCA-046,KETTLE: electric,HERVIDOR: eléctrico,BOUILLOIRE : électrique
+FFE,FQCA-055,"MACHINE: vending, cold, drinks","MÁQUINA: vending, frío, bebidas","MACHINE : vente, froid, boissons"
+FFE,FQCA-057,"MACHINE: vending, snacks","MAQUINA: vending, snacks","MACHINE : distributeur automatique, collations"
+FFE,FQCA-063,OVEN: electric,HORNO: eléctrico,FOUR : électrique
+FFE,FQCA-067,"OVEN: microwave, domestic","HORNO: microondas, doméstico","FOUR : micro-onde, domestique"
+FFE,FQCA-072,RANGEHOOD,CAMPANA EXTRACTORA,CUISINIÈRE
+FFE,FQCA-080,TOASTER: domestic,TOSTADOR: doméstico,GRILLE-PAIN : domestique
+FFE,FQCA-082,"TROLLEY: food delivery, hot/cold","CARRO: comida a domicilio, caliente / fría","CHARIOT : livraison de repas, chaud/froid"
+FFE,FQCA-086,"WARMER: bottle, mobile","WARMER: biberón, móvil","RÉCHAUFFEUR : bouteille, mobile"
+FFE,FQCA-089,COOKTOP: induction,COCINA: inducción,TABLE DE CUISSON : induction
+FFE,FQCW-004,"BIN: waste, clinical, 120L","CONTENEDOR: basura, clínico, 120L","BAC : déchets, clinique, 120L"
+FFE,FQCW-005,"BIN: waste, clinical, 20L","BIN: residuos, clínicos, 20L","BAC : déchets, clinique, 20L"
+FFE,FQCW-006,"BIN: waste, clinical, 240L","BIN: residuos, clínicos, 240L","BAC : déchets, clinique, 240L"
+FFE,FQCW-008,"BIN: waste, clinical, 50L","CONTENEDOR: basura, clínico, 50L","BAC : déchets, clinique, 50L"
+FFE,FQCW-010,"BIN: waste, clinical, 80L","CONTENEDOR: basura, clínico, 80L","BAC : déchets, clinique, 80L"
+FFE,FQCW-012,"BIN: waste, cytotoxic, 20L","BIN: residuos, citotóxico, 20L","BAC : déchets, cytotoxiques, 20L"
+FFE,FQCW-013,"BIN: waste, cytotoxic, 240L","BIN: residuos, citotóxicos, 240L","BAC : déchets, cytotoxiques, 240L"
+FFE,FQCW-015,"BIN: waste, general, 120L","CONTENEDOR: residuos, general, 120L","BAC : déchets, général, 120L"
+FFE,FQCW-016,"BIN: waste, general, 20L","CUBO: basura, general, 20L","BAC : déchets, général, 20L"
+FFE,FQCW-017,"BIN: waste, general, 240L","CONTENEDOR: residuos, general, 240L","BAC : déchets, général, 240L"
+FFE,FQCW-019,"BIN: waste, general, 50L","CUBO: basura, general, 50L","BAC : déchets, général, 50L"
+FFE,FQCW-029,"BIN: waste, recycling, paper, 240L","BIN: residuos, reciclaje, papel, 240L","BAC : déchets, recyclage, papier, 240L"
+FFE,FQCW-035,"BIN: waste, recycling, plastics, 50L","BIN: residuos, reciclaje, plásticos, 50L","BAC : déchets, recyclage, plastiques, 50L"
+FFE,FQCW-037,"BIN: waste, sanitary","BIN: residuos, sanitario","BAC : déchets, sanitaire"
+FFE,FQCW-038,"BIN: waste, secure","BIN: residuos, seguro","BAC : déchet, sécurisé"
+FFE,FQCW-043,"BIN: waste, sharps, on trolley","BIN: residuos, objetos punzocortantes, en carro","BAC : déchets, objets tranchants, sur chariot"
+FFE,FQCW-044,"BIN: waste, sharps, wall mounted","BIN: desechos, objetos punzantes, montado en la pared","BIN : déchets, objets tranchants, fixé au mur"
+FFE,FQCW-045,BUCKET: cleaner,CUBO: limpiador,SEAU : nettoyeur
+FFE,FQCW-050,"CLEANER: vacuum, commercial","LIMPIADOR: aspiradora, comercial","NETTOYANT : aspirateur, commercial"
+FFE,FQCW-056,"MACHINE: washing, domestic","MÁQUINA: lavadora, doméstica","MACHINE : à laver, domestique"
+FFE,FQCW-058,MOP,FREGAR,SERPILLIÈRE
+FFE,FQCW-059,"POLISHER: floor, scrubber","PULIDORA: piso, fregadora","POLISSEUR : sol, autolaveuse"
+FFE,FQCW-060,"BIN: waste, cytotoxic, 50L","BIN: residuos, citotóxico, 50L","BAC : déchets, cytotoxiques, 50L"
+FFE,FQCW-061,"BIN: waste, pharmaceutical",BIN: residuos farmacéuticos,BIN : déchets pharmaceutiques
+FFE,FQCW-062,"BIN: waste, recycling, comingled, 50L","BIN: residuos, reciclaje, mezclados, 50L","BAC : déchets, recyclage, melange, 50L"
+FFE,FQCW-063,"MACHINE: washing, domestic, front loading","MÁQUINA: lavado, doméstico, carga frontal","MACHINE : à laver, domestique, à chargement frontal"
+FFE,FQCW-064,"BIN: waste, paper, secure, 20L","BIN: basura, papel, seguro, 20L","BAC : poubelle, papier, sécurisé, 20L"
+FFE,FQCW-065,"BIN: waste, pharmaceutical 50L",BIN: residuos farmacéuticos 50L,"BAC : déchets, pharmaceutique 50L"
+FFE,FQDW-001,"DESK: adj height, 1500W x 750D x 750H nom.","ESCRITORIO: altura ajustable, 1500W x 750D x 750H nom.","BUREAU : hauteur réglable, 1500W x 750D x 750H nom."
+FFE,FQDW-002,"DESK: adj height, 1800W x 750D x 750H nom.","ESCRITORIO: altura ajustable, 1800W x 750D x 750H nom.","BUREAU : hauteur réglable, 1800W x 750D x 750H nom."
+FFE,FQDW-004,"KEYBOARD SHELF: drop down, for workstation","ESTANTE PARA TECLADO: desplegable, para estación de trabajo","ÉTAGÈRE CLAVIER : déroulante, pour poste de travail"
+FFE,FQDW-006,LECTERN: mobile,ATRAL: móvil,PUPITRE : mobile
+FFE,FQDW-010,SHELF: workstation system,SHELF: sistema de puesto de trabajo,ÉTAGÈRE : système de poste de travail
+FFE,FQDW-019,"WORKSTATION: corner, adj height, 1800/1800W x 750D x 750H nom.","ESTACIÓN DE TRABAJO: esquina, altura ajustable, 1800/1800W x 750D x 750H nom.","POSTE DE TRAVAIL : coin, hauteur réglable, 1800/1800W x 750P x 750H nom."
+FFE,FQDW-025,"DESK: built in, return end, anti ligature","ESCRITORIO: incorporado, extremo de retorno, antiligadura","BUREAU : intégré, extrémité retour, anti ligature"
+FFE,FQDW-028,"WORKSTATION: straight, adj height, 1200W x 750D x 750H nom.","ESTACIÓN DE TRABAJO: recta, altura ajustable, 1200W x 750D x 750H nom.","POSTE DE TRAVAIL : droit, hauteur réglable, 1200W x 750D x 750H nom."
+FFE,FQDW-031,"WORKSTATION: straight, adj height, 1650W x 750D x 750H nom.","ESTACIÓN DE TRABAJO: recta, altura ajustable, 1650W x 750D x 750H nom.","POSTE DE TRAVAIL : droit, hauteur réglable, 1650W x 750D x 750H nom."
+FFE,FQDW-032,"WORKSTATION: straight, adj height, 1800W x 750D x 750H nom.","ESTACIÓN DE TRABAJO: recta, altura ajustable, 1800W x 750D x 750H nom.","POSTE DE TRAVAIL : droit, hauteur réglable, 1800W x 750D x 750H nom."
+FFE,FQDW-036,PARTITION: workstation system,PARTICIÓN: sistema de estación de trabajo,PARTITION : système de poste de travail
+FFE,FQDW-037,"DESK: adj height, 1500W x 750D x 750H nom.","ESCRITORIO: altura ajustable, 1500W x 750D x 750H nom.","BUREAU : hauteur réglable, 1500W x 750D x 750H nom."
+FFE,FQDW-039,"DESK: adj height, 800W x 600D x 1000H nom.","ESCRITORIO: altura ajustable, 800W x 600D x 1000H nom.","BUREAU : hauteur réglable, 800W x 600D x 1000H nom."
+FFE,FQDW-040,"DESK: fixed height, 1200W x 750D x 720H","ESCRITORIO: altura fija, 1200W x 750D x 720H","BUREAU : hauteur fixe, 1200W x 750P x 720H"
+FFE,FQDW-043,"PARTITION: workstation system, acoustic","PARTICIÓN: sistema de puesto de trabajo, acústico","CLOISON : système de poste de travail, acoustique"
+FFE,FQDW-044,"WORKSTATION: straight, adj height, 1800W x 800D x 750H nom.","ESTACIÓN DE TRABAJO: recta, altura ajustable, 1800W x 800D x 750H nom.","POSTE DE TRAVAIL : droit, hauteur réglable, 1800W x 800P x 750H nom."
+FFE,FQDW-045,"DESK: adj height, 2400W x 750D x 750H nom.","ESCRITORIO: altura ajustable, 2400 W x 750 D x 750 H nom.","BUREAU : hauteur réglable, 2400W x 750D x 750H nom."
+FFE,FQDW-046,"WORKSTATION: pharmacy,straight, adj height, 1800W x 750D x 900H nom.","ESTACIÓN DE TRABAJO: farmacia, recta, altura ajustable, 1800W x 750D x 900H nom.","POSTE DE TRAVAIL : pharmacie, droit, hauteur réglable, 1800W x 750D x 900H nom."
+FFE,FQDW-047,"WORKSTATION: pharmacy, services spine bench","PUESTO DE TRABAJO: farmacia, banco de servicios columna vertebral","POSTE DE TRAVAIL : pharmacie, services colonne vertébrale banc"
+FFE,FQDW-048,"WORKSTATION: pharmacy, services spine shelves","PUESTO DE TRABAJO: farmacia, estanterías de lomo de servicios","POSTE DE TRAVAIL : pharmacie, services colonne vertébrale étagères"
+FFE,FQDW-049,"DESK: adj height, 1200W x 600D x 750H nom.","ESCRITORIO: altura de ajuste, 1200W x 600D x 750H nom.","BUREAU : hauteur réglable, 1200W x 600D x 750H nom."
+FFE,FQDW-051,"DESK: adj height, 1500W x 600D x 900H nom.","ESCRITORIO: altura ajustable, 1500W x 600D x 900H nom.","BUREAU : hauteur réglable, 1500W x 600D x 900H nom."
+FFE,FQDW-052,"DESK: adj height, 1000W x 600D x 750H nom.","ESCRITORIO: altura ajustable, 1000W x 600D x 750H nom.","BUREAU : hauteur réglable, 1000W x 600D x 750H nom."
+FFE,FQDW-053,"DESK: fixed height, 1000W x 600D x 720H","ESCRITORIO: altura fija, 1000W x 600D x 720H","BUREAU : hauteur fixe, 1000W x 600D x 720H"
+FFE,FQGE-002,ARTWORK,OBRA DE ARTE,OUVRAGES D'ART
+FFE,FQGE-005,"CLOCK: analogue, battery operated","RELOJ: analógico, funciona con pilas","HORLOGE : analogique, à piles"
+FFE,FQGE-009,CURTAIN: bed screen,CORTINA: biombo de cama,RIDEAU : paravent
+FFE,FQGE-010,CURTAIN: privacy screen,CORTINA: pantalla de privacidad,RIDEAU : écran de confidentialité
+FFE,FQGE-011,CURTAIN: shower,CORTINA: ducha,RIDEAU : douche
+FFE,FQGE-015,"DRYER: clothes, domestic","SECADORA: ropa, doméstica","SÈCHE-LINGE : vêtements, domestique"
+FFE,FQGE-028,"IRON: clothes, electric","HIERRO: ropa, eléctrico","FER: vêtements, électrique"
+FFE,FQGE-034,MACHINE: ATM,MÁQUINA: ATM,MACHINE : ATM
+FFE,FQGE-037,MACHINE: cash register,MÁQUINA: caja registradora,MACHINE : caisse enregistreuse
+FFE,FQGE-038,MACHINE: electronic funds transfer at point of sale (EFTPOS),MÁQUINA: transferencia electrónica de fondos en el punto de venta (EFTPOS),MACHINE : transfert électronique de fonds au point de vente (EFTPOS)
+FFE,FQGE-043,MACHINE: sewing,MÁQUINA: coser,MACHINE : à coudre
+FFE,FQGE-044,MAT: baby change,MAT: cambio de bebé,TAPIS : change de bébé
+FFE,FQGE-049,PHOTOCOPIER: benchtop,FOTOCOPIADORA: de mesa,PHOTOCOPIER : paillasse
+FFE,FQGE-050,PHOTOCOPIER: floorstanding,FOTOCOPIADORA: de pie,PHOTOCOPIER : au sol
+FFE,FQGE-056,"PRINTER: desktop, labels","IMPRESORA: escritorio, etiquetas","IMPRIMANTE : bureau, étiquettes"
+FFE,FQGE-069,"SCREEN: projection, ceiling mounted, automatic","PANTALLA: proyección, montaje en techo, automático","ÉCRAN : projection, plafonnier, automatique"
+FFE,FQGE-070,"SCREEN: projection, ceiling mounted, manual","PANTALLA: proyección, montaje en techo, manual","ÉCRAN : projection, montage au plafond, manuel"
+FFE,FQGE-080,STAND: public telephone,STAND: teléfono público,STAND : téléphone public
+FFE,FQGE-091,"FRIDGE: milk, small","NEVERA: leche, pequeña","FRIGO : lait, petit"
+FFE,FQGE-093,"PRINTER: desktop, labels, pharmacy","IMPRESORA: escritorio, etiquetas, farmacia","IMPRIMANTE : bureau, étiquettes, pharmacie"
+FFE,FQSM-003,"PEDESTAL: mobile, wire basket unit, 840H","PEDESTAL: móvil, unidad de canasta de alambre, 840H","PIÉDESTAL : mobile, unité de panier en fil, 840H"
+FFE,FQSM-007,"PEDESTAL: mobile, drawer unit, 660H","PEDESTAL: móvil, cajonera, 660H","CAISSON : mobile, bloc tiroirs, 660H"
+FFE,FQSM-009,"PEDESTAL: mobile, filing unit, 660H","PEDESTAL: móvil, unidad de archivo, 660H","PIÉDESTAL : mobile, unité de classement, 660H"
+FFE,FQSM-015,"SHELVING: stainless steel wire mesh, mobile","ESTANTES: malla de alambre de acero inoxidable, móvil","RAYONNAGE : grillage inox, mobile"
+FFE,FQSM-016,TROLLEY,CARRETILLA,CHARIOT
+FFE,FQSM-021,TROLLEY: cleaner,CARRO: limpiador,CHARIOT : nettoyeur
+FFE,FQSM-029,TROLLEY: flowers,CARRO: flores,CHARIOT : fleurs
+FFE,FQSM-030,"TROLLEY: laundry, basket","CARRO: ropa sucia, cesto","CHARIOT : linge, corbeille"
+FFE,FQSM-033,TROLLEY: shower,CARRO: ducha,CHARIOT : douche
+FFE,FQSM-035,TROLLEY: small,CARRO: pequeño,CHARIOT : petit
+FFE,FQSM-037,TROLLEY: tray,CARRO: bandeja,CHARIOT : plateau
+FFE,FQSM-039,TROLLEY: waste bag,CARRO: bolsa de basura,CHARIOT : sac poubelle
+FFE,FQSM-040,"PEDESTAL: mobile, drawer unit, lockable, 660H","PEDESTAL: móvil, cajonera, con cerradura, 660H","CAISSON : mobile, bloc tiroirs, verrouillable, 660H"
+FFE,FQSM-041,"SHELVING: stainless steel wire mesh, 600W x 400D x 2100H, mobile","ESTANTERÍA: malla de alambre de acero inoxidable, 600W x 400D x 2100H, móvil","RAYONNAGE : grillage en acier inoxydable, 600W x 400P x 2100H, mobile"
+FFE,FQSM-042,"SHELVING: stainless steel wire mesh, for sutures, mobile","ESTANTERÍA: malla de alambre de acero inoxidable, para suturas, móvil","RAYONNAGE : grillage en acier inoxydable, pour sutures, mobile"
+FFE,FQSM-043,"TROLLEY: nested, set of 3, underbench ","CARRO: anidado, juego de 3, debajo del banco","CHARIOT : emboîtable, lot de 3, sous paillasse"
+FFE,FQSM-044,"CUPBOARD: mobile, double door, adjustable shelves","ARMARIO: móvil, doble puerta, estantes ajustables","ARMOIRE : mobile, double porte, étagères réglables"
+FFE,FQSM-045,"SHELVING: storage solution, 400W x 600D x 2100H nom., wire, mobile","ESTANTERÍA: solución de almacenamiento, 400W x 600D x 2100H nom., alambre, móvil","RAYONNAGE : solution de rangement, 400W x 600P x 2100H nom., filaire, mobile"
+FFE,FQSM-046,"SHELVING: storage solution, 600W x 400D x 2100H nom., wire, mobile","ESTANTERÍA: solución de almacenamiento, 600W x 400D x 2100H nom., alambre, móvil","RAYONNAGE : solution de rangement, 600W x 400P x 2100H nom., filaire, mobile"
+FFE,FQSM-048,"SHELVING: storage solution, shelving, 600W x 400D x 2100H nom., wire, mobile","ESTANTES: solución de almacenamiento, estanterías, 600W x 400D x 2100H nom., Cable, móvil","RAYONNAGE : solution de rangement, étagère, 600W x 400P x 2100H nom., filaire, mobile"
+FFE,FQSN-001,"BASKET: drop in, pneumatic station","CESTA: drop in, estación neumática","PANIER : dépose-minute, station pneumatique"
+FFE,FQSN-006,"BIN: storage bins, for wall mounted panel","BIN: contenedores de almacenamiento, para panel de pared","BIN : bacs de rangement, pour panneau mural"
+FFE,FQSN-007,"BIN: storage bins, wire mesh, stainless steel","BIN: contenedores de almacenamiento, malla de alambre, acero inoxidable","BIN : bacs de rangement, grillage, acier inoxydable"
+FFE,FQSN-008,BOOKCASE,LIBRERO,BIBLIOTHÈQUE
+FFE,FQSN-023,CABINET: ironing board,GABINETE: tabla de planchar,ARMOIRE : table à repasser
+FFE,FQSN-028,CABINET: pass through,GABINETE: pasar a través,ARMOIRE : traversante
+FFE,FQSN-031,"CABINET: short, single door, tambour, adj shelves, lockable","GABINETE: corto, de una puerta, persiana, estantes ajustables, con cerradura","ARMOIRE : courte, porte simple, tambour, étagères adj, verrouillable"
+FFE,FQSN-033,"CABINET: tall, double door, tambour, adj shelves, lockable","GABINETE: alto, puerta doble, persiana, estantes ajustables, con cerradura","ARMOIRE: haute, double porte, tambour, étagères adj, verrouillable"
+FFE,FQSN-048,LOCKER: 2 tier (half size),LOCKER: 2 niveles (medio tamaño),CASIER : 2 niveaux (demi-taille)
+FFE,FQSN-050,LOCKER: 4 tier (quarter size),LOCKER: 4 niveles (tamaño de un cuarto),CASIER : 4 niveaux (taille quart)
+FFE,FQSN-051,"LOCKER: 2 drawers, open under, lockable, mobile","LOCKER: 2 cajones, abierto debajo, con cerradura, móvil","LOCKER: 2 tiroirs, ouvert en dessous, verrouillable, mobile"
+FFE,FQSN-054,LOCKER: 2 tier with shoe storage,LOCKER: 2 niveles con almacenamiento de zapatos,LOCKER : 2 niveaux avec rangement pour chaussures
+FFE,FQSN-055,LOCKER: 4 tier with shoe storage,LOCKER: 4 niveles con almacenamiento de zapatos,CASIER : 4 niveaux avec rangement pour chaussures
+FFE,FQSN-062,SAFE: small,SEGURO: pequeño,SÉCURISÉ : petit
+FFE,FQSN-063,SHELVING: compactus,ESTANTERÍA: compacto,RAYONNAGE : compactus
+FFE,FQSN-082,"SHELVING: floor standing, 900W x 450D x 2100H nom., wire","ESTANTERÍA: de pie, 900W x 450D x 2100H nom., alambre","RAYONNAGE : sur pied, 900W x 450P x 2100H nom., fil"
+FFE,FQSN-086,"SHELVING: floor standing, 900W x 400D x 2100H nom., metal","ESTANTES: de pie, 900W x 400D x 2100H nom., Metal","RAYONNAGE : sur pied, 900L x 400P x 2100H nom., métal"
+FFE,FQSN-095,"SHELVING: floor standing, 1200W x 400D x 2100H nom., metal","ESTANTES: de pie, 1200W x 400D x 2100H nom., Metal","RAYONNAGE : sur pied, 1200W x 400P x 2100H nom., métal"
+FFE,FQSN-137,TOY BOX & TOYS,CAJA DE JUGUETES Y JUGUETES,BOÎTE À JOUETS ET JOUETS
+FFE,FQSN-138,PALLET: half size,PALETA: tamaño medio,PALETTE : demi-taille
+FFE,FQTA-001,TABLE: bedside,MESA: junto a la cama,TABLE : chevet
+FFE,FQTA-003,TABLE: children's play,MESA: juego de niños,TABLE : jeux d'enfants
+FFE,FQTA-013,TABLE: overbed,MESA: sobrecama,TABLE : sur-lit
+FFE,FQTA-017,"TABLE: rectangular 1200L x 900W, work height","MESA: rectangular 1200L x 900W, altura de trabajo","TABLE : rectangulaire 1200L x 900W, hauteur de travail"
+FFE,FQTA-020,"TABLE: rectangular, 1500L x 1200W, work height","MESA: rectangular, 1500L x 1200W, altura de trabajo","TABLE : rectangulaire, 1500L x 1200W, hauteur de travail"
+FFE,FQTA-034,"TABLE: rectangular, 900L x 600W, low height","MESA: rectangular, 900L x 600W, baja altura","TABLE : rectangulaire, 900L x 600W, faible hauteur"
+FFE,FQTA-053,"TABLE: round, 600 diam, low height","MESA: redonda, 600 diám, altura baja","TABLE : ronde, diam 600, faible hauteur"
+FFE,FQTA-055,"TABLE: round, 900 diam, dining height","MESA: redonda, 900 diám, altura comedor","TABLE : ronde, diam 900, hauteur repas"
+FFE,FQTA-057,"TABLE: round, 900 diam, work height","MESA: redonda, 900 diam, altura de trabajo","TABLE : ronde, 900 diam, hauteur de travail"
+FFE,FQTA-059,"TABLE: square, 1100W, dining height","MESA: cuadrada, 1100W, altura comedor","TABLE : carrée, 1100W, hauteur salle à manger"
+FFE,FQTA-075,"TABLE: square, 600W, low height","MESA: cuadrada, 600W, baja altura","TABLE : carrée, 600W, faible hauteur"
+FFE,FQTA-077,"TABLE: square, 800W, dining height","MESA: cuadrada, 800W, altura comedor","TABLE : carrée, 800W, hauteur repas"
+FFE,FQTA-083,"TABLE: bedside, anti ligature","MESA: cabecera, anti ligadura","TABLE : chevet, anti ligature"
+FFE,FQTA-084,"TABLE: adjustable height, hand therapy","MESA: altura ajustable, terapia manual","TABLE : hauteur réglable, thérapie des mains"
+FFE,FQTA-085,"TABLE: square, 1100W, adjustable height","MESA: cuadrada, 1100W, altura regulable","TABLE : carrée, 1100W, réglable en hauteur"
+SE,FSDE-004,DETECTOR: smoke,DETECTOR: humo,DETECTEUR : fumée
+FFE,FSDE-008,CONTROL PANEL: fire and EWIS,PANEL DE CONTROL: incendio y EWIS,PANNEAU DE COMMANDE : incendie et EWIS
+FFE,FSPV-004,FIRE EXTINGUISHER,EXTINTOR DE INCENDIOS,EXTINCTEUR D'INCENDIE
+FFE,FSPV-005,FIRE EXTINGUISHER: blanket,EXTINTOR DE INCENDIOS: manta,EXTINCTEUR D'INCENDIE : couverture
+SE,FSPV-014,FIRE SUPPRESSION: sprinklers,SUPRESIÓN DE INCENDIOS: rociadores,EXTINCTION D'INCENDIE : gicleurs
+FFE,HYBA-002,"BASIN: ensuite, with vanity unit","LAVABO: baño privado, con tocador","VASQUE : ensuite, avec meuble sous-vasque"
+FFE,HYBA-005,"BASIN: handwash, accessible","LAVABO: lavamanos, accesible","LAVABO : lavage à la main, accessible"
+FFE,HYBA-009,"BASIN: handwash, Type A, scrub","LAVABO: lavado a mano, tipo A, fregar","BASSIN : lave-mains, Type A, gommage"
+FFE,HYBA-010,"BASIN: handwash, Type B","LAVABO: lavado a mano, Tipo B","VASQUE : lave-mains, Type B"
+FFE,HYBA-011,"BASIN: handwash, Type C","LAVABO: lavado a mano, Tipo C","LAVABO : lave-mains, Type C"
+FFE,HYBA-012,"BASIN: handwash, Type C, with vanity unit","LAVABO: lavamanos, Tipo C, con mueble bajo lavabo","VASQUE : lave-mains, Type C, avec meuble sous-vasque"
+FFE,HYBA-023,BATH: birthing,BAÑO: parto,BAIN : accouchement
+FFE,HYBA-025,BATH: domestic,BAÑO: doméstico,BAIN : domestique
+FFE,HYBA-040,SINK: cleaner,FREGADERO: limpiador,LAVABO : plus propre
+FFE,HYBA-041,"SINK: double, with drainer, half size rinse bowl","FREGADERO: doble, con escurridor, cubeta de enjuague de tamaño medio","ÉVIER : double, avec égouttoir, demi-bol de rinçage"
+FFE,HYBA-043,SINK: double,FREGADERO: doble,LAVABO : double
+FFE,HYBA-046,SINK: flushing rim,FREGADERO: borde de descarga,LAVABO : bord de chasse d'eau
+FFE,HYBA-051,SINK: single,FREGADERO: individual,LAVABO : simple
+FFE,HYBA-052,"SINK: single, 450 x 350 x 250D","FREGADERO: simple, 450 x 350 x 250D","LAVABO : simple, 450 x 350 x 250D"
+FFE,HYBA-053,"SINK: single, 450 x 350 x 300D","FREGADERO: individual, 450 x 350 x 300D","LAVABO : simple, 450 x 350 x 300D"
+FFE,HYBA-055,"SINK: single, 500 x 450 x 250D","FREGADERO: individual, 500 x 450 x 250D","ÉVIER : simple, 500 x 450 x 250D"
+FFE,HYBA-064,"SINK: single, laundry","FREGADERO: individual, lavadero","LAVABO : simple, buanderie"
+FFE,HYBA-069,"SINK: single, with drainer, 930mmL","FREGADERO: simple, con escurridor, 930 mmL","LAVABO : simple, avec égouttoir, 930mmL"
+FFE,HYBA-077,"SINK: trough, scrub","FREGADERO: abrevadero, fregar","LAVABO : auge, gommage"
+FFE,HYBA-078,BASIN: with integrated shelf,LAVABO: con balda integrada,VASQUE : avec étagère intégrée
+FFE,HYBA-079,"SINK: single, dental","FREGADERO: simple, dental","LAVABO : simple, dentaire"
+FFE,HYBA-080,"SINK: single, with drainer, accessible","FREGADERO: individual, con escurridor, accesible","LAVABO : simple, avec égouttoir, accessible"
+SE,HYDR-001,DRAIN: special requirements,DRENAJE: requisitos especiales,VIDANGE : exigences particulières
+SE,HYDR-003,DRAIN: floor trough,DRENAJE: canal de piso,VIDANGE : auge au sol
+SE,HYDR-004,DRAIN: floor waste,DRENAJE: residuos de suelo,VIDANGE : siphon de sol
+SE,HYDR-006,DRAIN: tundish,DRENAJE: artesa,VIDANGE : répartiteur
+FFE,HYDR-008,TRAP: plaster,TRAMPA: yeso,PIÈGE : plâtre
+SE,HYDR-010,"DRAIN: floor waste, anti ligature","DRENAJE: desagüe de piso, anti ligadura","DRAIN : siphon de sol, anti ligature"
+SE,HYDR-011,"DRAIN: clear out, anti ligature","DRENAJE: limpiar, anti ligadura","DRAIN : nettoyez, anti ligature"
+SE,HYDR-012,DRAIN: wall drain,DRENAJE: desagüe de pared,DRAIN : drain mural
+SE,HYDR-015,"DRAIN: tundish unit, integral drainage outlets","DRENAJE: unidad de colada, salidas de drenaje integrales","DRAIN : élément répartiteur, sorties de drainage intégrées"
+SE,HYDR-016,"DRAIN: floor waste, sealed","DRENAJE: desagüe de piso, sellado","DRAIN : siphon de sol, scellé"
+SE,HYDR-017,"DRAIN: floor waste, 300 x 300","DESAGÜE: desagüe de suelo, 300 x 300","DRAIN : siphon de sol, 300 x 300"
+SE,HYDR-018,"DRAIN: tundish, floor drain","DRENAJE: artesa, desagüe de piso","DRAIN : panier, siphon de sol"
+FFE,HYDR-019,ACCESS PANEL: waterless trap,PANEL DE ACCESO: sifón sin agua,PANNEAU D'ACCÈS : siphon sans eau
+FFE,HYGE-003,BOILING/CHILLED WATER UNIT: Combination,UNIDAD DE HERVIDO / AGUA REFRIGERADA: Combinación,UNITÉ BOUILLANTE/EAU GLACÉE : Combinaison
+FFE,HYGE-008,BOILING WATER UNIT: 5 Litre,UNIDAD DE AGUA HERVIDA: 5 Litros,UNITÉ D'EAU BOUILLANTE : 5 Litres
+FFE,HYGE-012,WATER TREATMENT: reverse osmosis plant,TRATAMIENTO DE AGUA: planta de ósmosis inversa,TRAITEMENT DE L'EAU : usine d'osmose inverse
+FFE,HYGE-016,PUMP: pressure booster,BOMBA: amplificador de presión,POMPE : surpresseur
+SE,HYGE-019,WATER TREATMENT: brine tank,TRATAMIENTO DE AGUA: tanque de salmuera,TRAITEMENT DE L'EAU : bac à sel
+SE,HYGE-020,WATER TREATMENT: carbon filter,TRATAMIENTO DE AGUAS: filtro de carbón,TRAITEMENT DE L'EAU : filtre à charbon
+SE,HYGE-021,WATER TREATMENT: multimedia tank,TRATAMIENTO DE AGUAS: tanque multimedia,TRAITEMENT DE L'EAU : réservoir multimédia
+SE,HYGE-022,"WATER TREATMENT: particle filter, 1 micron","TRATAMIENTO DE AGUAS: filtro de partículas, 1 micra","TRAITEMENT DE L'EAU : filtre à particules, 1 micron"
+SE,HYGE-023,"WATER TREATMENT: particle filter, 5 microns","TRATAMIENTO DE AGUA: filtro de partículas, 5 micras","TRAITEMENT DE L'EAU : filtre à particules, 5 microns"
+SE,HYGE-024,WATER TREATMENT: softener tank,TRATAMIENTO DE AGUA: tanque descalcificador,TRAITEMENT DE L'EAU : cuve adoucisseur
+SE,HYGE-025,CONTROL PANEL: process cooling water pump,PANEL DE CONTROL: bomba de agua de refrigeración de proceso,PANNEAU DE COMMANDE : pompe à eau de refroidissement de processus
+SE,HYGE-026,TROUGH: boot wash,CANAL: lavado de botas,AUGE : lave-bottes
+FFE,HYGE-027,DEVICE: UV irradiator,DISPOSITIVO: irradiador UV,APPAREIL : irradiateur UV
+SE,HYGE-028,DEVICE: backflow prevention,DISPOSITIVO: prevención de reflujo,DISPOSITIF : anti-refoulement
+FFE,HYTP-002,FLUSH BUTTON: toilet suite,BOTÓN DE DESCARGA: baño,BOUTON FLUSH : WC
+FFE,HYTP-003,HOSE REEL: retractable,CARRETE DE MANGUERA: retráctil,ENROULEUR: rétractable
+FFE,HYTP-004,HOSE: spray,MANGUERA: spray,TUYAU: spray
+FFE,HYTP-006,"HOSE: spray, pressure control","MANGUERA: spray, control de presión","TUYAU : spray, contrôle de la pression"
+SE,HYTP-008,OUTLET: cold water,SALIDA: agua fría,SORTIE : eau froide
+SE,HYTP-012,"OUTLET: hosecock, cold water","SALIDA: grifo, agua fría","SORTIE : robinet, eau froide"
+SE,HYTP-013,OUTLET: hot water,SALIDA: agua caliente,SORTIE : eau chaude
+FFE,HYTP-018,SHOWER: fixed rose,DUCHA: rosa fijo,DOUCHE : rosace fixe
+FFE,HYTP-019,"SHOWER: fixed rose, anti ligature","DUCHA: rosetón fijo, anti ligadura","DOUCHE : rosace fixe, anti ligature"
+FFE,HYTP-020,SHOWER: hand-held,DUCHA: de mano,DOUCHE : à main
+FFE,HYTP-021,"SHOWER: hand-held, over bath","DUCHA: de mano, sobre la bañera","DOUCHE : à main, dans la baignoire"
+FFE,HYTP-023,"SHOWER: safety, eyewash combination","DUCHA: seguridad, combinación lavaojos","DOUCHE : sécurité, combinaison de douche oculaire"
+FFE,HYTP-024,"SPOUT: basin, anti ligature","PICO: lavabo, anti ligadura","BEC : vasque, anti ligature"
+FFE,HYTP-028,"SPOUT: bath, wall mounted","PICO: bañera, montado en la pared","BEC: baignoire, mural"
+FFE,HYTP-029,TAPWARE: boiling/chilled water unit (comb),GRIFERÍA: unidad de agua hirviendo/enfriada (peine),ROBINETTERIE : groupe eau bouillante/froide (peigne)
+FFE,HYTP-030,TAPWARE: cold,GRIFERÍA: fría,ROBINETTERIE : froid
+FFE,HYTP-034,TAPWARE: laboratory,GRIFERÍA: laboratorio,ROBINETTERIE : laboratoire
+FFE,HYTP-035,"TAPWARE: mixer, basin, accessible","TAPWARE: mezclador, lavabo, accesible","ROBINETTERIE : mitigeur, lavabo, accessible"
+FFE,HYTP-036,"TAPWARE: mixer, basin, lever action","GRIFERÍA: monomando, lavabo, palanca","ROBINETTERIE : mitigeur, vasque, levier"
+FFE,HYTP-037,"TAPWARE: mixer, elbow levers","GRIFERÍA: mezclador, palancas de codo","ROBINETTERIE : mélangeur, leviers coudés"
+FFE,HYTP-038,"TAPWARE: mixer, elbow levers, long","TAPWARE: mezclador, palancas acodadas, largo","ROBINETTERIE : mélangeur, leviers coudés, longs"
+FFE,HYTP-039,"TAPWARE: mixer, shower, lever action","TAPWARE: mezclador, ducha, acción de palanca","ROBINETTERIE : mitigeur, douche, action à levier"
+FFE,HYTP-040,"TAPWARE: mixer, sink, accessible","GRIFERÍA: monomando, lavabo, accesible","ROBINETTERIE : mitigeur, évier, accessible"
+FFE,HYTP-042,TAPWARE: sensor,TAPWARE: sensor,ROBINETTERIE : capteur
+FFE,HYTP-045,"SHOWER: hand-held, accessible","DUCHA: de mano, accesible","DOUCHE : portative, accessible"
+FFE,HYTP-046,"TAPWARE: hot and cold taps, shower, anti ligature","GRIFERÍA: grifos fríos y calientes, ducha, anti ligadura","ROBINETTERIE : robinetterie chaude et froide, douche, anti ligature"
+FFE,HYTP-047,"TAPWARE: hot and cold taps, basin, anti ligature","GRIFERÍA: grifos fríos y calientes, lavabo, anti ligadura","ROBINETTERIE : robinetterie chaude et froide, vasque, anti ligature"
+FFE,HYWC-001,TOILET SUITE: accessible,SUITE ASEO: accesible,SALLE DE TOILETTE : accessible
+FFE,HYWC-002,TOILET SUITE: bariatric,SUITE ASEO: bariátrico,SUITE DE TOILETTE : bariatrique
+FFE,HYWC-005,"TOILET SUITE: concealed cistern, floor mounted","SUITE WC: cisterna empotrada, montada en el suelo","SUITE DE TOILETTE : réservoir à encastrer, au sol"
+FFE,HYWC-006,TOILET SUITE: patient,WC SUITE: paciente,SALLE DE TOILETTE : patient
+FFE,HYWC-008,TOILET SUITE: standard,WC SUITE: estándar,SALLE DE TOILETTE : standard
+FFE,HYWC-010,TOILET SUITE: ambulant,WC SUITE: ambulante,SALLE DE TOILETTE : ambulante
+FFE,ITAV-009,MICROPHONE,MICRÓFONO,MICROPHONE
+FFE,ITAV-010,MICROPHONE: ceiling mounted,MICRÓFONO: montado en el techo,MICROPHONE : monté au plafond
+FFE,ITAV-014,"MICROPHONE: surface mounted, gooseneck","MICRÓFONO: montado en superficie, cuello de ganso","MICROPHONE : monté en surface, col de cygne"
+FFE,ITAV-017,PLAYER: DVD,REPRODUCTOR: DVD,LECTEUR : DVD
+FFE,ITAV-022,"PROJECTOR: data, ceiling mounted","PROYECTOR: datos, montaje en techo","PROJECTEUR : données, montage au plafond"
+FFE,ITAV-026,"PROJECTOR: data, surface mounted","PROYECTOR: datos, montado en superficie","PROJECTEUR : données, monté en surface"
+FFE,ITAV-051,DISPLAY SCREEN: audio visual,PANTALLA DE VISUALIZACIÓN: audiovisual,ÉCRAN D'AFFICHAGE : audiovisuel
+FFE,ITAV-057,SPEAKER: ceiling recessed,ALTAVOZ: empotrado en el techo,HAUT-PARLEUR : encastré au plafond
+FFE,ITAV-060,"CONTROL PANEL: AV integration system, wall mount","PANEL DE CONTROL: sistema de integración AV, montaje en pared","PANNEAU DE COMMANDE : système d'intégration AV, support mural"
+FFE,ITAV-061,SPEAKER: audiology,PONENTE: audiología,INTERVENANT : audiologie
+SE,ITBU-001,"ALARM: equipment monitoring, temperature","ALARMA: monitorización de equipos, temperatura","ALARME : surveillance des équipements, température"
+SE,ITBU-002,"ALARM: equipment monitoring, water treatment malfunction","ALARMA: monitoreo de equipos, mal funcionamiento del tratamiento de agua","ALARME : surveillance des équipements, dysfonctionnement du traitement de l'eau"
+FFE,ITBU-006,"CONTROL PANEL: patient entertainment, handset","PANEL DE CONTROL: entretenimiento del paciente, auricular","PANNEAU DE COMMANDE : divertissement patient, combiné"
+FFE,ITBU-009,CONTROL UNIT: public address system,UNIDAD DE CONTROL: megafonía,UNITÉ DE CONTRLE : système de sonorisation
+FFE,ITBU-011,DISPLAY SCREEN: MATV,PANTALLA DE VISUALIZACIÓN: MATV,ÉCRAN D'AFFICHAGE : MATV
+FFE,ITBU-012,DISPLAY SCREEN: patient entertainment system,PANTALLA DE VISUALIZACIÓN: sistema de entretenimiento del paciente,ÉCRAN D'AFFICHAGE : système de divertissement pour les patients
+FFE,ITBU-013,DISPLAY SCREEN: patient flow system,PANTALLA DE VISUALIZACIÓN: sistema de flujo del paciente,ÉCRAN D'AFFICHAGE : système de flux de patients
+SE,ITBU-020,PUBLIC ADDRESS SYSTEM,SISTEMA DE megafonía,SYSTÈME DE SONORISATION
+FFE,ITBU-021,SYSTEM: barcode tracking,SISTEMA: seguimiento de código de barras,SYSTÈME : suivi des codes à barres
+SE,ITBU-024,ALARM: chlorine meter,ALARMA: medidor de cloro,ALARME : compteur de chlore
+SE,ITCL-001,ANNUNCIATOR: nurse call,ANUNCIADOR: llamada de enfermera,ANNONCIATEUR : appel infirmière
+SE,ITCL-004,"BUTTON: nurse call, emergency","BOTÓN: llamada de enfermera, emergencia","BOUTON : appel infirmière, urgence"
+SE,ITCL-005,"BUTTON: nurse call, orderly / porter","BOTÓN: llamada de enfermera, camillero/portero","BOUTON : appel infirmière, préposé/portier"
+SE,ITCL-006,"BUTTON: nurse call, patient to staff","BOTÓN: llamada de enfermera, paciente al personal","BOUTON : appel infirmière, patient au personnel"
+SE,ITCL-008,"BUTTON: nurse call, staff assist","BOTÓN: llamada a la enfermera, ayuda del personal","BOUTON : appel infirmière, assistance du personnel"
+FFE,ITCL-012,CAMERA: observation,CÁMARA: observación,CAMÉRA : observation
+FFE,ITCL-014,"CLOCK: analogue, electric","RELOJ: analógico, eléctrico","HORLOGE : analogique, électrique"
+FFE,ITCL-018,"CLOCK: clock system slave, digital","RELOJ: sistema de reloj esclavo, digital","HORLOGE : système d'horloge esclave, numérique"
+FFE,ITCL-020,"CLOCK: clock system slave, dual digital / elapsed time","RELOJ: sistema de reloj esclavo, doble digital / tiempo transcurrido","HORLOGE : système d'horloge esclave, double numérique / temps écoulé"
+FFE,ITCL-021,CLOCK: clock system slave dual time / elapsed time,RELOJ: sistema de reloj esclavo tiempo dual / tiempo transcurrido,HORLOGE : système d'horloge esclave double temps / temps écoulé
+SE,ITCL-023,CONTROL PANEL: master clock system,PANEL DE CONTROL: sistema de reloj maestro,PANNEAU DE COMMANDE : système d'horloge maître
+SE,ITCL-028,"HANDSET: nurse call, with patient to staff call button","AURICULAR: llamada de enfermera, con botón de llamada del paciente al personal","COMBINÉ : appel infirmière, avec bouton d'appel du patient au personnel"
+SE,ITCL-031,"PENDANT: nurse call, patient to staff","COLGANTE: llamada de enfermera, paciente al personal","PENDENTIF : appel infirmière, patient au personnel"
+FFE,ITCL-034,CAMERA: telemedicine,CÁMARA: telemedicina,CAMÉRA : télémédecine
+FFE,ITCL-035,CAMERA: respiratory gating,CÁMARA: sincronización respiratoria,CAMÉRA : synchronisation respiratoire
+FFE,ITCL-036,CAMERA: neonatal,CÁMARA: neonatal,CAMÉRA : néonatale
+FFE,ITCL-037,CHARGER: wireless duress devices,CARGADOR: dispositivos de coacción inalámbricos,CHARGEUR : appareils de contrainte sans fil
+SE,ITIN-010,"OUTLET: data, single RJ45","SALIDA: datos, simple RJ45","SORTIE : données, RJ45 simple"
+SE,ITIN-011,"OUTLET: data, single RJ45, ceiling mounted","SALIDA: datos, simple RJ45, montaje en techo","SORTIE : données, RJ45 simple, montée au plafond"
+SE,ITIN-014,"OUTLET: data, single RJ45, on pendant","SALIDA: datos, RJ45 simple, en colgante","SORTIE : données, RJ45 simple, sur pendentif"
+SE,ITIN-016,"OUTLET: data, single RJ45, wall mounted","SALIDA: datos, simple RJ45, montaje en pared","SORTIE : données, RJ45 simple, fixée au mur"
+SE,ITIN-022,"OUTLET: data, double RJ45, in floorbox","SALIDA: datos, doble RJ45, en caja de suelo","SORTIE : données, double RJ45, dans le boîtier de sol"
+SE,ITIN-023,"OUTLET: data, double RJ45, on data/ AV panel","SALIDA: datos, doble RJ45, en panel de datos / AV","SORTIE : données, double RJ45, sur panneau de données/AV"
+SE,ITIN-024,"OUTLET: data, double RJ45, on pendant","SALIDA: datos, doble RJ45, en colgante","SORTIE : data, double RJ45, sur pendentif"
+SE,ITIN-025,"OUTLET: data, double RJ45, on services panel","SALIDA: datos, doble RJ45, en panel de servicios","SORTIE : données, double RJ45, sur panneau de services"
+SE,ITIN-026,"OUTLET: data, double RJ45, wall mounted","SALIDA: datos, doble RJ45, montaje en pared","SORTIE : données, double RJ45, murale"
+SE,ITIN-029,"OUTLET: data, double RJ45, desk box","SALIDA: datos, doble RJ45, caja de sobremesa","SORTIE : données, double RJ45, boîtier de bureau"
+SE,ITIN-034,"OUTLET: data, triple RJ45, on pendant","SALIDA: datos, triple RJ45, en colgante","SORTIE : data, triple RJ45, sur pendentif"
+SE,ITIN-035,"OUTLET: data, triple RJ45, on services panel","SALIDA: datos, triple RJ45, en panel de servicios","SORTIE : données, triple RJ45, sur panneau de services"
+SE,ITIN-036,"OUTLET: data, triple RJ45, wall mounted","SALIDA: datos, triple RJ45, montaje en pared","SORTIE : données, triple RJ45, murale"
+SE,ITIN-055,"OUTLET: data, USB, wall mounted","SALIDA: datos, USB, montaje en pared","SORTIE : données, USB, murale"
+SE,ITIN-061,"OUTLET: HDMI, ceiling mounted","SALIDA: HDMI, montaje en techo","SORTIE : HDMI, montage au plafond"
+SE,ITIN-063,"OUTLET: HDMI, on data/ AV panel","SALIDA: HDMI, en el panel de datos/ AV","SORTIE : HDMI, sur le panneau de données/AV"
+SE,ITIN-066,"OUTLET: HDMI, wall mounted","SALIDA: HDMI, montaje en pared","SORTIE : HDMI, montage mural"
+SE,ITIN-067,"OUTLET: HDMI, desk box","SALIDA: HDMI, caja de escritorio","SORTIE : HDMI, boîtier de bureau"
+SE,ITIN-070,OUTLET: MATV,SALIDA: MATV,SORTIE : MATV
+SE,ITIN-071,"OUTLET: MATV, ceiling mounted","SALIDA: MATV, montaje en techo","SORTIE : MATV, montée au plafond"
+FFE,ITIN-120,PATCH PANEL: data integration,PATCH PANEL: integración de datos,PATCH PANEL : intégration de données
+FFE,ITIN-123,RACK: communications,RACK: comunicaciones,RACK : communication
+FFE,ITIN-128,"RACK: voice, intermediate distribution frame (IDF)","RACK: voz, marco de distribución intermedio (IDF)","RACK : voix, répartiteur intermédiaire (IDF)"
+FFE,ITIN-139,COMPUTER: mainframe,COMPUTADORA: computadora central,ORDINATEUR : ordinateur central
+SE,ITIN-140,"DATA PANEL: data / AV outlets, ceiling mounted","PANEL DE DATOS: salidas de datos / AV, montaje en techo","PANNEAU DE DONNÉES : prises de données/AV, montées au plafond"
+SE,ITIN-143,"FLOORBOX: for power, data, AV, flush mounted","FLOORBOX: para alimentación, datos, AV, montaje empotrado","FLOORBOX : pour alimentation, données, AV, encastré"
+SE,ITIN-145,"DESK BOX: for power, data, AV, flush mounted, softwired","CAJA DE ESCRITORIO: para alimentación, datos, AV, empotrada, cableada por software","BOÎTE DE BUREAU : pour l'alimentation, les données, l'audiovisuel, encastrée, câblée"
+FFE,ITNE-003,BAR CODING: reader,CODIFICACIÓN DE BARRAS: lector,CODAGE BARRES : lecteur
+FFE,ITNE-004,CAMERA: video conferencing,CAMERA: videoconferencia,APPAREIL PHOTO : visioconférence
+FFE,ITNE-005,COMMS BOARD,TABLERO DE COMMS,CARTE DE COMMUNICATION
+FFE,ITNE-007,"COMPUTER: desktop, with display screen","COMPUTADORA: de escritorio, con pantalla de visualización","ORDINATEUR : bureau, avec écran d'affichage"
+FFE,ITNE-008,COMPUTER: for workstation on wheels,ORDENADOR: para puesto de trabajo sobre ruedas,ORDINATEUR : pour poste de travail sur roues
+FFE,ITNE-009,"COMPUTER: hi performance, for clinical / PACS use","COMPUTADORA: alto rendimiento, para uso clínico/PACS","ORDINATEUR : haute performance, pour une utilisation clinique / PACS"
+FFE,ITNE-010,COMPUTER: laptop or other mobile device,COMPUTADORA: computadora portátil u otro dispositivo móvil,ORDINATEUR : ordinateur portable ou autre appareil mobile
+FFE,ITNE-011,COMPUTER: server,ORDENADOR: servidor,Serveur informatique
+FFE,ITNE-013,CONTROL UNIT: video conferencing,UNIDAD DE CONTROL: videoconferencia,UNITÉ DE CONTRLE : visioconférence
+FFE,ITNE-016,FAX MACHINE: desktop,MÁQUINA DE FAX: escritorio,TÉLÉCOPIE : ordinateur de bureau
+FFE,ITNE-019,MICROPHONE: videoconferencing,MICRÓFONO: videoconferencia,MICROPHONE : visioconférence
+FFE,ITNE-021,MULTIFUNCTION DEVICE: floorstanding,DISPOSITIVO MULTIFUNCIÓN: de pie,APPAREIL MULTIFONCTION : au sol
+FFE,ITNE-023,PRINTER: networked,IMPRESORA: en red,IMPRIMANTE : en réseau
+FFE,ITNE-042,"SPEAKER: video conferencing, wall mount","ALTAVOZ: videoconferencia, montaje en pared","HAUT-PARLEUR : visioconférence, support mural"
+FFE,ITNE-049,"TELEPHONE: handset, desktop","TELÉFONO: microteléfono, escritorio","TÉLÉPHONE : combiné, ordinateur de bureau"
+FFE,ITNE-050,"TELEPHONE: handset, desktop, handsfree","TELÉFONO: auricular, escritorio, manos libres","TÉLÉPHONE : combiné, ordinateur de bureau, mains libres"
+FFE,ITNE-052,"TELEPHONE: handset, wall mount","TELÉFONO: microteléfono, montaje en pared","TÉLÉPHONE : combiné, support mural"
+FFE,ITNE-053,"TELEPHONE: handset, wall mount, handsfree","TELÉFONO: auricular, montaje en pared, manos libres","TÉLÉPHONE : combiné, support mural, mains libres"
+FFE,ITNE-056,TELEPHONE PABX: switchboard,PABX TELEFÓNICO: centralita,TÉLÉPHONE PABX : standard
+FFE,ITNE-057,TELEPHONE: public,TELÉFONO: público,TÉLÉPHONE : public
+FFE,ITNE-058,"TELEPHONE: public, taxi service","TELÉFONO: público, servicio de taxi","TÉLÉPHONE : public, service de taxi"
+FFE,ITNE-060,TELEPHONE: teleconferencing module,TELÉFONO: módulo de teleconferencia,TÉLÉPHONE : module de téléconférence
+FFE,ITNE-063,DISPLAY SCREEN: for computer,PANTALLA DE VISUALIZACIÓN: para computadora,ÉCRAN D'AFFICHAGE : pour ordinateur
+FFE,ITNE-066,"COMPUTER: all-in-one, wall mounted","ORDENADOR: todo en uno, montado en la pared","ORDINATEUR : tout-en-un, mural"
+FFE,ITNE-067,KEYBOARD: keyboard and mouse only,TECLADO: solo teclado y mouse,CLAVIER : clavier et souris uniquement
+FFE,ITNE-068,"COMPUTER: hi performance, for clinical / PACS use, CPU, underbench mount","ORDENADOR: alto rendimiento, para uso clínico / PACS, CPU, montaje debajo de la mesa","ORDINATEUR : haute performance, pour une utilisation clinique / PACS, CPU, montage sous paillasse"
+FFE,ITNE-069,"DISPLAY SCREEN: PACS, portrait ","PANTALLA DE VISUALIZACIÓN: PACS, retrato","ÉCRAN D'AFFICHAGE : PACS, portrait"
+FFE,ITNE-070,DISPLAY SCREEN: PACS,PANTALLA DE VISUALIZACIÓN: PACS,ÉCRAN D'AFFICHAGE : PACS
+FFE,ITNE-071,"COMPUTER: desktop, with dual display screens","ORDENADOR: de sobremesa, con pantallas duales","ORDINATEUR : ordinateur de bureau, avec deux écrans d'affichage"
+FFE,ITNE-072,BAR CODING: PDE dock,CODIFICACIÓN DE BARRAS: puerto PDE,CODAGE BARRES : Quai PDE
+FFE,ITNE-073,DISPLAY SCREEN: patient treatment information,PANTALLA DE VISUALIZACIÓN: información sobre el tratamiento del paciente,ÉCRAN D'AFFICHAGE : informations sur le traitement du patient
+FFE,ITNE-074,DISPLAY SCREEN: patient observation,PANTALLA DE VISUALIZACIÓN: observación del paciente,ÉCRAN D'AFFICHAGE : observation du patient
+SE,ITSE-003,ALARM: intruder detection,ALARMA: detección de intrusos,ALARME : détection d'intrusion
+SE,ITSE-006,"BUTTON: duress, fixed","BOTÓN: coacción, fijo","BOUTON : contrainte, fixe"
+SE,ITSE-008,"BUTTON: duress, mobile device","BOTÓN: coacción, dispositivo móvil","BOUTON : contrainte, appareil mobile"
+FFE,ITSE-012,CAMERA: CCTV,CÁMARA: circuito cerrado de televisión,CAMÉRA : CCTV
+FFE,ITSE-019,CAMERA: ID photo,CÁMARA: Foto de identificación,APPAREIL PHOTO : photo d'identité
+SE,ITSE-023,"DOOR RELEASE: access control, buzzer","LIBERACIÓN DE LA PUERTA: control de acceso, zumbador","OUVERTURE DE PORTE : contrôle d'accès, buzzer"
+SE,ITSE-024,"DOOR RELEASE: access control, emergency override","APERTURA DE PUERTA: control de acceso, anulación de emergencia","OUVERTURE DE LA PORTE : contrôle d'accès, dérogation d'urgence"
+SE,ITSE-025,"DOOR RELEASE: access control, remote activation","LIBERACIÓN DE PUERTA: control de acceso, activación remota","OUVERTURE DE PORTE : contrôle d'accès, activation à distance"
+SE,ITSE-028,"INTERCOM: audiovisual, wall mounted","INTERCOM: audiovisual, de pared","INTERPHONE : audiovisuel, mural"
+SE,ITSE-029,"INTERCOM: audio, wall mount","INTERCOMUNICADOR: audio, montaje en pared","INTERPHONE : audio, support mural"
+SE,ITSE-038,"READER: access control, general","LECTOR: control de acceso, general","LECTEUR : contrôle d'accès, général"
+SE,ITSE-045,"SENSOR: motion detection, for lighting control, flush to ceiling","SENSOR: detección de movimiento, para control de iluminación, a ras de techo","CAPTEUR : détection de mouvement, pour le contrôle de l'éclairage, affleurant au plafond"
+SE,ITSE-046,"SENSOR: motion detection, for staff alert","SENSOR: detección de movimiento, para alerta del personal","CAPTEUR : détection de mouvement, pour alerte du personnel"
+SE,ITSE-047,"SENSOR: motion detection, for staff alert, flush to ceiling","SENSOR: detección de movimiento, para alerta de personal, a ras de techo","CAPTEUR : détection de mouvement, pour alerte du personnel, au ras du plafond"
+FFE,ITSE-048,DISPLAY SCREEN: CCTV system,PANTALLA DE VISUALIZACIÓN: sistema CCTV,ÉCRAN D'AFFICHAGE : système de vidéosurveillance
+SE,LIFX-001,"LIGHT: night light, tamper proof, anti ligature","LUZ: luz nocturna, a prueba de manipulaciones, antiligadura","LUMIÈRE : veilleuse, inviolable, anti-ligature"
+SE,LIFX-002,"LIGHT: illuminated sign, X-Ray in Use","LUZ: letrero iluminado, Rayos X en uso","LUMIÈRE : enseigne lumineuse, rayons X en cours d'utilisation"
+SE,LIFX-003,"LIGHT: illuminated sign, Laser in Use","LUZ: rótulo luminoso, Láser en Uso","LUMIÈRE : enseigne lumineuse, Laser en cours d'utilisation"
+SE,LIFX-004,"LIGHT: illuminated sign, Beam On-Beam Off","LUZ: letrero iluminado, haz encendido-haz apagado","LUMIÈRE : enseigne lumineuse, faisceau allumé-faisceau éteint"
+SE,LIFX-008,"LIGHT: task light, built in","LUZ: luz de trabajo, incorporada","LIGHT : lampe de travail, intégrée"
+SE,LIFX-011,LIGHT: reading light,LUZ: luz de lectura,LIGHT : liseuse
+FFE,LIFX-013,"LIGHT: procedure, ceiling mounted, small","LUZ: procedimiento, montaje en techo, pequeña","LUMIÈRE : procédure, montée au plafond, petite"
+FFE,LIFX-014,"LIGHT: procedure, ceiling mounted","LUZ: procedimiento, montaje en techo","LIGHT : procédure, montage au plafond"
+SE,LIFX-015,LIGHT: pneumatic tube alert light,LUZ: luz de alerta de tubo neumático,LUMIÈRE : voyant d'alerte à tube pneumatique
+SE,LIFX-016,LIGHT: pelmet light,LUZ: cenefa de luz,LUMIÈRE : lumière de cantonnière
+SE,LIFX-017,LIGHT: night light,LUZ: luz de noche,LUMIÈRE : veilleuse
+FFE,LIFX-026,"LIGHT: examination, wall mounted","LUZ: examen, montado en la pared","LIGHT: examen, fixé au mur"
+FFE,LIFX-027,"LIGHT: examination, ceiling mounted","LUZ: examen, montado en el techo","LUMIÈRE : examen, montage au plafond"
+SE,LIFX-030,"LIGHT: downlight, recessed, compact fluorescent","LIGHT: downlight, empotrable, fluorescente compacta","LUMIÈRE : downlight, encastré, fluocompact"
+SE,LIFX-031,"LIGHT: downlight, recessed","LUZ: downlight, empotrable","LUMIÈRE : downlight, encastré"
+SE,LIFX-032,"LIGHT: downlight, examination, ceiling mounted","LUZ: downlight, examen, montaje en techo","LUMIÈRE : downlight, examen, montage au plafond"
+SE,LIFX-034,"LIGHT: reading light, tamper proof, anti ligature, ceiling recessed","LUZ: luz de lectura, inviolable, antiligadura, empotrada en el techo","LUMIERE : liseuse, inviolable, anti ligature, encastrable au plafond"
+SE,LIFX-035,LIGHT: occupancy light,LUZ: luz de ocupación,LUMIÈRE : lumière d'occupation
+FFE,LIFX-037,"LIGHT: LED strip, ceiling mounted","LUZ: tira LED, montaje en techo","LUMIÈRE : bande LED, montée au plafond"
+SE,LIFX-038,LIGHT: backlit feature panels,LUZ: paneles de características retroiluminados,LUMIÈRE : panneaux de fonction rétroéclairés
+FFE,LIPO-005,"LIGHT: task light, portable","LUZ: luz de trabajo, portátil","LUMIÈRE : lampe de travail, portable"
+FFE,LIPO-006,"LIGHT: examination, mobile","LUZ: examen, móvil","LUMIÈRE : examen, mobile"
+SE,MEEX-002,EXHAUST: dryer,ESCAPE: secador,ECHAPPEMENT : sèche-linge
+SE,MEEX-008,EXHAUST: low level,ESCAPE: bajo nivel,ECHAPPEMENT : bas niveau
+FFE,MEEX-013,FUME CUPBOARD,CAMPANA EXTRACTORA DE HUMOS,ARMOIRE À FUMÉE
+SE,MEEX-016,"RETURN AIR: grille, low level","AIRE DE RETORNO: rejilla, nivel bajo","RETOUR D'AIR : grille, niveau bas"
+SE,MEEX-017,"EXHAUST: downdraft, mortuary","ESCAPE: corriente descendente, mortuorio","ECHAPPEMENT : aspirant, morgue"
+SE,MEGE-007,CONTROL PANEL: temperature,PANEL DE CONTROL: temperatura,PANNEAU DE COMMANDE : température
+FFE,MEGE-010,HEAT EXCHANGER: supplied by mechanical chilled water,INTERCAMBIADOR DE CALOR: suministrado por agua fría mecánica,ÉCHANGEUR DE CHALEUR : alimenté par eau glacée mécanique
+SE,MEGE-014,ALARM: oxygen depletion,ALARMA: agotamiento de oxígeno,ALARME : épuisement en oxygène
+SE,MEGE-015,VENTILATION PORT,PUERTO DE VENTILACIÓN,ORIFICE DE VENTILATION
+SE,MEGE-016,SENSOR: oxygen depletion,SENSOR: agotamiento de oxígeno,CAPTEUR : appauvrissement en oxygène
+SE,MEGE-017,CONTROL PANEL: HVAC,PANEL DE CONTROL: HVAC,PANNEAU DE COMMANDE : CVC
+SE,MESU-011,SUPPLY AIR: grille,SUMINISTRO DE AIRE: rejilla,ALIMENTATION D'AIR : grille
+SE,MGAS-004,"OUTLET: carbon dioxide (CO2), on pendant","SALIDA: dióxido de carbono (CO2), en colgante","SORTIE : dioxyde de carbone (CO2), sur pendentif"
+SE,MGAS-008,"OUTLET: compressed air, wall mounted","SALIDA: aire comprimido, montado en la pared","SORTIE : air comprimé, murale"
+SE,MGAS-020,OUTLET: medical air (MA),SALIDA: aire medicinal (MA),SORTIE : air médical (MA)
+SE,MGAS-021,"OUTLET: medical air (MA), on pendant","SALIDA: aire medicinal (MA), en suspensión","SORTIE : air médical (MA), sur pendentif"
+SE,MGAS-022,"OUTLET: medical air (MA), on services panel","SALIDA: aire medicinal (MA), en panel de servicios","SORTIE : air médical (MA), sur panneau de services"
+SE,MGAS-023,"OUTLET: medical air (MA), wall mounted","SALIDA: aire medicinal (MA), montado en la pared","SORTIE : air médical (MA), murale"
+SE,MGAS-031,"OUTLET: nitrous oxide (N2O), on pendant","SALIDA: óxido nitroso (N2O), en colgante","SORTIE : protoxyde d'azote (N2O), sur pendentif"
+SE,MGAS-032,"OUTLET: nitrous oxide (N2O), on services panel","SALIDA: óxido nitroso (N2O), en panel de servicios","SORTIE : protoxyde d'azote (N2O), sur panneau de services"
+SE,MGAS-033,"OUTLET: nitrous oxide (N2O), wall mounted","SALIDA: óxido nitroso (N2O), montado en la pared","SORTIE : protoxyde d'azote (N2O), mural"
+SE,MGAS-041,"OUTLET: oxygen (O2), on pendant","SALIDA: oxígeno (O2), en colgante","SORTIE : oxygène (O2), sur pendentif"
+SE,MGAS-042,"OUTLET: oxygen (O2), on services panel","SALIDA: oxígeno (O2), en panel de servicios","SORTIE : oxygène (O2), sur panneau de services"
+SE,MGAS-043,"OUTLET: oxygen (O2), wall mounted","SALIDA: oxígeno (O2), montado en la pared","SORTIE : oxygène (O2), murale"
+SE,MGAS-051,"OUTLET: scavenge, on pendant","SALIDA: carroñero, en colgante","SORTIE : récupération, sur pendentif"
+SE,MGAS-053,"OUTLET: scavenge, on services panel","OUTLET: barrido, en el panel de servicios","SORTIE : récupération, sur panneau de services"
+SE,MGAS-055,"OUTLET: scavenge, wall mounted","SALIDA: barrido, montado en la pared","SORTIE : récupération, murale"
+SE,MGAS-060,OUTLET: suction,SALIDA: succión,SORTIE : aspiration
+SE,MGAS-061,"OUTLET: suction, on pendant","SALIDA: succión, en colgante","SORTIE : aspiration, sur pendentif"
+SE,MGAS-062,"OUTLET: suction, on services panel","SALIDA: aspiración, en panel de servicios","SORTIE : aspiration, sur panneau de services"
+SE,MGAS-063,"OUTLET: suction, wall mounted","SALIDA: succión, montaje en pared","SORTIE : aspiration, murale"
+SE,MGAS-074,"OUTLET: tool air, on pendant","SALIDA: herramienta de aire, en colgante","SORTIE : outil air, sur pendentif"
+SE,MGAS-090,OUTLET: vacuum,SALIDA: vacío,SORTIE : vide
+SE,MGFP-001,ALARM PANEL: medical gases,PANEL DE ALARMA: gases medicinales,PANNEAU D'ALARME : gaz médicaux
+FFE,MGFP-002,FLOWMETER: medical air,CAUDALÍMETRO: aire medicinal,DÉBITMÈTRE : air médical
+FFE,MGFP-004,FLOWMETER: oxygen,CAUDALIMETRO: oxigeno,DÉBITMÈTRE : oxygène
+SE,MGFP-007,CONTROL PANEL: tool air,PANEL DE CONTROL: herramienta de aire,PANNEAU DE COMMANDE : outil pneumatique
+FFE,MMAH-001,BARS: parallel,BARRAS: paralelas,BARRES : parallèles
+FFE,MMAH-002,BICYCLE: exercise,BICICLETA: ejercicio,VELO : exercice
+FFE,MMAH-003,"BICYCLE: exercise, recumbent","BICICLETA: ejercicio, reclinada","VELO : exercice, couché"
+FFE,MMAH-005,BOOTH: audiometric,CABINA: audiométrica,STAND : audiométrique
+FFE,MMAH-010,"CHAIR: podiatry, electric","SILLA: podología, eléctrica","CHAISE : podologie, électrique"
+FFE,MMAH-012,"DEVICE: continuous passive motion (CPM), hand and fingers","DISPOSITIVO: movimiento pasivo continuo (CPM), mano y dedos","APPAREIL : mouvement passif continu (CPM), main et doigts"
+FFE,MMAH-013,"DEVICE: eye examination, slit lamp","DISPOSITIVO: examen ocular, lámpara de hendidura","APPAREIL : examen de la vue, lampe à fente"
+FFE,MMAH-016,ERGOMETER: arm,ERGOMETRO: brazo,ERGOMÈTRE : bras
+FFE,MMAH-017,"HOIST: pool, hydraulic","POLIPASTO: piscina, hidráulico","LEVAGE : piscine, hydraulique"
+FFE,MMAH-019,MACHINE: rowing,MÁQUINA: remo,MACHINE : aviron
+FFE,MMAH-020,MACHINE: stepping,MÁQUINA: paso a paso,MACHINE : pas à pas
+FFE,MMAH-021,"PAN: splint, molding","PAN: férula, moldura","PAN : attelle, moulage"
+FFE,MMAH-023,SAW: plaster,SIERRA: yeso,SCIE : plâtre
+FFE,MMAH-027,TREADMILL: automatic,MÁQUINA PARA CORRER: automática,TAPIS ROULANT : automatique
+FFE,MMAH-028,TROLLEY: plaster,CARRO: yeso,CHARIOT : plâtre
+FFE,MMAH-032,"BLANKET: pool, auto-operated","MANTA: piscina, automática","COUVERTURE : piscine, à commande automatique"
+FFE,MMAH-033,PLINTH: double width,ZÓCALO: doble ancho,SOCLE : double largeur
+FFE,MMAH-035,PLINTH: single width,ZÓCALO: ancho simple,SOCLE : simple largeur
+FFE,MMAH-036,"CONSOLE: control, audiometric booth","CONSOLA: control, cabina audiométrica","CONSOLE : contrôle, cabine audiométrique"
+FFE,MMAH-039,PLINTH: laundry,ZÓCALO: lavandería,SOCLE : buanderie
+FFE,MMAH-042,DEVICE: tympanometer,DISPOSITIVO: timpanómetro,APPAREIL : tympanomètre
+FFE,MMAH-043,DEVICE: visual reinforcement audiometry,DISPOSITIVO: audiometría de refuerzo visual,DISPOSITIF : audiométrie de renforcement visuel
+FFE,MMAH-044,"STAIRS: exercise, 90 degree","ESCALERAS: ejercicio, 90 grados","ESCALIERS : exercice, 90 degrés"
+FFE,MMAH-045,VACUUM: plaster saw,VACÍO: sierra de yeso,VIDE : scie à plâtre
+FFE,MMBE-004,"BED: patient, bariatric, electric with mattress","CAMA: paciente, bariátrica, eléctrica con colchón","LIT : patient, bariatrique, électrique avec matelas"
+FFE,MMBE-005,"BED: patient, birthing, electric","CAMA: paciente, parto, eléctrica","LIT : patient, accouchement, électrique"
+FFE,MMBE-009,"BED: patient, electric","CAMA: paciente, eléctrica","LIT : patient, électrique"
+FFE,MMBE-010,"BED: patient, electric with mattress","CAMA: paciente, eléctrica con colchón","LIT : patient, électrique avec matelas"
+FFE,MMBE-011,"BED: patient, emergency, electric","CAMA: paciente, emergencia, eléctrica","LIT : patient, urgence, électrique"
+FFE,MMBE-013,"BED: patient, ICU, electric","CAMA: paciente, UCI, eléctrica","LIT : patient, soins intensifs, électrique"
+FFE,MMBE-017,"BED: patient, mental health, electric","CAMA: paciente, salud mental, eléctrica","LIT : patient, santé mentale, électrique"
+FFE,MMBE-023,"COUCH: examination, electric, mobile","CAMILLA: exploración, eléctrica, móvil","DIVAN : examen, électrique, mobile"
+FFE,MMBE-042,SLIDE: patient,DIAPOSITIVA: paciente,DIAPOSITIVE : patiente
+FFE,MMBE-043,"TROLLEY: patient, examination","CARRO: paciente, examen","CHARIOT : patient, examen"
+FFE,MMBE-044,"TROLLEY: patient, transport","CARRO: paciente, transporte","CHARIOT : patient, transport"
+FFE,MMBE-045,WHEELCHAIR,SILLA DE RUEDAS,FAUTEUIL ROULANT
+FFE,MMBE-050,WHEELCHAIR: bariatric,SILLA DE RUEDAS: bariátrica,FAUTEUIL ROULANT : bariatrique
+FFE,MMBE-052,"LIFTER: patient, ceiling mounted, cassette motor for track","ELEVADOR: paciente, montado en el techo, motor de cassette para carril","LIFTER : patient, monté au plafond, moteur à cassette pour rail"
+FFE,MMBE-053,"LIFTER: patient, ceiling mounted, cassette motor for track, bariatric","ELEVADOR: paciente, montaje en techo, motor de cassette para carril, bariátrico","LIFTER : patient, monté au plafond, moteur à cassette pour rail, bariatrique"
+FFE,MMBE-054,"LIFTER: patient, ceiling mounted, sling component","ELEVADOR: paciente, montado en el techo, componente de cabestrillo","LIFTER : patient, monté au plafond, composant de harnais"
+FFE,MMBE-055,"LIFTER: patient, ceiling mounted, sling component, bariatric","ELEVADOR: paciente, montado en el techo, componente de cabestrillo, bariátrico","LIFTER : patient, monté au plafond, composant de sangle, bariatrique"
+FFE,MMBE-056,"LIFTER: patient, ceiling mounted, track, linear","ELEVADOR: paciente, de techo, de carril, lineal","LIFTER : patient, plafonnier, sur rail, linéaire"
+FFE,MMBE-061,"LIFTER: patient, ceiling mounted, track, traverse, bariatric","ELEVADOR: paciente, montado en el techo, sobre riel, transversal, bariátrico","LIFTER : patient, plafonnier, rail, traverse, bariatrique"
+FFE,MMBE-064,"COUCH: examination, electric, mobile, bariatric","CAMILLA: exploración, eléctrica, móvil, bariátrica","DIVAN : examen, électrique, mobile, bariatrique"
+FFE,MMBE-068,"LIFTER: patient, pendant mounted","ELEVADOR: paciente, colgante montado","LIFTER : patient, monté en suspension"
+FFE,MMBE-069,"TROLLEY: patient, echocardiography","CARRO: paciente, ecocardiografía","CHARIOT : patient, échocardiographie"
+FFE,MMBE-070,"LIFTER: patient, ceiling mounted, motor and sling component, mortuary","ELEVADOR: paciente, montado en el techo, motor y componente de cabestrillo, depósito de cadáveres","LIFTER : patient, monté au plafond, composant moteur et sangle, morgue"
+FFE,MMBE-071,"LIFTER: patient, ceiling mounted, track, linear, mortuary","ELEVADOR: paciente, montado en el techo, de riel, lineal, mortuorio","LIFTER : patient, plafonnier, rail, linéaire, morgue"
+FFE,MMDN-002,"CHAIR: dental, electric","SILLA: dental, eléctrica","CHAISE : dentaire, électrique"
+FFE,MMDN-004,"DEVICE: dental, micromotor","DISPOSITIVO: dental, micromotor","DISPOSITIF : dentaire, micromoteur"
+FFE,MMDN-005,"DEVICE: dental, model trimmer","DISPOSITIVO: dental, recortadora de modelos","APPAREIL : dentaire, tondeuse modèle"
+FFE,MMDN-009,"LATHE: dental, polishing","TORNO: dental, pulido","TOUR : dentaire, polissage"
+FFE,MMDN-013,"MOULDER: dental, forming machine","MOULDER: dental, máquina formadora","MOULURIER : dentaire, machine de formage"
+FFE,MMDN-016,TROLLEY: dental,CARRO: dental,CHARIOT : dentaire
+FFE,MMDN-018,"X-RAY UNIT: dental, wall mounted","UNIDAD DE RAYOS X: dental, de pared","UNITÉ À RAYONS X : dentaire, murale"
+FFE,MMDN-020,"LIGHT: dental, ceiling mounted","LUZ: dental, montaje en techo","LUMIÈRE : dentaire, montée au plafond"
+FFE,MMDN-021,"CONSOLE: dental assistant, chair mounted","CONSOLA: asistente dental, montada en silla","CONSOLE : assistante dentaire, montée sur fauteuil"
+FFE,MMDN-022,"CONSOLE: dentist, chair mounted","CONSOLA: dentista, montada en sillón","CONSOLE : dentiste, montée sur chaise"
+FFE,MMDN-023,DEVICE: dental extraction unit,DISPOSITIVO: unidad de extracción dental,APPAREIL : unité d'extraction dentaire
+FFE,MMDN-024,"DEVICE: dental, mixing vibrator","DISPOSITIVO: dental, vibrador mezclador","DISPOSITIF : vibrateur dentaire, mélangeur"
+FFE,MMDN-025,"MONITOR: dentist, chair mounted","MONITOR: dentista, montado en silla","MONITEUR : dentiste, monté sur chaise"
+FFE,MMGE-001,ADAPTER: scavenge,ADAPTADOR: barrido,ADAPTATEUR : récupération
+FFE,MMGE-002,ADAPTER: suction,ADAPTADOR: succión,ADAPTATEUR : aspiration
+FFE,MMGE-010,CABINET:  blanket/ fluid warming,ARMARIO: manta / calentamiento de fluidos,ARMOIRE : couverture/réchauffement des fluides
+FFE,MMGE-014,CHAIR: anaesthetist,PRESIDENTE: anestesista,CHAISE : anesthésiste
+FFE,MMGE-019,CHAIR: patient,SILLA: paciente,CHAISE : patiente
+FFE,MMGE-020,"CHAIR: patient, bariatric","SILLA: paciente, bariátrica","CHAISE : patient, bariatrique"
+FFE,MMGE-023,"CHAIR: recliner, clinical, electric","SILLA: reclinable, clínica, eléctrica","CHAISE : inclinable, clinique, électrique"
+FFE,MMGE-024,CHAIR: shower,SILLA: ducha,CHAISE : douche
+FFE,MMGE-025,"CHAIR: shower, bariatric","SILLA: ducha, bariátrica","CHAISE : douche, bariatrique"
+FFE,MMGE-030,DIAGNOSTIC SET: portable,SET DE DIAGNÓSTICO: portátil,KIT DE DIAGNOSTIC : portable
+FFE,MMGE-031,DIAGNOSTIC SET: wall mounted,SET DE DIAGNÓSTICO: montado en la pared,KIT DE DIAGNOSTIC : mural
+FFE,MMGE-032,"DISPLAY SCREEN: slave, for patient monitor","PANTALLA DE VISUALIZACIÓN: esclava, para monitor de paciente","ÉCRAN D'AFFICHAGE : esclave, pour moniteur patient"
+FFE,MMGE-034,"FRIDGE: drugs, large","NEVERA: medicamentos, grande","FRIGO : médicaments, grand"
+FFE,MMGE-036,"FRIDGE: drugs, underbench","FRIGORÍFICO: drogas, debajo del banco","FRIGO : médicaments, sous paillasse"
+FFE,MMGE-039,"HANGER: IV, for ceiling track","COLGADOR: IV, para riel de techo","CROCHET : IV, pour rail de plafond"
+FFE,MMGE-045,IV STAND: mobile,SOPORTE IV: móvil,SUPPORT IV: mobile
+FFE,MMGE-048,"LINEN CARRIER: dirty, single","PORTADOR DE ROPA: sucio, soltero","PORTE-LINGE : sale, simple"
+FFE,MMGE-049,MACHINE: dialysis,MÁQUINA: diálisis,MACHINE : dialyse
+FFE,MMGE-062,"MONITOR: patient, dynamap","MONITOR: paciente, dynamap","MONITEUR : patient, dynamap"
+FFE,MMGE-063,"MONITOR: patient, foetal, CTG","MONITOR: paciente, fetal, CTG","MONITEUR : patient, fœtus, CTG"
+FFE,MMGE-065,"MONITOR: patient, neonatal","MONITOR: paciente, neonatal","MONITEUR : patient, nouveau-né"
+FFE,MMGE-076,PUMP: breast,BOMBA: mama,POMPE: sein
+FFE,MMGE-078,PUMP: infusion,BOMBA: infusión,POMPE : infusion
+FFE,MMGE-087,"SAFE: dangerous drugs, medium","SEGURO: drogas peligrosas, medio","SÉCURITAIRE : drogues dangereuses, moyenne"
+FFE,MMGE-088,"SAFE: dangerous drugs, small","SEGURO: drogas peligrosas, pequeño","SR : drogues dangereuses, petites"
+FFE,MMGE-089,"SCALES: electronic, chair","ESCALAS: electrónica, silla","BALANCE: électronique, chaise"
+FFE,MMGE-091,SPHYGMOMANOMETER: portable,ESFIGMOMANÓMETRO: portátil,TENSIOMÈTRE : portable
+FFE,MMGE-096,STATION: combination dialysis connection point and waste water tundish,ESTACIÓN: punto de conexión de diálisis combinado y artesa de aguas residuales,STATION : combinaison point de raccordement dialyse et répartiteur d'eaux usées
+FFE,MMGE-097,STATION: pneumatic tube,ESTACIÓN: tubo neumático,STATION : tube pneumatique
+FFE,MMGE-100,SUCTION BOTTLE,BOTELLA DE SUCCION,BOUTEILLE D'ASPIRATION
+FFE,MMGE-109,TROLLEY: clean linen,CARRO: ropa limpia,CHARIOT : linge propre
+FFE,MMGE-110,"TROLLEY: clean linen, small","CARRO: ropa limpia, pequeña","CHARIOT : linge propre, petit"
+FFE,MMGE-113,TROLLEY: dressing,CARRO: vestirse,CHARIOT : dressing
+FFE,MMGE-119,TROLLEY: equipment,CARRO: equipo,CHARIOT : équipement
+FFE,MMGE-122,TROLLEY: gowns,CARRO: batas,CHARIOT : robes
+FFE,MMGE-123,TROLLEY: instrument,CARRO: instrumento,CHARIOT : instrument
+FFE,MMGE-126,TROLLEY: intubation,CARRO: intubación,CHARIOT : intubation
+FFE,MMGE-131,TROLLEY: monitor,CARRO: monitor,CHARIOT : moniteur
+FFE,MMGE-133,"TROLLEY: mortuary, hydraulic","CARRO: mortuorio, hidráulico","CHARIOT : morgue, hydraulique"
+FFE,MMGE-137,TROLLEY: PPE,CARRO: EPI,CHARIOT : EPI
+FFE,MMGE-138,TROLLEY: preparation,CARRO: preparación,CHARIOT : préparation
+FFE,MMGE-139,TROLLEY: procedure,CARRO: procedimiento,CHARIOT : procédure
+FFE,MMGE-142,TROLLEY: sharps bin,CARRO: contenedor de objetos punzantes,CHARIOT : bac à objets tranchants
+FFE,MMGE-143,TROLLEY: soiled linen collection,CARRO: recogida de ropa sucia,CHARIOT : collecte linge souillé
+FFE,MMGE-150,"VIEWER: X-ray, 1 screen","VISOR: Rayos X, 1 pantalla","VISIONNEUSE : rayons X, 1 écran"
+FFE,MMGE-152,"VIEWER: X-ray, 2 screen","VISOR: Rayos X, 2 pantallas","VISIONNEUSE : rayons X, 2 écrans"
+FFE,MMGE-164,"WORKSTATION ON WHEELS: clinical, mobile","ESTACIÓN DE TRABAJO SOBRE RUEDAS: clínica, móvil","POSTE DE TRAVAIL SUR ROUES : clinique, mobile"
+FFE,MMGE-167,CHAIR: surgeon,PRESIDENTE: cirujano,CHAISE : chirurgien
+FFE,MMGE-168,"STAND: infusion pump, mobile","SOPORTE: bomba de infusión, móvil","STAND : pompe à perfusion, mobile"
+FFE,MMGE-169,"SLING: arm, dynamic, ceiling mounted","SLING: brazo, dinámico, montado en el techo","SLING: bras, dynamique, plafonnier"
+FFE,MMGE-171,"BOTTLE: eyewash, portable","BOTELLA: lavaojos, portátil","BOUTEILLE : collyre, portable"
+FFE,MMGE-173,"PROJECTOR: visual acuity testing, surface mounted","PROYECTOR: prueba de agudeza visual, montado en superficie","PROJECTEUR : test d'acuité visuelle, monté en surface"
+FFE,MMGE-174,"CHAIR: patient, ENT, electric ","SILLA: paciente, ORL, eléctrica","FAUTEUIL : patient, ORL, électrique"
+FFE,MMGE-175,DIAGNOSTIC SET: pendant mounted,SET DE DIAGNÓSTICO: colgante montado,KIT DE DIAGNOSTIC : monté sur suspension
+FFE,MMGE-176,"PUMP: infusion, pendant mounted","BOMBA: infusión, colgante","POMPE : infusion, montée sur pendentif"
+FFE,MMGE-177,"PUMP: syringe, pendant mounted","BOMBA: jeringa, montada en suspensión","POMPE : seringue, montée sur pendentif"
+FFE,MMGE-178,"PROCESSOR: reverse osmosis RO water, mobile","PROCESADOR: ósmosis inversa agua RO, móvil","PROCESSEUR : eau osmosée RO, mobile"
+FFE,MMGE-179,"MACHINE: electrocardiography (ECG), c/w trolley and printer shelf","MÁQUINA: electrocardiografía (ECG), carro c/w y estante para impresora","MACHINE : électrocardiographie (ECG), avec chariot et étagère pour imprimante"
+FFE,MMGE-182,"MACHINE: Electrophysiology, cardiac pacing","MÁQUINA: Electrofisiología, marcapasos cardíaco","MACHINE : électrophysiologie, stimulation cardiaque"
+FFE,MMGE-183,"FRIDGE: body holding, triple tier","FRIGORÍFICO: sujeción del cuerpo, nivel triple","FRIGO : maintien du corps, triple niveau"
+FFE,MMGE-185,"SCALES: digital, benchtop","BALANZAS: digitales, de sobremesa","BALANCE : numérique, de paillasse"
+FFE,MMGE-186,"TROLLEY: mortuary, transport","CARRO: mortuorio, transporte","CHARIOT : morgue, transport"
+FFE,MMGE-187,"MONITOR: patient, central monitoring","MONITOR: paciente, monitorización central","MONITEUR : patient, surveillance centrale"
+FFE,MMGE-188,"SCALES: electronic, standing, with stadiometer","BALANZA: electrónica, de pie, con estadiómetro","BALANCE : électronique, debout, avec stadiomètre"
+FFE,MMHA-002,DEFIBRILLATOR,DESFIBRILADOR,DÉFIBRILLATEUR
+FFE,MMHA-005,"MONITOR: patient, cardiac","MONITOR: paciente, cardiaco","MONITEUR : patient, cardiaque"
+FFE,MMHA-008,"MONITOR: patient, cardiac with vital signs","MONITOR: paciente, cardíaco con signos vitales","MONITEUR : patient, cardiaque avec signes vitaux"
+FFE,MMHA-016,SUCTION: TWIN-O-VAC UNIT,SUCCIÓN: UNIDAD TWIN-O-VAC,ASPIRATION : UNITÉ TWIN-O-VAC
+FFE,MMHA-023,VENTILATOR,VENTILADOR,VENTILATEUR
+FFE,MMHA-024,VENTILATOR: continuous positive airway pressure (CPAP),VENTILADOR: presión positiva continua en las vías respiratorias (CPAP),VENTILATEUR : pression positive continue (CPAP)
+FFE,MMHA-025,VENTILATOR: neonatal,VENTILADOR: neonatal,VENTILATEUR : néonatal
+FFE,MMHA-027,"TROLLEY: resuscitation, adult","CARRO: reanimación, adulto","CHARIOT : réanimation, adulte"
+FFE,MMHA-030,"MONITOR: patient, cardiac, pendant mounted","MONITOR: paciente, cardíaco, colgante montado","MONITEUR : patient, cardiaque, monté sur pendentif"
+FFE,MMHA-032,"MONITOR: patient, cardiac, SPECT/CT","MONITOR: paciente, cardiaco, SPECT/CT","MONITEUR : patient, cardiaque, SPECT/CT"
+FFE,MMHA-033,"CYLINDER: gas, oxygen","CILINDRO: gas, oxígeno","BOUTEILLE : gaz, oxygène"
+FFE,MMIC-010,"CABINET: endoscope, drying & storage, pass-through filtered / forced air drying","GABINETE: endoscopio, secado y almacenamiento, filtrado de paso / secado con aire forzado","ARMOIRE : endoscope, séchage & stockage, passage à travers filtré / séchage à air pulsé"
+FFE,MMIC-095,WASHER SANITISER: pan flusher,LAVADORA DESINFECTANTE: lavaplatos,LAVEUSE ASSAINISSEUR : laveur de casseroles
+FFE,MMIC-097,WASHER SANITISER: utensil washer,LAVADORA DESINFECTANTE: lavadora de utensilios,LAVEUSE ASSAINISSANTE : lave-ustensiles
+FFE,MMIC-121,TROLLEY: instruments transfer,CARRO: transferencia de instrumentos,CHARIOT : transfert d'instruments
+FFE,MMIC-122,DISINFECTOR: ultrasound probes,DESINFECTADOR: sondas de ultrasonido,DÉSINFECTEUR : sondes à ultrasons
+FFE,MMLA-013,ANALYSER: urinalysis,ANALIZADOR: análisis de orina,ANALYSEUR : analyse d'urine
+FFE,MMLA-014,DEVICE: wax bath,DISPOSITIVO: baño de cera,APPAREIL : bain de cire
+FFE,MMLA-036,CENTRIFUGE: benchtop,CENTRÍFUGA: de mesa,CENTRIFUGEUSE : de paillasse
+FFE,MMLA-049,DEVICE: point of care,DISPOSITIVO: punto de atención,APPAREIL : point de service
+FFE,MMLA-051,FREEZER: blood products,CONGELADOR: hemoderivados,CONGÉLATEUR : produits sanguins
+FFE,MMLA-052,"FRIDGE: blood products, double door","FRIGORÍFICO: hemoderivados, puerta doble","FRIGO : produits sanguins, double porte"
+FFE,MMLA-053,"FRIDGE: blood products, single door","FRIGORÍFICO: hemoderivados, puerta única","FRIGO : produits sanguins, porte simple"
+FFE,MMLA-054,"FRIDGE: laboratory, floor standing","FRIGORÍFICO: laboratorio, de pie","FRIGO : laboratoire, sur pied"
+FFE,MMLA-061,INCUBATOR: laboratory,INCUBADORA: laboratorio,INCUBATEUR : laboratoire
+FFE,MMLA-072,RACK: canister storage (pneumatic tube),RACK: contenedor de almacenamiento (tubo neumático),RACK : stockage bidon (tube pneumatique)
+FFE,MMLA-086,"TABLE: evisceration, height adjustable","MESA: evisceración, regulable en altura","TABLE : éviscération, réglable en hauteur"
+FFE,MMLA-087,"TABLE: dissection, height adjustable","MESA: disección, regulable en altura","TABLE : dissection, réglable en hauteur"
+FFE,MMMA-007,"INCUBATOR: infant, humidicrib","INCUBADORA: lactante, humidicrib","COUVEUSE : nourrisson, humidicrib"
+FFE,MMMA-011,MIXER: oxygen and nitrous oxide,MEZCLADOR: oxígeno y óxido nitroso,MÉLANGEUR : oxygène et protoxyde d'azote
+FFE,MMMA-013,STOOL: birthing,TABURETE: parto,TABOURET : accouchement
+FFE,MMMA-016,"RESUSCITAIRE: infant, wall mounted","RESUSCITAIRE: infantil, mural","RESUSCITAIRE : nourrisson, mural"
+FFE,MMMA-017,"MANTLEPIECE: birthing, wall mounted","MANTLEPIECE: parto, montado en la pared","MANTLEPIECE : accouchement, fixé au mur"
+FFE,MMMA-018,MIXER: oxygen and air,MEZCLADOR: oxígeno y aire,MÉLANGEUR : oxygène et air
+FFE,MMMI-095,"COMPUTER: tower, ICS, CT","COMPUTADORA: torre, ICS, CT","ORDINATEUR : tour, ICS, CT"
+FFE,MMMI-097,"CONTROL UNIT: c/w display, control box and keyboard, CT ","UNIDAD DE CONTROL: pantalla c / w, caja de control y teclado, CT","UNITÉ DE COMMANDE : avec affichage, boîtier de commande et clavier, CT"
+FFE,MMMI-099,"DEVICE: imaging, CT","DISPOSITIVO: imágenes, TC","APPAREIL : imagerie, tomodensitométrie"
+FFE,MMMI-100,"INJECTOR: contrast, CT","INYECTOR: contraste, CT","INJECTEUR : contraste, CT"
+FFE,MMMI-105,"TABLE: patient, fixed, CT","MESA: paciente, fijo, CT","TABLE : patient, fixe, CT"
+FFE,MMMI-107,"INJECTOR: contrast, CT, ceiling mounted","INYECTOR: contraste, CT, montaje en techo","INJECTEUR : contraste, CT, plafonnier"
+FFE,MMMI-108,"INJECTOR: contrast, table mounted","INYECTOR: contraste, montado en mesa","INJECTEUR : contraste, monté sur table"
+FFE,MMMI-109,"DEVICE: imaging, CT, wide bore","DISPOSITIVO: imágenes, TC, calibre ancho","APPAREIL : imagerie, tomodensitométrie, grand diamètre"
+FFE,MMMI-115,"COMPUTER: CPU, fluoroscopy","ORDENADOR: CPU, fluoroscopia","ORDINATEUR : CPU, fluoroscopie"
+FFE,MMMI-117,"CONSOLE: control, fluoroscopy/screening","CONSOLA: control, fluoroscopia/cribado","CONSOLE : contrôle, fluoroscopie/dépistage"
+FFE,MMMI-121,"INJECTOR: mobile, fluoroscopy/screening","INYECTOR: móvil, fluoroscopia / cribado","INJECTEUR : mobile, fluoroscopie/dépistage"
+FFE,MMMI-122,DISPLAY SCREEN: for fluoroscopy/screening,PANTALLA DE VISUALIZACIÓN: para fluoroscopia/detección,ÉCRAN D'AFFICHAGE : pour la fluoroscopie/le dépistage
+FFE,MMMI-123,"SHIELD: radiation, upper body, mobile, fluoroscopy/screening","SHIELD: radiación, parte superior del cuerpo, móvil, fluoroscopia/detección","BOUCLIER : rayonnement, haut du corps, mobile, fluoroscopie/dépistage"
+FFE,MMMI-124,"STAND: floor, with patient table, fluoroscopy/screening","STAND: de suelo, con mesa para el paciente, fluoroscopia / cribado","STAND : au sol, avec table patient, fluoroscopie/dépistage"
+FFE,MMMI-128,"CONTROL UNIT: fluoroscopy, mobile ","UNIDAD DE CONTROL: fluoroscopia, móvil","UNITÉ DE CONTRLE : fluoroscopie, mobile"
+FFE,MMMI-159,"DEVICE: imaging, mammography","DISPOSITIVO: imagenología, mamografía","APPAREIL : imagerie, mammographie"
+FFE,MMMI-162,"CONSOLE: control, mammography","CONSOLA: control, mamografía","CONSOLE : contrôle, mammographie"
+FFE,MMMI-171,"BOX: alarm, MRI","CAJA: alarma, resonancia magnética","BOX : alarme, IRM"
+FFE,MMMI-175,"CABIN: radio frequency, faraday cage, MRI","CABINA: radiofrecuencia, jaula de faraday, resonancia magnética","CABINE : radiofréquence, cage de faraday, IRM"
+FFE,MMMI-180,"DEVICE: imaging, magnet, MRI","DISPOSITIVO: imágenes, imán, resonancia magnética","APPAREIL : imagerie, aimant, IRM"
+FFE,MMMI-181,"DOOR: radio frequency, MRI","PUERTA: radiofrecuencia, resonancia magnética","PORTE : radiofréquence, IRM"
+FFE,MMMI-183,"INJECTOR: contrast, MRI","INYECTOR: contraste, resonancia magnética","INJECTEUR : contraste, IRM"
+FFE,MMMI-185,"PIPE: quench, MRI","TUBO: apagado, resonancia magnética","TUYAU : trempe, IRM"
+FFE,MMMI-188,"CAMERA: observation, MRI","CÁMARA: observación, resonancia magnética","CAMÉRA : observation, IRM"
+FFE,MMMI-191,"TABLE: patient, fixed, MRI","TABLA: paciente, fijo, resonancia magnética","TABLE : patient, fixe, IRM"
+FFE,MMMI-193,"COMPUTER: tower, acquisition, MRI","COMPUTADORA: torre, adquisición, MRI","ORDINATEUR : tour, acquisition, IRM"
+FFE,MMMI-195,"WINDOW: radiofrequency, MRI","VENTANA: radiofrecuencia, resonancia magnética","FENÊTRE : radiofréquence, IRM"
+FFE,MMMI-197,"BUTTON: quench, MRI","BOTÓN: enfriamiento rápido, resonancia magnética","BOUTON : trempe, IRM"
+FFE,MMMI-198,"MACHINE: anaesthetic, MRI compatible","MÁQUINA: anestésica, compatible con MRI","MACHINE : anesthésique, compatible IRM"
+FFE,MMMI-199,"PANEL: waveguide, MRI","PANEL: guía de ondas, MRI","PANNEAU : guide d'onde, IRM"
+FFE,MMMI-200,"TROLLEY: patient, transport, MRI compatible","CARRO: paciente, transporte, compatible con MRI","CHARIOT : patient, transport, compatible IRM"
+SE,MMMI-201,"PANEL: penetration, MRI","PANEL: penetración, resonancia magnética","PANNEAU : pénétration, IRM"
+FFE,MMMI-202,"CONSOLE: control, MRI ","CONSOLA: control, resonancia magnética","CONSOLE : contrôle, IRM"
+FFE,MMMI-205,"CAMERA: patient observation, PET/CT","CÁMARA: observación del paciente, PET/CT","CAMÉRA : observation du patient, TEP/TDM"
+FFE,MMMI-207,"DEVICE: imaging, PET/CT","DISPOSITIVO: imágenes, PET/CT","APPAREIL : imagerie, PET/CT"
+FFE,MMMI-209,PHANTOM: PET/CT,FANTASMA: PET / CT,FANTME : PET/CT
+FFE,MMMI-217,"TABLE: patient, fixed, PET/CT","MESA: paciente, fija, PET/CT","TABLEAU : patient, fixe, TEP/TDM"
+FFE,MMMI-218,"LASER: positioning lights, PET/CT ","LÁSER: luces de posicionamiento, PET / CT","LASER : feux de positionnement, PET/CT"
+FFE,MMMI-262,"DEVICE: nuclear medicine, SPECT/CT","DISPOSITIVO: medicina nuclear, SPECT/CT","DISPOSITIF : médecine nucléaire, SPECT/CT"
+FFE,MMMI-263,"BOX: line connection, SPECT/CT","CAJA: conexión de línea, SPECT/CT","BOX : connexion de ligne, SPECT/CT"
+FFE,MMMI-264,"CART: collimator, SPECT/CT","CARRO: colimador, SPECT/CT","CHARIOT : collimateur, SPECT/CT"
+FFE,MMMI-265,"BOARD: distribution, mains, SPECT/CT","TARJETA: distribución, red, SPECT/CT","CARTE : distribution, secteur, SPECT/CT"
+FFE,MMMI-267,"TABLE: patient handling system, pivot, SPECT/CT","MESA: sistema de manipulación de pacientes, pivote, SPECT/CT","TABLEAU : système de manipulation du patient, pivot, SPECT/CT"
+FFE,MMMI-269,"COMPUTER: tower, acquisition, SPECT/CT","COMPUTADORA: torre, adquisición, SPECT/CT","ORDINATEUR : tour, acquisition, SPECT/CT"
+FFE,MMMI-272,"BOARD: disconnect, mains, SPECT/CT ","TABLERO: desconectador, red, SPECT / CT","CARTE : déconnecter, secteur, SPECT/CT"
+FFE,MMMI-273,PHANTOM: SPECT/CT ,FANTASMA: SPECT / CT,FANTME : SPECT/CT
+FFE,MMMI-274,"CONSOLE: control, SPECT/CT ","CONSOLA: control, SPECT / CT","CONSOLE : contrôle, SPECT/CT"
+FFE,MMMI-283,"BUCKY: wall, general X-Ray","BUCKY: pared, radiografía general","BUCKY : mur, radiographie générale"
+FFE,MMMI-285,"CONSOLE: control, general X-Ray","CONSOLA: control, radiografía general","CONSOLE : contrôle, radiographie générale"
+FFE,MMMI-287,"GENERATOR: radiology, general X-Ray","GENERADOR: radiología, rayos X general","GÉNÉRATEUR : radiologie, radiographie générale"
+FFE,MMMI-289,"STAND: ceiling, with traverse bridge, general X-Ray","STAND: techo, con puente transversal, radiografía general","STAND : plafond, avec pont traversant, radiographie générale"
+FFE,MMMI-293,"TABLE: floating top, general X-Ray","MESA: techo flotante, radiografía general","TABLE : dessus flottant, radiographie générale"
+FFE,MMMI-295,SCREEN: imaging stitching barrier,PANTALLA: barrera de costura de imágenes,ÉCRAN : barrière de couture d'imagerie
+FFE,MMMI-324,"DEVICE: imaging, dental imaging unit (OPG/CEPH/CONE BEAM CT)","DISPOSITIVO: imágenes, unidad de imágenes dentales (OPG/CEPH/CONE BEAM CT)","APPAREIL : imagerie, unité d'imagerie dentaire (OPG/CEPH/CONE BEAM CT)"
+FFE,MMMI-325,"DEVICE: imaging, echocardiography machine","DISPOSITIVO: imágenes, máquina de ecocardiografía","APPAREIL : imagerie, appareil d'échocardiographie"
+FFE,MMMI-329,"DEVICE: imaging, ultrasound scanning unit","DISPOSITIVO: imagen, unidad de exploración por ultrasonido","APPAREIL : imagerie, unité de balayage à ultrasons"
+FFE,MMMI-340,"DISPLAY SCREEN: slave, for ultrasound","PANTALLA DE VISUALIZACIÓN: esclava, para ultrasonido","ÉCRAN D'AFFICHAGE : esclave, pour ultrasons"
+FFE,MMMI-350,"SCREEN: radiation, lead glass","PANTALLA: radiación, vidrio de plomo","ÉCRAN : rayonnement, verre au plomb"
+FFE,MMMI-368,"LASER: positioning lights, MRI","LASER: luces de posicionamiento, resonancia magnética","LASER : feux de positionnement, IRM"
+FFE,MMMI-369,DISPLAY SCREEN: contrast injector ,PANTALLA DE VISUALIZACIÓN: inyector de contraste,ECRAN D'AFFICHAGE : injecteur de contraste
+FFE,MMMI-371,"BUTTON: dental imaging unit, remote activation ","BOTÓN: unidad de imagen dental, activación remota","BOUTON : unité d'imagerie dentaire, activation à distance"
+FFE,MMMI-376,WARMER: gel,CALENTADOR: gel,CHAUFFANT : gel
+FFE,MMMI-377,WARMER: contrast,MÁS CALIENTE: contraste,PLUS CHAUD : contraste
+FFE,MMMI-385,"SYSTEM: imaging, cath lab, dual plane, ceiling","SISTEMA: imágenes, laboratorio de cateterismo, doble plano, techo","SYSTÈME : imagerie, laboratoire de cathétérisme, double plan, plafond"
+FFE,MMMI-386,"CONTROL UNIT: c/w display, control box and keyboard, Cath Lab","UNIDAD DE CONTROL: pantalla c / w, caja de control y teclado, laboratorio de cateterismo","UNITÉ DE CONTRLE : avec affichage, boîtier de commande et clavier, Cath Lab"
+FFE,MMMI-387,"SYSTEM: imaging, cath lab, single plane, ceiling","SISTEMA: imaginología, laboratorio de cateterismo, plano único, techo","SYSTÈME : imagerie, laboratoire de cathétérisme, plan unique, plafond"
+FFE,MMMI-388,"TABLE: operating, fixed, narrow, cath lab, single plane","MESA: quirúrgica, fija, estrecha, laboratorio de cateterismo, plano único","TABLE : opératoire, fixe, étroit, laboratoire de cathétérisme, plan unique"
+FFE,MMMI-389,"TABLE: operating, fixed, narrow table plate, cath lab, dual plane","MESA: operativa, fija, placa de mesa estrecha, laboratorio de cateterismo, plano doble","TABLE : plateau de table opératoire, fixe et étroit, laboratoire de cathétérisme, double plan"
+FFE,MMMI-390,"SHIELD: radiation, upper body, mobile, cath lab","SHIELD: radiación, parte superior del cuerpo, móvil, laboratorio de cateterismo","BOUCLIER : rayonnement, haut du corps, mobile, laboratoire de cathétérisme"
+FFE,MMMI-392,"DISPLAY SCREEN: DCS, cath lab","PANTALLA DE VISUALIZACIÓN: DCS, laboratorio de cateterismo","ÉCRAN D'AFFICHAGE : DCS, laboratoire de cathétérisme"
+FFE,MMMI-396,"DISPLAY SCREEN: cath lab, multi modality","PANTALLA DE VISUALIZACIÓN: laboratorio de cateterismo, multimodalidad","ÉCRAN D'AFFICHAGE : laboratoire de cathétérisme, multimodalité"
+FFE,MMMI-397,"COMPUTER: control, c/w dual display & keyboard, 3D mapping","COMPUTADORA: control, c/w pantalla dual y teclado, mapeo 3D","ORDINATEUR : contrôle, avec double affichage et clavier, cartographie 3D"
+FFE,MMMI-398,"SYSTEM: electrophysiology, cath lab","SISTEMA: electrofisiología, laboratorio de cateterismo","SYSTÈME : électrophysiologie, laboratoire de cathétérisme"
+FFE,MMMI-399,"SYSTEM: electrophysiology recording, c/w display screens","SISTEMA: registro de electrofisiología, pantallas de visualización c / w","SYSTÈME : enregistrement électrophysiologique, avec écrans d'affichage"
+FFE,MMMI-400,"STAND: ceiling, with traverse bridge, cath lab","STAND: techo, con puente transversal, laboratorio de cateterismo","STAND : plafond, avec pont de traverse, laboratoire de cathétérisme"
+FFE,MMOP-015,"CYLINDER: gas, argon","CILINDRO: gas, argón","CYLINDRE : gaz, argon"
+FFE,MMOP-020,DOCKING STATION: surgical waste management system,ESTACIÓN DE AMARRE: sistema de gestión de residuos quirúrgicos,STATION D'ACCUEIL : système de gestion des déchets chirurgicaux
+FFE,MMOP-027,IV POLE: on pendant,POLO IV: en colgante,IV POLE : sur pendentif
+FFE,MMOP-028,KICKBUCKET & STAND,CUBO Y SOPORTE,KICKBUCKET & STAND
+FFE,MMOP-040,MACHINE: anaesthetic with integral monitors,MÁQUINA: anestésico con monitores integrales,MACHINE : anesthésique avec moniteurs intégrés
+FFE,MMOP-043,"MACHINE: electrosurgical, diathermy","MÁQUINA: electroquirúrgica, diatermia","MACHINE : électrochirurgicale, diathermie"
+FFE,MMOP-048,"MICROSCOPE: ENT, surgical","MICROSCOPIO: ORL, quirúrgico","MICROSCOPE : ORL, chirurgical"
+FFE,MMOP-060,RACK: AV,BASTIDOR: AV,RACK : AV
+FFE,MMOP-069,"STAND: bowl, single","SOPORTE: cuenco, individual","STAND : bol, simple"
+FFE,MMOP-071,"STOOL: operating, mobile","TABURETE: operativo, móvil","TABOURET : fonctionnel, mobile"
+FFE,MMOP-074,SYSTEM: smoke evacuation,SISTEMA: evacuación de humos,SYSTÈME : évacuation des fumées
+FFE,MMOP-076,TABLE: mayo,MESA: mayonesa,TABLEAU : mayo
+FFE,MMOP-080,"TABLE: operating, mobile, electric","MESA: operativa, móvil, eléctrica","TABLE : en fonctionnement, mobile, électrique"
+FFE,MMOP-085,TROLLEY: anaesthetic,CARRO: anestésico,CHARIOT : anesthésique
+FFE,MMOP-087,TROLLEY: endoscope,CARRO: endoscopio,CHARIOT : endoscope
+FFE,MMOP-088,"TROLLEY: endoscopic, equipment","CARRO: endoscópico, equipo","CHARIOT : endoscopique, équipement"
+FFE,MMOP-096,DISPLAY SCREEN: AV integration,PANTALLA DE VISUALIZACIÓN: integración AV,ÉCRAN D'AFFICHAGE : intégration AV
+FFE,MMOP-097,"CAMERA: surgical field, to operating light","CÁMARA: campo quirúrgico, a lámpara de quirófano","CAMERA : champ opératoire, au scialytique"
+FFE,MMOP-099,"DEVICE: imaging, ultrasound, anaesthetic","DISPOSITIVO: imagenología, ultrasonido, anestésico","DISPOSITIF : imagerie, échographie, anesthésie"
+FFE,MMOP-100,"WARMER: patient, intraoperative","CALENTADOR: paciente, intraoperatorio","CHAUFFANT : patient, peropératoire"
+FFE,MMOP-103,SYSTEM: digital integration in operating rooms (DOR),SISTEMA: integración digital en quirófanos (DOR),SYSTÈME : intégration numérique dans les blocs opératoires (DOR)
+FFE,MMRA-004,LINEAR ACCELERATOR,ACELERADOR LINEAL,ACCÉLÉRATEUR LINÉAIRE
+FFE,MMRA-006,ACCESS PANEL: medical physics port,PANEL DE ACCESO: puerto de física médica,PANNEAU D'ACCES : port de physique médicale
+FFE,MMRA-007,CABINET: linear accelerator computer cabinet,CABINET: gabinete de computadora de acelerador lineal,CABINET : armoire informatique accélérateur linéaire
+FFE,MMRA-008,DEVICE: surface guided radiation therapy system,DISPOSITIVO: sistema de radioterapia guiada por superficie,DISPOSITIF : système de radiothérapie guidé par la surface
+FFE,MMRA-009,COMPUTER: linear accelerator control system PC,ORDENADOR: PC del sistema de control del acelerador lineal,ORDINATEUR : système de contrôle d'accélérateur linéaire PC
+FFE,MMRA-010,"CONSOLE: control, linear accelerator","CONSOLA: control, acelerador lineal","CONSOLE : commande, accélérateur linéaire"
+FFE,MMRA-011,"DEVICE: radiotherapy, daily QA","DISPOSITIVO: radioterapia, control de calidad diario","DISPOSITIF : radiothérapie, AQ quotidienne"
+FFE,MMRA-012,"GATE: light gate, radiotherapy bunker","PUERTA: puerta de luz, búnker de radioterapia","PORTE : porte légère, bunker de radiothérapie"
+FFE,MMRA-013,"DISPLAY SCREEN: radiotherapy, ceiling mounted","PANTALLA DE VISUALIZACIÓN: radioterapia, montaje en techo","ÉCRAN D'AFFICHAGE : radiothérapie, montage au plafond"
+FFE,MMRA-014,"LASER: radiotherapy, bridge","LÁSER: radioterapia, puente","LASER : radiothérapie, bridge"
+FFE,MMRA-015,"LASER: radiotherapy, ceiling mounted","LÁSER: radioterapia, montado en el techo","LASER : radiothérapie, plafonnier"
+FFE,MMRA-016,"LASER: radiotherapy, lateral laser","LASER: radioterapia, láser lateral","LASER : radiothérapie, laser latéral"
+FFE,MMRA-017,"LASER: radiotherapy, sagittal laser","LÁSER: radioterapia, láser sagital","LASER : radiothérapie, laser sagittal"
+FFE,MMRA-019,"LASER: radiotherapy, couch tracking","LÁSER: radioterapia, seguimiento de sofá","LASER : radiothérapie, suivi du divan"
+FFE,MMRA-020,OVEN: thermoplastic warming,HORNO: calentamiento termoplástico,FOUR : réchauffement thermoplastique
+FFE,MMSP-015,"PENDANT: single, anaesthetic (fixed or adjustable height)","COLGANTE: individual, anestésico (altura fija o regulable)","PENDENTIF : simple, anesthésique (hauteur fixe ou réglable)"
+FFE,MMSP-018,"PENDANT: single, wet and dry combination (fixed or adjustable height)","COLGANTE: combinación simple, húmeda y seca (altura fija o ajustable)","PENDENTIF : combinaison simple, humide et sèche (hauteur fixe ou réglable)"
+FFE,MMSP-020,"PENDANT: tandem, wet and dry combination (fixed or adjustable height)","COLGANTE: tándem, combinación húmeda y seca (altura fija o ajustable)","PENDENTIF : tandem, combinaison humide et sèche (hauteur fixe ou réglable)"
+SE,MMSP-026,SERVICES PANEL: wall mounted,PANEL DE SERVICIOS: de pared,PANNEAU DE SERVICES : mural
+FFE,MMSP-029,"LIGHT: operating, single, 550 diam nom.","LUZ: operativa, simple, 550 diam nom.","LUMIERE : en fonctionnement, simple, 550 diam nom."
+SE,MMSP-032,SERVICES PANEL: instrument jack,PANEL DE SERVICIOS: toma de instrumentos,PANNEAU DE SERVICES : prise instrument
+FFE,MMSP-033,"LIGHT: operating, 2 arm, light 700 diam nom. / arm for display screen","LUZ: operativa, 2 brazos, luz 700 diam nom. / brazo para pantalla de visualización","LUMIERE : en fonctionnement, 2 bras, lumière 700 diam nom. / bras pour écran d'affichage"
+FFE,MMSP-034,"PENDANT: single, dual arm, surgical & anaesthetic combined (fixed or adjustable height)","COLGANTE: simple, brazo doble, quirúrgico y anestésico combinado (altura fija o ajustable)","PENDENTIF : bras simple, double, combiné chirurgical et anesthésique (hauteur fixe ou réglable)"
+FFE,MMSP-035,"PENDANT: single, dual arm, display screen",COLGANTE: pantalla de visualización de brazo único y doble,"PENDENTIF : simple, double bras, écran d'affichage"
+FFE,MMSP-036,"PENDANT: single, dual arm, dual display screen","COLGANTE: brazo simple, doble, pantalla doble","PENDENTIF : simple, double bras, double écran d'affichage"
+FFE,MMSP-037,"LIGHT: operating, single, 550 diam nom. pendant mounted","LUZ: operativa, simple, 550 diam nom. colgante montado","LUMIERE : en fonctionnement, simple, 550 diam nom. pendentif monté"
+FA,WLPR-001,WALL PROTECTION: bed protection wall panel,PROTECCIÓN DE PARED: panel de pared de protección de cama,PROTECTION MURALE : panneau mural de protection de lit
+FA,WLPR-002,"WALL PROTECTION: bed protection wall panel, composite, laminate finish","PROTECCIÓN DE PARED: panel de pared de protección de cama, compuesto, acabado laminado","PROTECTION MURALE : panneau mural de protection de lit, composite, finition stratifié"
+FA,WLPR-006,WALL PROTECTION: corner guards,PROTECCIÓN DE PARED: protectores de esquina,PROTECTION MURALE : protections d'angle
+FA,WLPR-010,"WALL PROTECTION: corner guards, to 900 AFFL","PROTECCIÓN DE PARED: cantoneras, hasta 900 AFFL","PROTECTION MURALE : cornières, jusqu'à 900 AFFL"
+FA,WLPR-011,"WALL PROTECTION: corner guards, to 900 AFFL min.","PROTECCIÓN DE PAREDES: cantoneras, hasta 900 AFFL min.","PROTECTION MURALE : protections d'angle, jusqu'à 900 AFFL min."
+FA,WLPR-012,"WALL PROTECTION: corner guards, to 900 AFFL, prefinished PVC","PROTECCIÓN DE PARED: cantoneras, hasta 900 AFFL, PVC preacabado","PROTECTION MURALE : cornières de protection, jusqu'à 900 AFFL, PVC préfini"
+FA,WLPR-013,"WALL PROTECTION: corner guards, to 1500 AFFL, prefinished PVC","PROTECCIÓN DE PARED: protectores de esquina, hasta 1500 AFFL, PVC preacabado","PROTECTION DE WALL: garde d'angle, à 1500 AFFL, préfini PVC"
+FA,WLPR-018,"WALL PROTECTION: crash rail, at 350 AFFL, prefinished PVC","PROTECCIÓN DE PARED: riel de choque, a 350 AFFL, PVC preacabado","PROTECTION MURALE : crash rail, à 350 AFFL, PVC préfini"
+FA,WLPR-019,"WALL PROTECTION: crash rail, at 900 AFFL, prefinished PVC","PROTECCIÓN DE PARED: riel de protección, a 900 AFFL, PVC preacabado","PROTECTION MURALE : crash rail, à 900 AFFL, PVC préfini"
+FA,WLPR-021,"WALL PROTECTION: crash rail, at 900 AFFL","PROTECCIÓN DE PARED: riel de choque, a 900 AFFL","PROTECTION MURALE : crash rail, à 900 AFFL"
+FA,WLPR-026,WALL PROTECTION: rigid wall sheeting,PROTECCIÓN DE PARED: revestimiento de pared rígido,PROTECTION MURALE : revêtement mural rigide
+FFE,WLPT-001,PARTITION: change cubicle,TABIQUE: cambio de cubículo,CLOISON : changer de cabine
+FFE,WLPT-003,PARTITION: laminate,TABIQUE: laminado,CLOISON : stratifié
+FFE,WLPT-004,PARTITION: shower,PARTICIÓN: ducha,CLOISON : douche
+FFE,WLPT-005,PARTITION: toilet,PARTICIÓN: inodoro,CLOISON : WC
+FFE,WLPT-008,"SCREEN: security, safety glass","PANTALLA: seguridad, vidrio de seguridad","ÉCRAN : sécurité, verre de sécurité"
+FFE,WLPT-011,WALL: operable,PARED: operable,MUR : utilisable
+FFE,WLPT-012,"SCREEN: security, safety glass, with communication slot","PANTALLA: seguridad, vidrio de seguridad, con ranura de comunicación","ÉCRAN : sécurité, verre de sécurité, avec fente de communication"
+FFE,WLPT-014,"SCREEN: acoustic, privacy, safety glass","PANTALLA: acústica, privacidad, vidrio de seguridad","ÉCRAN : acoustique, intimité, verre de sécurité"
+FFE,WLPT-015,"SCREEN: security, safety glass, with communication slot and pass through","PANTALLA: seguridad, vidrio de seguridad, con ranura de comunicación y paso","ÉCRAN : de sécurité, verre de sécurité, avec fente de communication et passe-partout"
+FFE,WLPT-016,"PARTITION: toilet, ambulant","PARTICIÓN: baño, ambulante","CLOISON : WC, ambulatoire"
+SE,WLSH-004,SHIELDING: lead lining,PROTECCIÓN: revestimiento de plomo,BLINDAGE : doublure plomb
+FA,WLWA-001,"WALL FINISH: acoustic panels, prefinished","ACABADO DE PARED: paneles acústicos, preacabados","FINITION MURALE : panneaux acoustiques, préfinis"
+FA,WLWA-003,WALL FINISH: laminated composite board,ACABADO DE PARED: tablero compuesto laminado,FINITION MURALE : panneau composite stratifié
+FA,WLWA-004,"WALL FINISH: paint, acrylic, washable","ACABADO DE PARED: pintura, acrílico, lavable","FINITION MURALE : peinture, acrylique, lavable"
+FA,WLWA-005,"WALL FINISH: paint, scrub resistant","ACABADO DE PARED: pintura, resistente al frote","FINITION MURALE : peinture, résistante au gommage"
+FA,WLWA-007,WALL FINISH: splashback,ACABADO DE PARED: salpicadero,FINITION MURALE : crédence
+FA,WLWA-010,"WALL FINISH: splashback, vinyl","ACABADO DE PARED: salpicadero, vinilo","FINITION MURALE : crédence, vinyle"
+FA,WLWA-011,"WALL FINISH: tiles, ceramic, glazed","ACABADO DE PARED: azulejos, cerámica, esmaltado","FINITION MURALE : carrelage, céramique, émaillé"
+FA,WLWA-012,WALL FINISH: prefinished,ACABADO DE PARED: preacabado,FINITION MURALE : préfinie
+FA,WLWA-019,"WALL FINISH: vinyl, full height","ACABADO DE PARED: vinilo, altura completa","FINITION MURALE : vinyle, pleine hauteur"
+FA,WLWA-020,"WALL FINISH: vinyl, to 1500 AFFL","ACABADO DE PARED: vinilo, hasta 1500 AFFL","FINITION MURALE : vinyle, jusqu'à 1500 AFFL"
+FA,WLWA-021,"WALL FINISH: vinyl, to 1800 AFFL","ACABADO DE PARED: vinilo, hasta 1800 AFFL","FINITION MURALE : vinyle, jusqu'à 1800 AFFL"
+FA,WLWA-022,"WALL FINISH: vinyl, to 900 AFFL","ACABADO DE PARED: vinilo, hasta 900 AFFL","FINITION MURALE : vinyle, jusqu'à 900 AFFL"
+FA,WLWA-023,"WALL FINISH: vinyl, to 2100 AFFL","ACABADO DE PARED: vinilo, hasta 2100 AFFL","FINITION MURALE : vinyle, jusqu'à 2100 AFFL"
+FA,WLWA-025,"WALL FINISH: vinyl, to 1200 AFFL","ACABADO DE PARED: vinilo, hasta 1200 AFFL","FINITION MURALE : vinyle, jusqu'à 1200 AFFL"

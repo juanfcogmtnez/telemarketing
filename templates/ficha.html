@@ -1,0 +1,347 @@
+{% extends "basedash.html" %}
+{% block title %}Register System{% endblock %}
+{% block menu %}
+{% if role == 'Admin' %}
+<li>hola</li>
+{% endif %}
+{% endblock %}
+{% block content %}
+<br>
+<center><h1>Ficha de cliente {{email}}</h1></center>
+<br>
+<div class="container">
+    <div class="container">
+    <div id="assist1" class="card bg-light text-info">
+        <div class="card-body"><p>Hola, soy {{username}} de Vision Battery quería saber si ha recibido mi email.?</p>
+            <p style="color:black">Reacción cliente</p>
+            <button id="a1no" type="button" class="btn btn-outline-danger">No sabe quienes somos</button>
+            <button id="a1reg" type="button" class="btn btn-outline-warning">Sí, pero no esta interesado</button>
+            <button id="a1si" type="button" class="btn btn-outline-success">Sí, pero tiene dudas</button>
+        </div>
+      </div>
+      <div id="assist1no" class="card bg-light text-info">
+        <div class="card-body"><p style="color:red">Mira que tenemos del cliente final</p>
+            <button id="a1no2no" type="button" class="btn btn-outline-danger">No tenemos email,telefono ni persona</button>
+            <button id="a1no2reg" type="button" class="btn btn-outline-warning">Tenemos su email</button>
+            <button id="a1no2si" type="button" class="btn btn-outline-info">Sabemos su nombre</button>
+            <button id="a1no2good" type="button" class="btn btn-outline-success">Sabemos su nombre y su email</button>
+        </div>
+      </div>
+      <div id="assist1no2no" class="card bg-light text-info">
+        <div class="card-body"><p>Pensé que llamaba al teléfono correcto, el otro día llamaron a un compañero desde su empresa interesándose por nuestros  productos y nos dieron este email <p style="color:red" >decir email</p>. 
+            ¿Puede indicarme con quien tengo que hablar para temas de ofertas?
+            </p>
+            <p style="color:red"> Intentamos obtener nombre, email y teléfono rellenamos formulario</p>
+            <button type="button" class="btn btn-outline-secondary" onclick="acerrar('avance')">Despedirse y cerrar</button>
+        </div>
+      </div>
+      <div id="assist1no2reg" class="card bg-light text-info">
+        <div class="card-body"><p>Pensé que llamaba al teléfono correcto, el otro día llamaron a un compañero desde su empresa interesándose por nuestros  productos y nos dieron este email <p style="color:red" >decir email</p>
+            <p style="color:red"> Intentamos obtener nombre y teléfono rellenamos formulario</p>
+            <button type="button" class="btn btn-outline-secondary" onclick="acerrar('avance')">Despedirse y cerrar</button>
+        </div>
+      </div>
+      <div id="assist1no2si" class="card bg-light text-info">
+        <div class="card-body"><p>Pensé que llamaba al teléfono correcto, el otro día nos llamo <span style="color:red">decir nombre</span> interesándose por nuestros  productos</p>
+            <p>Me puede indicar su contacto para enviarle la informacion?</p>
+            <p style="color:red"> Intentamos obtener email y teléfono rellenamos formulario</p>
+            <button type="button" class="btn btn-outline-secondary" onclick="acerrar('avance')">Despedirse y cerrar</button>
+        </div>
+      </div>
+      <div id="assist1no2good" class="card bg-light text-info">
+        <div class="card-body"><p>Pensé que llamaba al teléfono correcto, el otro día nos llamo <span style="color:red">decir nombre</span> interesándose por nuestros  productos</p>
+            <p>Me puede indicar su telefono para confirmar que ha recibido nuestra oferta?</p>
+            <p style="color:red"> Intentamos obtener teléfono rellenamos formulario</p>
+            <button type="button" class="btn btn-outline-secondary" onclick="acerrar('avance')">Despedirse y cerrar</button>
+        </div>
+      </div>
+      <div id="assist1reg" class="card bg-light text-info">
+        <div class="card-body"><p>Ah! Perfecto, sólo con fines estadísticos ¿Puede indicarme si es que no trabajan con baterías o si ya tienen acuerdo con otra marca?</p>
+            <p style="color:black">Respuesta</p>
+            <button id="a1reg2no" type="button" class="btn btn-outline-warning">No trabajan con baterías</button>
+            <button id="a1reg2si" type="button" class="btn btn-outline-info">Trabajan con otra marca</button>
+      </div>
+      </div>
+      <div id="assist1reg2no" class="card bg-light text-info">
+        <div class="card-body"><p>Muchas gracias! si tienen alguna necesidad no duden en llamarnos</p>
+            <button type="button" class="btn btn-outline-secondary" onclick="acerrar('no compra')">Despedirse y cerrar</button>
+      </div>
+      </div>
+      <div id="assist1reg2si" class="card bg-light text-info">
+        <div class="card-body"><p>Perfecto, de nuevo con fines estadísticos ¿Puede indicarme la marca y el motivo de su decisión? (por calidad, por precio, por servicio, porque su empresa tiene un acuerdo global)</p>
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input id="amarca" type="text" class="form-control" placeholder="Marca">
+                </label>
+              </div>
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input id="acalidad" type="checkbox" class="form-check-input" value="">Calidad
+                </label>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input id="aprecio" type="checkbox" class="form-check-input" value="">Precio
+                </label>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input id="aservicio" type="checkbox" class="form-check-input" value="">Servicio
+                </label>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input id="atodos" type="checkbox" class="form-check-input" value="">Todos
+                </label>
+              </div>
+              <hr>
+            <button type="button" class="btn btn-outline-secondary" onclick="acerrar('datos')">Despedirse y cerrar</button>
+      </div>
+      </div>
+      <div id="assist1si" class="card bg-light text-info">
+        <div class="card-body"><p>Perfecto!, dígame que dudas tiene</p>
+            <button id="a1si2no" type="button" class="btn btn-outline-danger">Son dudas técnicas</button>
+            <button id="a1si2reg" type="button" class="btn btn-outline-warning">Son dudas de precios</button>
+            <button id="a1si2si" type="button" class="btn btn-outline-info">Son dudas administrativas (forma de pago, export)</button>
+        </div>
+        </div>
+        <div id="assist1si2no" class="card bg-light text-info">
+            <div class="card-body"><p style="color:red">Intentamos resolver las dudas pero si no podemos</p><p>No se preocupe voy a resolver sus dudas con Oficina técnica, cuando le puedo volver a llamar?</p>
+                <button type="button" class="btn btn-outline-secondary" onclick="acerrar('dudas tecnicas')">Despedirse y cerrar</button> 
+            </div>
+            </div>
+            <div id="assist1si2reg" class="card bg-light text-info">
+                <div class="card-body"><p>Dígame en que modelo está insteresado, que cantidad y que precio le puede encajar</p>
+                    <label class="form-check-label">Modelo
+                        <input id="amodel" type="text" class="form-control" placeholder="Modelo">
+                      </label>
+                      <label class="form-check-label">Cantidad
+                        <input id="aqty" type="text" class="form-control" placeholder="Cantidad">
+                      </label>
+                      <label class="form-check-label">Precio
+                        <input id="aprice" type="text" class="form-control" placeholder="Precio">
+                      </label>
+                      <br>
+                      <p>De acuerdo, voy a ver con el jefe de ventas que podemos hacer, cuando le puedo volver a llamar?</p>
+                    <button type="button" class="btn btn-outline-secondary" onclick="acerrar()">Despedirse y cerrar</button> 
+                </div>
+                </div>
+                <div id="assist1si2si" class="card bg-light text-info">
+                    <div class="card-body"><p style="color:red">Intentamos resolver las dudas pero si no podemos</p><p>No se preocupe voy a resolver sus dudas con el Director Comercial</p>
+                        <label class="form-check-label">Dudas:
+                            <textarea id="adudas" class="form-control" rows="5" id="dudas"></textarea>
+                          </label>
+                        <p style="color:red">Anotamos fecha y hora en formulario inferior</p>
+                        <button type="button" class="btn btn-outline-secondary" onclick="acerrar('datos')">Despedirse y cerrar</button> 
+                    </div>
+                    </div>
+                </div>
+      <hr>
+      <div class="container">
+    <form id="contact" method="post">
+        <div class="row">
+            <div class="col">
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" id="email" name="email" class="form-control" placeholder="Enter email">
+        </div>
+    </div>
+    <div class="col">
+        <div class="form-group">
+            <label for="compania">Compañia:</label>
+            <input type="text" name="company" id="company" class="form-control" placeholder="Nombre compañia">
+          </div>
+          </div>
+          </div>
+          <div class="row">
+            <div class="col">
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="name" name="name" class="form-control" placeholder="Nombre">
+          </div>
+          </div>
+          <div class="col">
+          <div class="form-group">
+            <label for="nombre">Apellido:</label>
+            <input type="text" id="surname" name="surname" class="form-control" placeholder="Apellidos">
+          </div>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col"> 
+          <div class="form-group">
+            <label for="telephone">Telefono:</label>
+            <input type="tel" id="tel" name="tel" class="form-control" placeholder="Telefono">
+          </div>
+          </div>
+          <div class="col">
+          <div class="form-group">
+            <label for="family">Grupo de clientes:</label>
+            <input type="text" id="family" name="family" class="form-control" placeholder="Grupo de clientes">
+            </div>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col">
+          <div class="form-group">
+            <label for="lista">País:</label>
+            <input type="text" id="pais" name="pais" class="form-control" placeholder="País">
+          </div>
+          </div>
+          <div class="col">
+            <div class="form-group">
+                <label for="lista">Grupo de países:</label>
+                <input type="text" id="lista" name="lista" class="form-control" placeholder="grupo de países">
+              </div>
+        </div>
+        </div>
+        <button id="soloform" type="button" class="btn btn-primary">Guardar</button>
+      </form>
+      <hr>
+<button type="button" class="btn btn-success"><i class="far fa-envelope-open"></i> Abrió el email <span id="omail"></span> veces</button>
+<button type="button" class="btn btn-info"> <i class="fas fa-globe-americas"></i> Accedió a nuestra página <span id="olink"></span> veces</button>
+<button id="acall" type="button" class="btn btn-warning"><i class="fas fa-phone"></i> Asistente de llamada</button>
+  </div>
+  </div>
+<script>
+    $('[id^=assist]').hide();
+     $.ajax({url: "/ficha/{{email}}", success: function(result){
+data = JSON.parse(result);
+  console.log(data);
+  console.log(data['EMAIL']);
+  longo = Object.keys(data).length;
+  console.log('longo:',longo);
+$("#email").val(data['EMAIL']);
+$("#company").val(data['EMPRESA']);
+$("#name").val(data['NOMBRE']);
+$("#surname").val(data['APELLIDOS']);
+$("#tel").val(data['SMS']);
+$("#pais").val(data['PAIS'])
+$("#lista").val(data['LISTA'])
+$("#family").val(data['FAMILIA'])
+     }});
+</script>
+<script>
+    $.ajax({url: "/campa/{{lista}}/{{email}}", success: function(result){
+data = JSON.parse(result);
+ console.log(data);
+ console.log(data['EMAIL']);
+ longo = Object.keys(data).length;
+ console.log('longo:',longo);
+$("#omail").text(data['Open_Count']);
+$("#olink").text(data['Clicked_Links_Count']);
+$("#acall").click(function(){
+    $("#assist1").show();
+});
+    }});
+</script>
+<script>
+$("#a1no").click(function(){
+    $('[id^=assist]').hide();
+    $("#assist1no").show();
+});
+$("#a1reg").click(function(){
+    $('[id^=assist]').hide();
+    $("#assist1reg").show();
+});
+$("#a1no2no").click(function(){
+    $('[id^=assist]').hide();
+    $("#assist1no2no").show();
+});
+$("#a1no2reg").click(function(){
+    $('[id^=assist]').hide();
+    $("#assist1no2reg").show();
+});
+$("#a1no2si").click(function(){
+    $('[id^=assist]').hide();
+    $("#assist1no2si").show();
+});
+$("#a1no2good").click(function(){
+    $('[id^=assist]').hide();
+    $("#assist1no2good").show();
+});
+$("#a1reg2no").click(function(){
+    $('[id^=assist]').hide();
+    $("#assist1reg2no").show();
+});
+$("#a1reg2si").click(function(){
+    $('[id^=assist]').hide();
+    $("#assist1reg2si").show();
+});
+$("#a1si").click(function(){
+    $('[id^=assist]').hide();
+    $("#assist1si").show();
+});
+$("#a1si2no").click(function(){
+    $('[id^=assist]').hide();
+    $("#assist1si2no").show();
+});
+$("#a1si2reg").click(function(){
+    $('[id^=assist]').hide();
+    $("#assist1si2reg").show();
+});
+$("#a1si2si").click(function(){
+    $('[id^=assist]').hide();
+    $("#assist1si2si").show();
+});
+function acerrar(cierre){
+    result = window.confirm("Al cerrar está ventana se registran en la base de datos los resultados, ¿Has cubierto todos los campos de arriba y abajo? ¿Estas seguro?");
+    lista = $("#lista").val();
+    if (result==true){
+        user = '{{username}}';
+        cliente = '{{email}}';
+        lista = $("#lista").val();
+        if (cierre != 'datos'){
+        $.ajax({url: "/llamada/"+user+"/"+cierre+"/"+cliente+"/"+lista, success: function(result){
+            if (result == "ok"){
+                $('#contact').attr('action', "/autoupdate").submit();
+                $('[id^=assist]').hide();
+                window.location.assign("/hola/"+lista);
+
+            }
+    }});
+}
+else {
+    marca = $("#amarca").val();
+    if (marca !=""){
+    if ($('#acalidad').is(':checked')) {
+        marca = marca + 'calidad';
+}
+if ($('#aprecio').is(':checked')) {
+        marca = marca + 'precio';
+}
+if ($('#aservicio').is(':checked')) {
+        marca = marca + 'servicio';
+}
+if ($('#atodos').is(':checked')) {
+        marca = marca + 'todos';
+}
+cierre = marca;
+    }
+model = $("#amodel").val();
+if (model !=""){
+    qty = $("#aqty").val();
+    model = model + qty;
+    price = $("#aprice").val();
+    model = model + price;
+    cierre = model;
+}
+dudas = $("#adudad").val();
+if (dudas != ""){
+    cierre = dudas;
+}
+$.ajax({url: "/llamada/"+user+"/"+cierre+"/"+cliente+"/"+lista, success: function(result){
+            if (result == "ok"){
+                $('#contact').attr('action', "/autoupdate").submit();
+                $('[id^=assist]').hide();
+                window.location.assign("/hola/"+lista);
+            }
+    }});
+}
+}
+}
+$("#soloform").click(function(){
+    $('#contact').attr('action', "/update/contact").submit(); 
+});
+</script>
+{% endblock %}

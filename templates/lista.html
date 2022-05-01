@@ -1,0 +1,36 @@
+{% extends "basedash.html" %}
+{% block title %}Register System{% endblock %}
+{% block menu %}
+{% if role == 'Admin' %}
+<li>hola</li>
+{% endif %}
+{% endblock %}
+{% block content %}
+<br>
+<center><h1>Elige el grupo de países</h1></center>
+<br>
+<div class="container">
+  </div>
+<script>
+     $.ajax({url: "/gpais", success: function(result){
+data = JSON.parse(result);
+  console.log(data);
+  longo = Object.keys(data).length;
+  console.log('longo:',longo);
+  for (let i = 0; i < longo; i++){
+      if (data[i]['llamado'] == "si"){
+          color = "danger"
+      }
+      else{
+          color = "primary"
+      }
+    $(".container").append('<button id="'+data[i]+'" type="button" class="btn btn-outline-'+color+' btn-block" onclick="abrir(this.id)">'+data[i]+'</button>');
+  }
+     }});
+</script>
+<script>
+    function abrir(e){
+        window.location.assign("/hola/"+e);
+    }
+</script>
+{% endblock %}
